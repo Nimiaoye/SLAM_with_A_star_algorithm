@@ -1,0 +1,473 @@
+[0.000000] (-) TimerEvent: {}
+[0.000214] (nav2_rrt_planner) JobQueued: {'identifier': 'nav2_rrt_planner', 'dependencies': OrderedDict()}
+[0.000314] (nav2_rrt_planner) JobStarted: {'identifier': 'nav2_rrt_planner'}
+[0.004742] (nav2_rrt_planner) JobProgress: {'identifier': 'nav2_rrt_planner', 'progress': 'cmake'}
+[0.005385] (nav2_rrt_planner) JobProgress: {'identifier': 'nav2_rrt_planner', 'progress': 'build'}
+[0.005413] (nav2_rrt_planner) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/asuka/Move/nav2_rrt_planner/build/nav2_rrt_planner', '--', '-j20', '-l20'], 'cwd': '/home/asuka/Move/nav2_rrt_planner/build/nav2_rrt_planner', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('HTTPS_PROXY', 'http://127.0.0.1:7890/'), ('no_proxy', 'localhost,127.0.0.1,192.168.0.0/16,10.0.0.0/8,172.16.0.0/12,::1'), ('USER', 'asuka'), ('LC_TIME', 'zh_CN.UTF-8'), ('all_proxy', 'socks://127.0.0.1:7890/'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/asuka'), ('DESKTOP_SESSION', 'ubuntu'), ('NO_PROXY', 'localhost,127.0.0.1,192.168.0.0/16,10.0.0.0/8,172.16.0.0/12,::1'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'zh_CN.UTF-8'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('SYSTEMD_EXEC_PID', '2338'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=53d7f15445aa1281c39d2175668fdbf1'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('https_proxy', 'http://127.0.0.1:7890/'), ('COLCON_PREFIX_PATH', '/home/asuka/Move/nav2_rrt_planner/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'fcitx'), ('LOGNAME', 'asuka'), ('ALL_PROXY', 'socks://127.0.0.1:7890/'), ('http_proxy', 'http://127.0.0.1:7890/'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('PKG_CONFIG_PATH', '/usr/local/lib/pkgconfig:'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'asuka'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/AGM:@/tmp/.ICE-unix/2338,unix/AGM:/tmp/.ICE-unix/2338'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'zh_CN.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/da56bc22_ee96_428b_aaaf_471039ccc421'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'zh_CN.UTF-8'), ('XMODIFIERS', '@im=fcitx'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.336'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'zh_CN.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'zh_CN.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'zh_CN.UTF-8'), ('QT_IM_MODULE', 'fcitx'), ('PWD', '/home/asuka/Move/nav2_rrt_planner/build/nav2_rrt_planner'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('CLUTTER_IM_MODULE', 'fcitx'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=53d7f15445aa1281c39d2175668fdbf1'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('HTTP_PROXY', 'http://127.0.0.1:7890/'), ('LC_NUMERIC', 'zh_CN.UTF-8'), ('LC_PAPER', 'zh_CN.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.032390] (nav2_rrt_planner) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target nav2_rrt_planner_plugin\x1b[0m\n'}
+[0.044056] (nav2_rrt_planner) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/nav2_rrt_planner_plugin.dir/src/RRT_plan.cpp.o\x1b[0m\n'}
+[0.100014] (-) TimerEvent: {}
+[0.200332] (-) TimerEvent: {}
+[0.300679] (-) TimerEvent: {}
+[0.401015] (-) TimerEvent: {}
+[0.501348] (-) TimerEvent: {}
+[0.601672] (-) TimerEvent: {}
+[0.702020] (-) TimerEvent: {}
+[0.802343] (-) TimerEvent: {}
+[0.902693] (-) TimerEvent: {}
+[1.003058] (-) TimerEvent: {}
+[1.103379] (-) TimerEvent: {}
+[1.203730] (-) TimerEvent: {}
+[1.304078] (-) TimerEvent: {}
+[1.404422] (-) TimerEvent: {}
+[1.504747] (-) TimerEvent: {}
+[1.543909] (nav2_rrt_planner) StderrLine: {'line': b'\x1b[01m\x1b[K/home/asuka/Move/nav2_rrt_planner/src/RRT_plan.cpp:93:36:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kvector\x1b[m\x1b[K\xe2\x80\x99 does not name a type\n'}
+[1.544037] (nav2_rrt_planner) StderrLine: {'line': b'   93 |   bool isValid(int x, int y, const \x1b[01;31m\x1b[Kvector\x1b[m\x1b[K<vector<int>>& map) {//\xe5\x88\xa4\xe6\x96\xad\xe6\x98\xaf\xe5\x90\xa6\xe4\xbc\x9a\xe6\x92\x9e\xe5\x88\xb0\xe9\x9a\x9c\xe7\xa2\x8d\xe7\x89\xa9\xe6\x88\x96\xe8\xb6\x85\xe5\x87\xba\xe5\x9c\xb0\xe5\x9b\xbe\n'}
+[1.544070] (nav2_rrt_planner) StderrLine: {'line': b'      |                                    \x1b[01;31m\x1b[K^~~~~~\x1b[m\x1b[K\n'}
+[1.544097] (nav2_rrt_planner) StderrLine: {'line': b'\x1b[01m\x1b[K/home/asuka/Move/nav2_rrt_planner/src/RRT_plan.cpp:93:42:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected \xe2\x80\x98\x1b[01m\x1b[K,\x1b[m\x1b[K\xe2\x80\x99 or \xe2\x80\x98\x1b[01m\x1b[K...\x1b[m\x1b[K\xe2\x80\x99 before \xe2\x80\x98\x1b[01m\x1b[K<\x1b[m\x1b[K\xe2\x80\x99 token\n'}
+[1.544123] (nav2_rrt_planner) StderrLine: {'line': b'   93 |   bool isValid(int x, int y, const vector\x1b[01;31m\x1b[K<\x1b[m\x1b[Kvector<int>>& map) {//\xe5\x88\xa4\xe6\x96\xad\xe6\x98\xaf\xe5\x90\xa6\xe4\xbc\x9a\xe6\x92\x9e\xe5\x88\xb0\xe9\x9a\x9c\xe7\xa2\x8d\xe7\x89\xa9\xe6\x88\x96\xe8\xb6\x85\xe5\x87\xba\xe5\x9c\xb0\xe5\x9b\xbe\n'}
+[1.544147] (nav2_rrt_planner) StderrLine: {'line': b'      |                                          \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[1.546421] (nav2_rrt_planner) StderrLine: {'line': b'\x1b[01m\x1b[K/home/asuka/Move/nav2_rrt_planner/src/RRT_plan.cpp:\x1b[m\x1b[K In function \xe2\x80\x98\x1b[01m\x1b[Kbool nav2_rrt_planner::isValid(int, int, int)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[1.546508] (nav2_rrt_planner) StderrLine: {'line': b'\x1b[01m\x1b[K/home/asuka/Move/nav2_rrt_planner/src/RRT_plan.cpp:94:25:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KmapWidth\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[1.546545] (nav2_rrt_planner) StderrLine: {'line': b'   94 |       if (x < 0 || x >= \x1b[01;31m\x1b[KmapWidth\x1b[m\x1b[K || y < 0 || y >= mapHeight) return false;\n'}
+[1.546572] (nav2_rrt_planner) StderrLine: {'line': b'      |                         \x1b[01;31m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[1.548718] (nav2_rrt_planner) StderrLine: {'line': b'\x1b[01m\x1b[K/home/asuka/Move/nav2_rrt_planner/src/RRT_plan.cpp:94:51:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KmapHeight\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[1.548782] (nav2_rrt_planner) StderrLine: {'line': b'   94 |       if (x < 0 || x >= mapWidth || y < 0 || y >= \x1b[01;31m\x1b[KmapHeight\x1b[m\x1b[K) return false;\n'}
+[1.548813] (nav2_rrt_planner) StderrLine: {'line': b'      |                                                   \x1b[01;31m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[1.550888] (nav2_rrt_planner) StderrLine: {'line': b'\x1b[01m\x1b[K/home/asuka/Move/nav2_rrt_planner/src/RRT_plan.cpp:95:22:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KcarRadius\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[1.550946] (nav2_rrt_planner) StderrLine: {'line': b'   95 |       for (int dx = -\x1b[01;31m\x1b[KcarRadius\x1b[m\x1b[K; dx <= carRadius; ++dx) {\n'}
+[1.550975] (nav2_rrt_planner) StderrLine: {'line': b'      |                      \x1b[01;31m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[1.552953] (nav2_rrt_planner) StderrLine: {'line': b'\x1b[01m\x1b[K/home/asuka/Move/nav2_rrt_planner/src/RRT_plan.cpp:100:39:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KmapWidth\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[1.553014] (nav2_rrt_planner) StderrLine: {'line': b'  100 |                   if (nx < 0 || nx >= \x1b[01;31m\x1b[KmapWidth\x1b[m\x1b[K || ny < 0 || ny >= mapHeight || map[nx][ny] == 0) {\n'}
+[1.553044] (nav2_rrt_planner) StderrLine: {'line': b'      |                                       \x1b[01;31m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[1.555153] (nav2_rrt_planner) StderrLine: {'line': b'\x1b[01m\x1b[K/home/asuka/Move/nav2_rrt_planner/src/RRT_plan.cpp:100:67:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KmapHeight\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[1.555218] (nav2_rrt_planner) StderrLine: {'line': b'  100 |             if (nx < 0 || nx >= mapWidth || ny < 0 || ny >= \x1b[01;31m\x1b[KmapHeight\x1b[m\x1b[K || map[nx][ny] == 0) {\n'}
+[1.555250] (nav2_rrt_planner) StderrLine: {'line': b'      |                                                             \x1b[01;31m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[1.555279] (nav2_rrt_planner) StderrLine: {'line': b'\n'}
+[1.555302] (nav2_rrt_planner) StderrLine: {'line': b'\x1b[01m\x1b[K/home/asuka/Move/nav2_rrt_planner/src/RRT_plan.cpp:100:80:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kmap\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[1.555327] (nav2_rrt_planner) StderrLine: {'line': b'  100 | f (nx < 0 || nx >= mapWidth || ny < 0 || ny >= mapHeight || \x1b[01;31m\x1b[Kmap\x1b[m\x1b[K[nx][ny] == 0) {\n'}
+[1.555351] (nav2_rrt_planner) StderrLine: {'line': b'      |                                                             \x1b[01;31m\x1b[K^~~\x1b[m\x1b[K\n'}
+[1.555373] (nav2_rrt_planner) StderrLine: {'line': b'\n'}
+[1.555394] (nav2_rrt_planner) StderrLine: {'line': b'\x1b[01m\x1b[K/home/asuka/Move/nav2_rrt_planner/src/RRT_plan.cpp:100:80:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Ksuggested alternatives:\n'}
+[1.555417] (nav2_rrt_planner) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/11/map:61\x1b[m\x1b[K,\n'}
+[1.555440] (nav2_rrt_planner) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:24\x1b[m\x1b[K,\n'}
+[1.555463] (nav2_rrt_planner) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25\x1b[m\x1b[K,\n'}
+[1.555489] (nav2_rrt_planner) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21\x1b[m\x1b[K,\n'}
+[1.555511] (nav2_rrt_planner) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155\x1b[m\x1b[K,\n'}
+[1.555534] (nav2_rrt_planner) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/nav2_util/node_utils.hpp:20\x1b[m\x1b[K,\n'}
+[1.555556] (nav2_rrt_planner) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/asuka/Move/nav2_rrt_planner/src/RRT_plan.cpp:44\x1b[m\x1b[K:\n'}
+[1.555578] (nav2_rrt_planner) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/stl_map.h:100:11:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  \xe2\x80\x98\x1b[01m\x1b[Kstd::map\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.555600] (nav2_rrt_planner) StderrLine: {'line': b'  100 |     class \x1b[01;36m\x1b[Kmap\x1b[m\x1b[K\n'}
+[1.555622] (nav2_rrt_planner) StderrLine: {'line': b'      |           \x1b[01;36m\x1b[K^~~\x1b[m\x1b[K\n'}
+[1.555642] (nav2_rrt_planner) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:24\x1b[m\x1b[K,\n'}
+[1.555665] (nav2_rrt_planner) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25\x1b[m\x1b[K,\n'}
+[1.555687] (nav2_rrt_planner) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21\x1b[m\x1b[K,\n'}
+[1.555709] (nav2_rrt_planner) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155\x1b[m\x1b[K,\n'}
+[1.555731] (nav2_rrt_planner) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/nav2_util/node_utils.hpp:20\x1b[m\x1b[K,\n'}
+[1.555753] (nav2_rrt_planner) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/asuka/Move/nav2_rrt_planner/src/RRT_plan.cpp:44\x1b[m\x1b[K:\n'}
+[1.555775] (nav2_rrt_planner) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/map:78:13:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  \xe2\x80\x98\x1b[01m\x1b[Kstd::pmr::map\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.555798] (nav2_rrt_planner) StderrLine: {'line': b'   78 |       using \x1b[01;36m\x1b[Kmap\x1b[m\x1b[K\n'}
+[1.555821] (nav2_rrt_planner) StderrLine: {'line': b'      |             \x1b[01;36m\x1b[K^~~\x1b[m\x1b[K\n'}
+[1.555985] (nav2_rrt_planner) StderrLine: {'line': b'\x1b[01m\x1b[K/home/asuka/Move/nav2_rrt_planner/src/RRT_plan.cpp:\x1b[m\x1b[K At global scope:\n'}
+[1.556046] (nav2_rrt_planner) StderrLine: {'line': b'\x1b[01m\x1b[K/home/asuka/Move/nav2_rrt_planner/src/RRT_plan.cpp:108:30:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kvector\x1b[m\x1b[K\xe2\x80\x99 does not name a type\n'}
+[1.556080] (nav2_rrt_planner) StderrLine: {'line': b'  108 |   Node* getNearestNode(const \x1b[01;31m\x1b[Kvector\x1b[m\x1b[K<Node*>& nodes, int x, int y) {//rrt\xe6\xa0\x91\xe4\xb8\x8a\xe7\x9a\x84\xe6\x9c\x80\xe8\xbf\x91\xe7\x82\xb9\n'}
+[1.556110] (nav2_rrt_planner) StderrLine: {'line': b'      |                              \x1b[01;31m\x1b[K^~~~~~\x1b[m\x1b[K\n'}
+[1.556138] (nav2_rrt_planner) StderrLine: {'line': b'\x1b[01m\x1b[K/home/asuka/Move/nav2_rrt_planner/src/RRT_plan.cpp:108:36:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected \xe2\x80\x98\x1b[01m\x1b[K,\x1b[m\x1b[K\xe2\x80\x99 or \xe2\x80\x98\x1b[01m\x1b[K...\x1b[m\x1b[K\xe2\x80\x99 before \xe2\x80\x98\x1b[01m\x1b[K<\x1b[m\x1b[K\xe2\x80\x99 token\n'}
+[1.556166] (nav2_rrt_planner) StderrLine: {'line': b'  108 |   Node* getNearestNode(const vector\x1b[01;31m\x1b[K<\x1b[m\x1b[KNode*>& nodes, int x, int y) {//rrt\xe6\xa0\x91\xe4\xb8\x8a\xe7\x9a\x84\xe6\x9c\x80\xe8\xbf\x91\xe7\x82\xb9\n'}
+[1.556193] (nav2_rrt_planner) StderrLine: {'line': b'      |                                    \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[1.556228] (nav2_rrt_planner) StderrLine: {'line': b'\x1b[01m\x1b[K/home/asuka/Move/nav2_rrt_planner/src/RRT_plan.cpp:\x1b[m\x1b[K In function \xe2\x80\x98\x1b[01m\x1b[Knav2_rrt_planner::Node* nav2_rrt_planner::getNearestNode(int)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[1.556374] (nav2_rrt_planner) StderrLine: {'line': b'\x1b[01m\x1b[K/home/asuka/Move/nav2_rrt_planner/src/RRT_plan.cpp:110:24:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Knumeric_limits\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope; did you mean \xe2\x80\x98\x1b[01m\x1b[Kstd::numeric_limits\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[1.556409] (nav2_rrt_planner) StderrLine: {'line': b'  110 |       double minDist = \x1b[01;31m\x1b[Knumeric_limits\x1b[m\x1b[K<double>::max();\n'}
+[1.556436] (nav2_rrt_planner) StderrLine: {'line': b'      |                        \x1b[01;31m\x1b[K^~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.556461] (nav2_rrt_planner) StderrLine: {'line': b'      |                        \x1b[32m\x1b[Kstd::numeric_limits\x1b[m\x1b[K\n'}
+[1.556485] (nav2_rrt_planner) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/11/bits/specfun.h:46\x1b[m\x1b[K,\n'}
+[1.556510] (nav2_rrt_planner) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/cmath:1935\x1b[m\x1b[K,\n'}
+[1.556533] (nav2_rrt_planner) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/asuka/Move/nav2_rrt_planner/src/RRT_plan.cpp:41\x1b[m\x1b[K:\n'}
+[1.556558] (nav2_rrt_planner) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/limits:312:12:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kstd::numeric_limits\x1b[m\x1b[K\xe2\x80\x99 declared here\n'}
+[1.556582] (nav2_rrt_planner) StderrLine: {'line': b'  312 |     struct \x1b[01;36m\x1b[Knumeric_limits\x1b[m\x1b[K : public __numeric_limits_base\n'}
+[1.556606] (nav2_rrt_planner) StderrLine: {'line': b'      |            \x1b[01;36m\x1b[K^~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.556630] (nav2_rrt_planner) StderrLine: {'line': b'\x1b[01m\x1b[K/home/asuka/Move/nav2_rrt_planner/src/RRT_plan.cpp:110:39:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected primary-expression before \xe2\x80\x98\x1b[01m\x1b[Kdouble\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.556653] (nav2_rrt_planner) StderrLine: {'line': b'  110 |       double minDist = numeric_limits<\x1b[01;31m\x1b[Kdouble\x1b[m\x1b[K>::max();\n'}
+[1.556677] (nav2_rrt_planner) StderrLine: {'line': b'      |                                       \x1b[01;31m\x1b[K^~~~~~\x1b[m\x1b[K\n'}
+[1.557814] (nav2_rrt_planner) StderrLine: {'line': b'\x1b[01m\x1b[K/home/asuka/Move/nav2_rrt_planner/src/RRT_plan.cpp:111:25:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Knodes\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope; did you mean \xe2\x80\x98\x1b[01m\x1b[Knode\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[1.557877] (nav2_rrt_planner) StderrLine: {'line': b'  111 |       for (Node* node : \x1b[01;31m\x1b[Knodes\x1b[m\x1b[K) {\n'}
+[1.557908] (nav2_rrt_planner) StderrLine: {'line': b'      |                         \x1b[01;31m\x1b[K^~~~~\x1b[m\x1b[K\n'}
+[1.557934] (nav2_rrt_planner) StderrLine: {'line': b'      |                         \x1b[32m\x1b[Knode\x1b[m\x1b[K\n'}
+[1.559284] (nav2_rrt_planner) StderrLine: {'line': b'\x1b[01m\x1b[K/home/asuka/Move/nav2_rrt_planner/src/RRT_plan.cpp:112:44:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kx\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[1.559350] (nav2_rrt_planner) StderrLine: {'line': b'  112 |           double dist = sqrt(pow(node->x - \x1b[01;31m\x1b[Kx\x1b[m\x1b[K, 2) + pow(node->y - y, 2));\n'}
+[1.559381] (nav2_rrt_planner) StderrLine: {'line': b'      |                                            \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[1.560728] (nav2_rrt_planner) StderrLine: {'line': b'\x1b[01m\x1b[K/home/asuka/Move/nav2_rrt_planner/src/RRT_plan.cpp:112:66:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Ky\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope; did you mean \xe2\x80\x98\x1b[01m\x1b[Kyn\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[1.560797] (nav2_rrt_planner) StderrLine: {'line': b'  112 |          double dist = sqrt(pow(node->x - x, 2) + pow(node->y - \x1b[01;31m\x1b[Ky\x1b[m\x1b[K, 2));\n'}
+[1.560828] (nav2_rrt_planner) StderrLine: {'line': b'      |                                                                 \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[1.560854] (nav2_rrt_planner) StderrLine: {'line': b'      |                                                                 \x1b[32m\x1b[Kyn\x1b[m\x1b[K\n'}
+[1.560880] (nav2_rrt_planner) StderrLine: {'line': b'\x1b[01m\x1b[K/home/asuka/Move/nav2_rrt_planner/src/RRT_plan.cpp:\x1b[m\x1b[K At global scope:\n'}
+[1.560904] (nav2_rrt_planner) StderrLine: {'line': b'\x1b[01m\x1b[K/home/asuka/Move/nav2_rrt_planner/src/RRT_plan.cpp:120:23:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KStraightLine\x1b[m\x1b[K\xe2\x80\x99 has not been declared\n'}
+[1.560932] (nav2_rrt_planner) StderrLine: {'line': b'  120 |   nav_msgs::msg::Path \x1b[01;31m\x1b[KStraightLine\x1b[m\x1b[K::createPlan(\n'}
+[1.560958] (nav2_rrt_planner) StderrLine: {'line': b'      |                       \x1b[01;31m\x1b[K^~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.562884] (nav2_rrt_planner) StderrLine: {'line': b'\x1b[01m\x1b[K/home/asuka/Move/nav2_rrt_planner/src/RRT_plan.cpp:\x1b[m\x1b[K In function \xe2\x80\x98\x1b[01m\x1b[Knav_msgs::msg::Path nav2_rrt_planner::createPlan(const PoseStamped&, const PoseStamped&)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[1.562947] (nav2_rrt_planner) StderrLine: {'line': b'\x1b[01m\x1b[K/home/asuka/Move/nav2_rrt_planner/src/RRT_plan.cpp:127:5:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kcostmap_\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[1.562978] (nav2_rrt_planner) StderrLine: {'line': b'  127 |     \x1b[01;31m\x1b[Kcostmap_\x1b[m\x1b[K=costmap_ros->getCostmap();//\xe8\x8e\xb7\xe5\x8f\x96\xe4\xbb\xa3\xe4\xbb\xb7\xe5\x9c\xb0\xe5\x9b\xbe\n'}
+[1.563004] (nav2_rrt_planner) StderrLine: {'line': b'      |     \x1b[01;31m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[1.565274] (nav2_rrt_planner) StderrLine: {'line': b'\x1b[01m\x1b[K/home/asuka/Move/nav2_rrt_planner/src/RRT_plan.cpp:127:14:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kcostmap_ros\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[1.565334] (nav2_rrt_planner) StderrLine: {'line': b'  127 |     costmap_=\x1b[01;31m\x1b[Kcostmap_ros\x1b[m\x1b[K->getCostmap();//\xe8\x8e\xb7\xe5\x8f\x96\xe4\xbb\xa3\xe4\xbb\xb7\xe5\x9c\xb0\xe5\x9b\xbe\n'}
+[1.565363] (nav2_rrt_planner) StderrLine: {'line': b'      |              \x1b[01;31m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.566924] (nav2_rrt_planner) StderrLine: {'line': b'\x1b[01m\x1b[K/home/asuka/Move/nav2_rrt_planner/src/RRT_plan.cpp:128:5:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kwidth\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope; did you mean \xe2\x80\x98\x1b[01m\x1b[Kwcwidth\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[1.566983] (nav2_rrt_planner) StderrLine: {'line': b'  128 |     \x1b[01;31m\x1b[Kwidth\x1b[m\x1b[K = costmap_->getSizeInCellsX();//\xe8\x8e\xb7\xe5\x8f\x96\xe5\x9c\xb0\xe5\x9b\xbe\xe5\xa4\xa7\xe5\xb0\x8f\n'}
+[1.567011] (nav2_rrt_planner) StderrLine: {'line': b'      |     \x1b[01;31m\x1b[K^~~~~\x1b[m\x1b[K\n'}
+[1.567036] (nav2_rrt_planner) StderrLine: {'line': b'      |     \x1b[32m\x1b[Kwcwidth\x1b[m\x1b[K\n'}
+[1.568581] (nav2_rrt_planner) StderrLine: {'line': b'\x1b[01m\x1b[K/home/asuka/Move/nav2_rrt_planner/src/RRT_plan.cpp:129:5:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kheight\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[1.568641] (nav2_rrt_planner) StderrLine: {'line': b'  129 |     \x1b[01;31m\x1b[Kheight\x1b[m\x1b[K = costmap_->getSizeInCellsY();\n'}
+[1.568670] (nav2_rrt_planner) StderrLine: {'line': b'      |     \x1b[01;31m\x1b[K^~~~~~\x1b[m\x1b[K\n'}
+[1.570805] (nav2_rrt_planner) StderrLine: {'line': b'\x1b[01m\x1b[K/home/asuka/Move/nav2_rrt_planner/src/RRT_plan.cpp:130:5:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kmap_size\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[1.570872] (nav2_rrt_planner) StderrLine: {'line': b'  130 |     \x1b[01;31m\x1b[Kmap_size\x1b[m\x1b[K = width * height;\n'}
+[1.570905] (nav2_rrt_planner) StderrLine: {'line': b'      |     \x1b[01;31m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[1.570933] (nav2_rrt_planner) StderrLine: {'line': b'\x1b[01m\x1b[K/home/asuka/Move/nav2_rrt_planner/src/RRT_plan.cpp:141:5:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kvector\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[1.570960] (nav2_rrt_planner) StderrLine: {'line': b'  141 |     \x1b[01;31m\x1b[Kvector\x1b[m\x1b[K<vector<int>> map(mapWidth, vector<int>(mapHeight));//\xe5\x9c\xb0\xe5\x9b\xbe\xe5\xaf\xb9\xe8\xb1\xa1\n'}
+[1.570987] (nav2_rrt_planner) StderrLine: {'line': b'      |     \x1b[01;31m\x1b[K^~~~~~\x1b[m\x1b[K\n'}
+[1.571014] (nav2_rrt_planner) StderrLine: {'line': b'\x1b[01m\x1b[K/home/asuka/Move/nav2_rrt_planner/src/RRT_plan.cpp:141:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Ksuggested alternatives:\n'}
+[1.571041] (nav2_rrt_planner) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/11/vector:67\x1b[m\x1b[K,\n'}
+[1.571066] (nav2_rrt_planner) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/nav2_util/node_utils.hpp:18\x1b[m\x1b[K,\n'}
+[1.571091] (nav2_rrt_planner) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/asuka/Move/nav2_rrt_planner/src/RRT_plan.cpp:44\x1b[m\x1b[K:\n'}
+[1.571117] (nav2_rrt_planner) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/stl_vector.h:389:11:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  \xe2\x80\x98\x1b[01m\x1b[Kstd::vector\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.571142] (nav2_rrt_planner) StderrLine: {'line': b'  389 |     class \x1b[01;36m\x1b[Kvector\x1b[m\x1b[K : protected _Vector_base<_Tp, _Alloc>\n'}
+[1.571168] (nav2_rrt_planner) StderrLine: {'line': b'      |           \x1b[01;36m\x1b[K^~~~~~\x1b[m\x1b[K\n'}
+[1.571192] (nav2_rrt_planner) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/include/nav2_util/node_utils.hpp:18\x1b[m\x1b[K,\n'}
+[1.571317] (nav2_rrt_planner) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/asuka/Move/nav2_rrt_planner/src/RRT_plan.cpp:44\x1b[m\x1b[K:\n'}
+[1.571374] (nav2_rrt_planner) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/vector:86:13:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  \xe2\x80\x98\x1b[01m\x1b[Kstd::pmr::vector\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.571404] (nav2_rrt_planner) StderrLine: {'line': b'   86 |       using \x1b[01;36m\x1b[Kvector\x1b[m\x1b[K = std::vector<_Tp, polymorphic_allocator<_Tp>>;\n'}
+[1.571429] (nav2_rrt_planner) StderrLine: {'line': b'      |             \x1b[01;36m\x1b[K^~~~~~\x1b[m\x1b[K\n'}
+[1.571454] (nav2_rrt_planner) StderrLine: {'line': b'\x1b[01m\x1b[K/home/asuka/Move/nav2_rrt_planner/src/RRT_plan.cpp:141:19:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected primary-expression before \xe2\x80\x98\x1b[01m\x1b[Kint\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.571480] (nav2_rrt_planner) StderrLine: {'line': b'  141 |     vector<vector<\x1b[01;31m\x1b[Kint\x1b[m\x1b[K>> map(mapWidth, vector<int>(mapHeight));//\xe5\x9c\xb0\xe5\x9b\xbe\xe5\xaf\xb9\xe8\xb1\xa1\n'}
+[1.571504] (nav2_rrt_planner) StderrLine: {'line': b'      |                   \x1b[01;31m\x1b[K^~~\x1b[m\x1b[K\n'}
+[1.571529] (nav2_rrt_planner) StderrLine: {'line': b'\x1b[01m\x1b[K/home/asuka/Move/nav2_rrt_planner/src/RRT_plan.cpp:142:5:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kifstream\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope; did you mean \xe2\x80\x98\x1b[01m\x1b[Kstd::ifstream\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[1.571554] (nav2_rrt_planner) StderrLine: {'line': b'  142 |     \x1b[01;31m\x1b[Kifstream\x1b[m\x1b[K mapFile("map.txt");\n'}
+[1.571580] (nav2_rrt_planner) StderrLine: {'line': b'      |     \x1b[01;31m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[1.571603] (nav2_rrt_planner) StderrLine: {'line': b'      |     \x1b[32m\x1b[Kstd::ifstream\x1b[m\x1b[K\n'}
+[1.571631] (nav2_rrt_planner) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/11/bits/localefwd.h:41\x1b[m\x1b[K,\n'}
+[1.571654] (nav2_rrt_planner) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/string:43\x1b[m\x1b[K,\n'}
+[1.571677] (nav2_rrt_planner) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/asuka/Move/nav2_rrt_planner/src/RRT_plan.cpp:42\x1b[m\x1b[K:\n'}
+[1.571700] (nav2_rrt_planner) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/iosfwd:162:41:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kstd::ifstream\x1b[m\x1b[K\xe2\x80\x99 declared here\n'}
+[1.571727] (nav2_rrt_planner) StderrLine: {'line': b'  162 |   typedef basic_ifstream<char>          \x1b[01;36m\x1b[Kifstream\x1b[m\x1b[K;\n'}
+[1.571752] (nav2_rrt_planner) StderrLine: {'line': b'      |                                         \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[1.573056] (nav2_rrt_planner) StderrLine: {'line': b'\x1b[01m\x1b[K/home/asuka/Move/nav2_rrt_planner/src/RRT_plan.cpp:143:10:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KmapFile\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[1.573120] (nav2_rrt_planner) StderrLine: {'line': b'  143 |     if (!\x1b[01;31m\x1b[KmapFile\x1b[m\x1b[K) {\n'}
+[1.573151] (nav2_rrt_planner) StderrLine: {'line': b'      |          \x1b[01;31m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[1.574651] (nav2_rrt_planner) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40\x1b[m\x1b[K,\n'}
+[1.574713] (nav2_rrt_planner) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24\x1b[m\x1b[K,\n'}
+[1.574744] (nav2_rrt_planner) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20\x1b[m\x1b[K,\n'}
+[1.574770] (nav2_rrt_planner) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25\x1b[m\x1b[K,\n'}
+[1.574795] (nav2_rrt_planner) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18\x1b[m\x1b[K,\n'}
+[1.574819] (nav2_rrt_planner) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20\x1b[m\x1b[K,\n'}
+[1.574843] (nav2_rrt_planner) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37\x1b[m\x1b[K,\n'}
+[1.574868] (nav2_rrt_planner) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25\x1b[m\x1b[K,\n'}
+[1.574893] (nav2_rrt_planner) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21\x1b[m\x1b[K,\n'}
+[1.574917] (nav2_rrt_planner) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155\x1b[m\x1b[K,\n'}
+[1.574941] (nav2_rrt_planner) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/nav2_util/node_utils.hpp:20\x1b[m\x1b[K,\n'}
+[1.574964] (nav2_rrt_planner) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/asuka/Move/nav2_rrt_planner/src/RRT_plan.cpp:44\x1b[m\x1b[K:\n'}
+[1.574988] (nav2_rrt_planner) StderrLine: {'line': b'\x1b[01m\x1b[K/home/asuka/Move/nav2_rrt_planner/src/RRT_plan.cpp:145:11:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Knode_\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[1.575013] (nav2_rrt_planner) StderrLine: {'line': b'  145 |           \x1b[01;31m\x1b[Knode_\x1b[m\x1b[K->get_logger(), "NoMapFound");\n'}
+[1.575036] (nav2_rrt_planner) StderrLine: {'line': b'      |           \x1b[01;31m\x1b[K^~~~~\x1b[m\x1b[K\n'}
+[1.575060] (nav2_rrt_planner) StderrLine: {'line': b'\x1b[01m\x1b[K/home/asuka/Move/nav2_rrt_planner/src/RRT_plan.cpp:144:9:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktemplate argument 1 is invalid\n'}
+[1.575088] (nav2_rrt_planner) StderrLine: {'line': b'  144 |         \x1b[01;31m\x1b[KRCLCPP_INFO\x1b[m\x1b[K(\n'}
+[1.575112] (nav2_rrt_planner) StderrLine: {'line': b'      |         \x1b[01;31m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.575135] (nav2_rrt_planner) StderrLine: {'line': b'\x1b[01m\x1b[K/home/asuka/Move/nav2_rrt_planner/src/RRT_plan.cpp:144:9:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktemplate argument 1 is invalid\n'}
+[1.575158] (nav2_rrt_planner) StderrLine: {'line': b'  144 |         \x1b[01;31m\x1b[KRCLCPP_INFO\x1b[m\x1b[K(\n'}
+[1.575181] (nav2_rrt_planner) StderrLine: {'line': b'      |         \x1b[01;31m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.575203] (nav2_rrt_planner) StderrLine: {'line': b'\x1b[01m\x1b[K/home/asuka/Move/nav2_rrt_planner/src/RRT_plan.cpp:144:9:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktemplate argument 1 is invalid\n'}
+[1.575227] (nav2_rrt_planner) StderrLine: {'line': b'  144 |         \x1b[01;31m\x1b[KRCLCPP_INFO\x1b[m\x1b[K(\n'}
+[1.575252] (nav2_rrt_planner) StderrLine: {'line': b'      |         \x1b[01;31m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.576554] (nav2_rrt_planner) StderrLine: {'line': b'\x1b[01m\x1b[K/home/asuka/Move/nav2_rrt_planner/src/RRT_plan.cpp:150:13:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KmapFile\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[1.576622] (nav2_rrt_planner) StderrLine: {'line': b'  150 |             \x1b[01;31m\x1b[KmapFile\x1b[m\x1b[K >> map[x][y];\n'}
+[1.576653] (nav2_rrt_planner) StderrLine: {'line': b'      |             \x1b[01;31m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[1.576775] (nav2_rrt_planner) StderrLine: {'line': b'\x1b[01m\x1b[K/home/asuka/Move/nav2_rrt_planner/src/RRT_plan.cpp:150:24:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kmap\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[1.576837] (nav2_rrt_planner) StderrLine: {'line': b'  150 |             mapFile >> \x1b[01;31m\x1b[Kmap\x1b[m\x1b[K[x][y];\n'}
+[1.576868] (nav2_rrt_planner) StderrLine: {'line': b'      |                        \x1b[01;31m\x1b[K^~~\x1b[m\x1b[K\n'}
+[1.576895] (nav2_rrt_planner) StderrLine: {'line': b'\x1b[01m\x1b[K/home/asuka/Move/nav2_rrt_planner/src/RRT_plan.cpp:150:24:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Ksuggested alternatives:\n'}
+[1.576920] (nav2_rrt_planner) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/11/map:61\x1b[m\x1b[K,\n'}
+[1.576945] (nav2_rrt_planner) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:24\x1b[m\x1b[K,\n'}
+[1.576970] (nav2_rrt_planner) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25\x1b[m\x1b[K,\n'}
+[1.576994] (nav2_rrt_planner) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21\x1b[m\x1b[K,\n'}
+[1.577017] (nav2_rrt_planner) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155\x1b[m\x1b[K,\n'}
+[1.577040] (nav2_rrt_planner) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/nav2_util/node_utils.hpp:20\x1b[m\x1b[K,\n'}
+[1.577063] (nav2_rrt_planner) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/asuka/Move/nav2_rrt_planner/src/RRT_plan.cpp:44\x1b[m\x1b[K:\n'}
+[1.577086] (nav2_rrt_planner) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/stl_map.h:100:11:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  \xe2\x80\x98\x1b[01m\x1b[Kstd::map\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.577109] (nav2_rrt_planner) StderrLine: {'line': b'  100 |     class \x1b[01;36m\x1b[Kmap\x1b[m\x1b[K\n'}
+[1.577132] (nav2_rrt_planner) StderrLine: {'line': b'      |           \x1b[01;36m\x1b[K^~~\x1b[m\x1b[K\n'}
+[1.577155] (nav2_rrt_planner) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:24\x1b[m\x1b[K,\n'}
+[1.577183] (nav2_rrt_planner) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25\x1b[m\x1b[K,\n'}
+[1.577206] (nav2_rrt_planner) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21\x1b[m\x1b[K,\n'}
+[1.577231] (nav2_rrt_planner) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155\x1b[m\x1b[K,\n'}
+[1.577254] (nav2_rrt_planner) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/nav2_util/node_utils.hpp:20\x1b[m\x1b[K,\n'}
+[1.577278] (nav2_rrt_planner) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/asuka/Move/nav2_rrt_planner/src/RRT_plan.cpp:44\x1b[m\x1b[K:\n'}
+[1.577302] (nav2_rrt_planner) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/map:78:13:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  \xe2\x80\x98\x1b[01m\x1b[Kstd::pmr::map\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.577326] (nav2_rrt_planner) StderrLine: {'line': b'   78 |       using \x1b[01;36m\x1b[Kmap\x1b[m\x1b[K\n'}
+[1.577348] (nav2_rrt_planner) StderrLine: {'line': b'      |             \x1b[01;36m\x1b[K^~~\x1b[m\x1b[K\n'}
+[1.578753] (nav2_rrt_planner) StderrLine: {'line': b'\x1b[01m\x1b[K/home/asuka/Move/nav2_rrt_planner/src/RRT_plan.cpp:153:5:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KmapFile\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[1.578815] (nav2_rrt_planner) StderrLine: {'line': b'  153 |     \x1b[01;31m\x1b[KmapFile\x1b[m\x1b[K.close();\n'}
+[1.578846] (nav2_rrt_planner) StderrLine: {'line': b'      |     \x1b[01;31m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[1.581229] (nav2_rrt_planner) StderrLine: {'line': b'\x1b[01m\x1b[K/home/asuka/Move/nav2_rrt_planner/src/RRT_plan.cpp:160:34:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kglobal_frame_\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope; did you mean \xe2\x80\x98\x1b[01m\x1b[Kglobal_path\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[1.581292] (nav2_rrt_planner) StderrLine: {'line': b'  160 |     if (start.header.frame_id != \x1b[01;31m\x1b[Kglobal_frame_\x1b[m\x1b[K)\n'}
+[1.581323] (nav2_rrt_planner) StderrLine: {'line': b'      |                                  \x1b[01;31m\x1b[K^~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.581351] (nav2_rrt_planner) StderrLine: {'line': b'      |                                  \x1b[32m\x1b[Kglobal_path\x1b[m\x1b[K\n'}
+[1.582825] (nav2_rrt_planner) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40\x1b[m\x1b[K,\n'}
+[1.582884] (nav2_rrt_planner) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24\x1b[m\x1b[K,\n'}
+[1.582912] (nav2_rrt_planner) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20\x1b[m\x1b[K,\n'}
+[1.582937] (nav2_rrt_planner) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25\x1b[m\x1b[K,\n'}
+[1.582960] (nav2_rrt_planner) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18\x1b[m\x1b[K,\n'}
+[1.582983] (nav2_rrt_planner) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20\x1b[m\x1b[K,\n'}
+[1.583004] (nav2_rrt_planner) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37\x1b[m\x1b[K,\n'}
+[1.583026] (nav2_rrt_planner) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25\x1b[m\x1b[K,\n'}
+[1.583051] (nav2_rrt_planner) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21\x1b[m\x1b[K,\n'}
+[1.583073] (nav2_rrt_planner) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155\x1b[m\x1b[K,\n'}
+[1.583096] (nav2_rrt_planner) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/nav2_util/node_utils.hpp:20\x1b[m\x1b[K,\n'}
+[1.583119] (nav2_rrt_planner) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/asuka/Move/nav2_rrt_planner/src/RRT_plan.cpp:44\x1b[m\x1b[K:\n'}
+[1.583142] (nav2_rrt_planner) StderrLine: {'line': b'\x1b[01m\x1b[K/home/asuka/Move/nav2_rrt_planner/src/RRT_plan.cpp:163:11:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Knode_\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[1.583166] (nav2_rrt_planner) StderrLine: {'line': b'  163 |           \x1b[01;31m\x1b[Knode_\x1b[m\x1b[K->get_logger(), "Planner will only except start position from %s frame",\n'}
+[1.583189] (nav2_rrt_planner) StderrLine: {'line': b'      |           \x1b[01;31m\x1b[K^~~~~\x1b[m\x1b[K\n'}
+[1.583210] (nav2_rrt_planner) StderrLine: {'line': b'\x1b[01m\x1b[K/home/asuka/Move/nav2_rrt_planner/src/RRT_plan.cpp:162:7:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktemplate argument 1 is invalid\n'}
+[1.583231] (nav2_rrt_planner) StderrLine: {'line': b'  162 |       \x1b[01;31m\x1b[KRCLCPP_ERROR\x1b[m\x1b[K(\n'}
+[1.583253] (nav2_rrt_planner) StderrLine: {'line': b'      |       \x1b[01;31m\x1b[K^~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.583274] (nav2_rrt_planner) StderrLine: {'line': b'\x1b[01m\x1b[K/home/asuka/Move/nav2_rrt_planner/src/RRT_plan.cpp:162:7:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktemplate argument 1 is invalid\n'}
+[1.583295] (nav2_rrt_planner) StderrLine: {'line': b'  162 |       \x1b[01;31m\x1b[KRCLCPP_ERROR\x1b[m\x1b[K(\n'}
+[1.583317] (nav2_rrt_planner) StderrLine: {'line': b'      |       \x1b[01;31m\x1b[K^~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.583338] (nav2_rrt_planner) StderrLine: {'line': b'\x1b[01m\x1b[K/home/asuka/Move/nav2_rrt_planner/src/RRT_plan.cpp:162:7:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktemplate argument 1 is invalid\n'}
+[1.583359] (nav2_rrt_planner) StderrLine: {'line': b'  162 |       \x1b[01;31m\x1b[KRCLCPP_ERROR\x1b[m\x1b[K(\n'}
+[1.583380] (nav2_rrt_planner) StderrLine: {'line': b'      |       \x1b[01;31m\x1b[K^~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.585328] (nav2_rrt_planner) StderrLine: {'line': b'\x1b[01m\x1b[K/home/asuka/Move/nav2_rrt_planner/src/RRT_plan.cpp:168:33:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kglobal_frame_\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope; did you mean \xe2\x80\x98\x1b[01m\x1b[Kglobal_path\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[1.585392] (nav2_rrt_planner) StderrLine: {'line': b'  168 |     if (goal.header.frame_id != \x1b[01;31m\x1b[Kglobal_frame_\x1b[m\x1b[K)\n'}
+[1.585423] (nav2_rrt_planner) StderrLine: {'line': b'      |                                 \x1b[01;31m\x1b[K^~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.585450] (nav2_rrt_planner) StderrLine: {'line': b'      |                                 \x1b[32m\x1b[Kglobal_path\x1b[m\x1b[K\n'}
+[1.586885] (nav2_rrt_planner) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40\x1b[m\x1b[K,\n'}
+[1.586980] (nav2_rrt_planner) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24\x1b[m\x1b[K,\n'}
+[1.587041] (nav2_rrt_planner) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20\x1b[m\x1b[K,\n'}
+[1.587107] (nav2_rrt_planner) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25\x1b[m\x1b[K,\n'}
+[1.587162] (nav2_rrt_planner) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18\x1b[m\x1b[K,\n'}
+[1.587297] (nav2_rrt_planner) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20\x1b[m\x1b[K,\n'}
+[1.587352] (nav2_rrt_planner) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37\x1b[m\x1b[K,\n'}
+[1.587409] (nav2_rrt_planner) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25\x1b[m\x1b[K,\n'}
+[1.587463] (nav2_rrt_planner) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21\x1b[m\x1b[K,\n'}
+[1.587516] (nav2_rrt_planner) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155\x1b[m\x1b[K,\n'}
+[1.587570] (nav2_rrt_planner) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/nav2_util/node_utils.hpp:20\x1b[m\x1b[K,\n'}
+[1.587622] (nav2_rrt_planner) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/asuka/Move/nav2_rrt_planner/src/RRT_plan.cpp:44\x1b[m\x1b[K:\n'}
+[1.587675] (nav2_rrt_planner) StderrLine: {'line': b'\x1b[01m\x1b[K/home/asuka/Move/nav2_rrt_planner/src/RRT_plan.cpp:171:11:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Knode_\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[1.587731] (nav2_rrt_planner) StderrLine: {'line': b'  171 |           \x1b[01;31m\x1b[Knode_\x1b[m\x1b[K->get_logger(), "Planner will only except goal position from %s frame",\n'}
+[1.587784] (nav2_rrt_planner) StderrLine: {'line': b'      |           \x1b[01;31m\x1b[K^~~~~\x1b[m\x1b[K\n'}
+[1.587837] (nav2_rrt_planner) StderrLine: {'line': b'\x1b[01m\x1b[K/home/asuka/Move/nav2_rrt_planner/src/RRT_plan.cpp:170:7:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktemplate argument 1 is invalid\n'}
+[1.587890] (nav2_rrt_planner) StderrLine: {'line': b'  170 |       \x1b[01;31m\x1b[KRCLCPP_INFO\x1b[m\x1b[K(\n'}
+[1.587944] (nav2_rrt_planner) StderrLine: {'line': b'      |       \x1b[01;31m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.587996] (nav2_rrt_planner) StderrLine: {'line': b'\x1b[01m\x1b[K/home/asuka/Move/nav2_rrt_planner/src/RRT_plan.cpp:170:7:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktemplate argument 1 is invalid\n'}
+[1.588050] (nav2_rrt_planner) StderrLine: {'line': b'  170 |       \x1b[01;31m\x1b[KRCLCPP_INFO\x1b[m\x1b[K(\n'}
+[1.588103] (nav2_rrt_planner) StderrLine: {'line': b'      |       \x1b[01;31m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.588155] (nav2_rrt_planner) StderrLine: {'line': b'\x1b[01m\x1b[K/home/asuka/Move/nav2_rrt_planner/src/RRT_plan.cpp:170:7:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktemplate argument 1 is invalid\n'}
+[1.588219] (nav2_rrt_planner) StderrLine: {'line': b'  170 |       \x1b[01;31m\x1b[KRCLCPP_INFO\x1b[m\x1b[K(\n'}
+[1.588276] (nav2_rrt_planner) StderrLine: {'line': b'      |       \x1b[01;31m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.588629] (nav2_rrt_planner) StderrLine: {'line': b'\x1b[01m\x1b[K/home/asuka/Move/nav2_rrt_planner/src/RRT_plan.cpp:177:32:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Knode_\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[1.588749] (nav2_rrt_planner) StderrLine: {'line': b'  177 |     global_path.header.stamp = \x1b[01;31m\x1b[Knode_\x1b[m\x1b[K->now();\n'}
+[1.588811] (nav2_rrt_planner) StderrLine: {'line': b'      |                                \x1b[01;31m\x1b[K^~~~~\x1b[m\x1b[K\n'}
+[1.591286] (nav2_rrt_planner) StderrLine: {'line': b'\x1b[01m\x1b[K/home/asuka/Move/nav2_rrt_planner/src/RRT_plan.cpp:178:35:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kglobal_frame_\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope; did you mean \xe2\x80\x98\x1b[01m\x1b[Kglobal_path\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[1.591406] (nav2_rrt_planner) StderrLine: {'line': b'  178 |     global_path.header.frame_id = \x1b[01;31m\x1b[Kglobal_frame_\x1b[m\x1b[K;\n'}
+[1.591468] (nav2_rrt_planner) StderrLine: {'line': b'      |                                   \x1b[01;31m\x1b[K^~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.591528] (nav2_rrt_planner) StderrLine: {'line': b'      |                                   \x1b[32m\x1b[Kglobal_path\x1b[m\x1b[K\n'}
+[1.591586] (nav2_rrt_planner) StderrLine: {'line': b'\x1b[01m\x1b[K/home/asuka/Move/nav2_rrt_planner/src/RRT_plan.cpp:183:40:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kconst _pose_type\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kconst struct geometry_msgs::msg::Pose_<std::allocator<void> >\x1b[m\x1b[K\xe2\x80\x99} has no member named \xe2\x80\x98\x1b[01m\x1b[Kx\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.591656] (nav2_rrt_planner) StderrLine: {'line': b'  183 |     Node* startl = new Node{start.pose.\x1b[01;31m\x1b[Kx\x1b[m\x1b[K,start.pose.y, nullptr};  // \xe8\xb5\xb7\xe7\x82\xb9\xef\xbc\x8c\xe6\xa0\xb9\xe6\x8d\xae\xe9\x9c\x80\xe8\xa6\x81\xe4\xbf\xae\xe6\x94\xb9\n'}
+[1.591933] (nav2_rrt_planner) StderrLine: {'line': b'      |                                        \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[1.592011] (nav2_rrt_planner) StderrLine: {'line': b'\x1b[01m\x1b[K/home/asuka/Move/nav2_rrt_planner/src/RRT_plan.cpp:183:53:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kconst _pose_type\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kconst struct geometry_msgs::msg::Pose_<std::allocator<void> >\x1b[m\x1b[K\xe2\x80\x99} has no member named \xe2\x80\x98\x1b[01m\x1b[Ky\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.592073] (nav2_rrt_planner) StderrLine: {'line': b'  183 |     Node* startl = new Node{start.pose.x,start.pose.\x1b[01;31m\x1b[Ky\x1b[m\x1b[K, nullptr};  // \xe8\xb5\xb7\xe7\x82\xb9\xef\xbc\x8c\xe6\xa0\xb9\xe6\x8d\xae\xe9\x9c\x80\xe8\xa6\x81\xe4\xbf\xae\xe6\x94\xb9\n'}
+[1.592130] (nav2_rrt_planner) StderrLine: {'line': b'      |                                                     \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[1.592184] (nav2_rrt_planner) StderrLine: {'line': b'\x1b[01m\x1b[K/home/asuka/Move/nav2_rrt_planner/src/RRT_plan.cpp:183:63:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kcould not convert \xe2\x80\x98\x1b[01m\x1b[K{<expression error>, <expression error>, nullptr}\x1b[m\x1b[K\xe2\x80\x99 from \xe2\x80\x98\x1b[01m\x1b[K<brace-enclosed initializer list>\x1b[m\x1b[K\xe2\x80\x99 to \xe2\x80\x98\x1b[01m\x1b[Knav2_rrt_planner::Node\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.592250] (nav2_rrt_planner) StderrLine: {'line': b'  183 |   Node* startl = new Node{start.pose.x,start.pose.y, nullptr\x1b[01;31m\x1b[K}\x1b[m\x1b[K;  // \xe8\xb5\xb7\xe7\x82\xb9\xef\xbc\x8c\xe6\xa0\xb9\xe6\x8d\xae\xe9\x9c\x80\xe8\xa6\x81\xe4\xbf\xae\xe6\x94\xb9\n'}
+[1.592305] (nav2_rrt_planner) StderrLine: {'line': b'      |                                                             \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[1.592358] (nav2_rrt_planner) StderrLine: {'line': b'      |                                                             \x1b[01;31m\x1b[K|\x1b[m\x1b[K\n'}
+[1.592411] (nav2_rrt_planner) StderrLine: {'line': b'      |                                                             \x1b[01;31m\x1b[K<brace-enclosed initializer list>\x1b[m\x1b[K\n'}
+[1.592473] (nav2_rrt_planner) StderrLine: {'line': b'\n'}
+[1.592527] (nav2_rrt_planner) StderrLine: {'line': b'\x1b[01m\x1b[K/home/asuka/Move/nav2_rrt_planner/src/RRT_plan.cpp:184:38:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kconst _pose_type\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kconst struct geometry_msgs::msg::Pose_<std::allocator<void> >\x1b[m\x1b[K\xe2\x80\x99} has no member named \xe2\x80\x98\x1b[01m\x1b[Kx\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.592586] (nav2_rrt_planner) StderrLine: {'line': b'  184 |     Node* goall = new Node{goal.pose.\x1b[01;31m\x1b[Kx\x1b[m\x1b[K,goal.pose.y, nullptr};  // \xe7\xbb\x88\xe7\x82\xb9\xef\xbc\x8c\xe6\xa0\xb9\xe6\x8d\xae\xe9\x9c\x80\xe8\xa6\x81\xe4\xbf\xae\xe6\x94\xb9\n'}
+[1.592639] (nav2_rrt_planner) StderrLine: {'line': b'      |                                      \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[1.592692] (nav2_rrt_planner) StderrLine: {'line': b'\x1b[01m\x1b[K/home/asuka/Move/nav2_rrt_planner/src/RRT_plan.cpp:184:50:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kconst _pose_type\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kconst struct geometry_msgs::msg::Pose_<std::allocator<void> >\x1b[m\x1b[K\xe2\x80\x99} has no member named \xe2\x80\x98\x1b[01m\x1b[Ky\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.592755] (nav2_rrt_planner) StderrLine: {'line': b'  184 |     Node* goall = new Node{goal.pose.x,goal.pose.\x1b[01;31m\x1b[Ky\x1b[m\x1b[K, nullptr};  // \xe7\xbb\x88\xe7\x82\xb9\xef\xbc\x8c\xe6\xa0\xb9\xe6\x8d\xae\xe9\x9c\x80\xe8\xa6\x81\xe4\xbf\xae\xe6\x94\xb9\n'}
+[1.592808] (nav2_rrt_planner) StderrLine: {'line': b'      |                                                  \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[1.592861] (nav2_rrt_planner) StderrLine: {'line': b'\x1b[01m\x1b[K/home/asuka/Move/nav2_rrt_planner/src/RRT_plan.cpp:184:60:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kcould not convert \xe2\x80\x98\x1b[01m\x1b[K{<expression error>, <expression error>, nullptr}\x1b[m\x1b[K\xe2\x80\x99 from \xe2\x80\x98\x1b[01m\x1b[K<brace-enclosed initializer list>\x1b[m\x1b[K\xe2\x80\x99 to \xe2\x80\x98\x1b[01m\x1b[Knav2_rrt_planner::Node\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.592915] (nav2_rrt_planner) StderrLine: {'line': b'  184 |     Node* goall = new Node{goal.pose.x,goal.pose.y, nullptr\x1b[01;31m\x1b[K}\x1b[m\x1b[K;  // \xe7\xbb\x88\xe7\x82\xb9\xef\xbc\x8c\xe6\xa0\xb9\xe6\x8d\xae\xe9\x9c\x80\xe8\xa6\x81\xe4\xbf\xae\xe6\x94\xb9\n'}
+[1.592968] (nav2_rrt_planner) StderrLine: {'line': b'      |                                                            \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[1.593024] (nav2_rrt_planner) StderrLine: {'line': b'      |                                                            \x1b[01;31m\x1b[K|\x1b[m\x1b[K\n'}
+[1.593107] (nav2_rrt_planner) StderrLine: {'line': b'      |                                                            \x1b[01;31m\x1b[K<brace-enclosed initializer list>\x1b[m\x1b[K\n'}
+[1.593276] (nav2_rrt_planner) StderrLine: {'line': b'\x1b[01m\x1b[K/home/asuka/Move/nav2_rrt_planner/src/RRT_plan.cpp:185:23:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kbase operand of \xe2\x80\x98\x1b[01m\x1b[K->\x1b[m\x1b[K\xe2\x80\x99 has non-pointer type \xe2\x80\x98\x1b[01m\x1b[Kconst PoseStamped\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kconst geometry_msgs::msg::PoseStamped_<std::allocator<void> >\x1b[m\x1b[K\xe2\x80\x99}\n'}
+[1.593349] (nav2_rrt_planner) StderrLine: {'line': b'  185 |     if (!isValid(start\x1b[01;31m\x1b[K->\x1b[m\x1b[Kx, start->y, map) || !isValid(goal->x, goal->y, map)) {\n'}
+[1.593410] (nav2_rrt_planner) StderrLine: {'line': b'      |                       \x1b[01;31m\x1b[K^~\x1b[m\x1b[K\n'}
+[1.593655] (nav2_rrt_planner) StderrLine: {'line': b'\x1b[01m\x1b[K/home/asuka/Move/nav2_rrt_planner/src/RRT_plan.cpp:185:33:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kbase operand of \xe2\x80\x98\x1b[01m\x1b[K->\x1b[m\x1b[K\xe2\x80\x99 has non-pointer type \xe2\x80\x98\x1b[01m\x1b[Kconst PoseStamped\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kconst geometry_msgs::msg::PoseStamped_<std::allocator<void> >\x1b[m\x1b[K\xe2\x80\x99}\n'}
+[1.593741] (nav2_rrt_planner) StderrLine: {'line': b'  185 |     if (!isValid(start->x, start\x1b[01;31m\x1b[K->\x1b[m\x1b[Ky, map) || !isValid(goal->x, goal->y, map)) {\n'}
+[1.593803] (nav2_rrt_planner) StderrLine: {'line': b'      |                                 \x1b[01;31m\x1b[K^~\x1b[m\x1b[K\n'}
+[1.593859] (nav2_rrt_planner) StderrLine: {'line': b'\x1b[01m\x1b[K/home/asuka/Move/nav2_rrt_planner/src/RRT_plan.cpp:185:38:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kmap\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[1.593914] (nav2_rrt_planner) StderrLine: {'line': b'  185 |     if (!isValid(start->x, start->y, \x1b[01;31m\x1b[Kmap\x1b[m\x1b[K) || !isValid(goal->x, goal->y, map)) {\n'}
+[1.593967] (nav2_rrt_planner) StderrLine: {'line': b'      |                                      \x1b[01;31m\x1b[K^~~\x1b[m\x1b[K\n'}
+[1.594021] (nav2_rrt_planner) StderrLine: {'line': b'\x1b[01m\x1b[K/home/asuka/Move/nav2_rrt_planner/src/RRT_plan.cpp:185:38:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Ksuggested alternatives:\n'}
+[1.594074] (nav2_rrt_planner) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/11/map:61\x1b[m\x1b[K,\n'}
+[1.594135] (nav2_rrt_planner) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:24\x1b[m\x1b[K,\n'}
+[1.594188] (nav2_rrt_planner) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25\x1b[m\x1b[K,\n'}
+[1.594241] (nav2_rrt_planner) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21\x1b[m\x1b[K,\n'}
+[1.594294] (nav2_rrt_planner) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155\x1b[m\x1b[K,\n'}
+[1.594347] (nav2_rrt_planner) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/nav2_util/node_utils.hpp:20\x1b[m\x1b[K,\n'}
+[1.594399] (nav2_rrt_planner) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/asuka/Move/nav2_rrt_planner/src/RRT_plan.cpp:44\x1b[m\x1b[K:\n'}
+[1.594452] (nav2_rrt_planner) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/stl_map.h:100:11:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  \xe2\x80\x98\x1b[01m\x1b[Kstd::map\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.594505] (nav2_rrt_planner) StderrLine: {'line': b'  100 |     class \x1b[01;36m\x1b[Kmap\x1b[m\x1b[K\n'}
+[1.594558] (nav2_rrt_planner) StderrLine: {'line': b'      |           \x1b[01;36m\x1b[K^~~\x1b[m\x1b[K\n'}
+[1.594611] (nav2_rrt_planner) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:24\x1b[m\x1b[K,\n'}
+[1.594663] (nav2_rrt_planner) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25\x1b[m\x1b[K,\n'}
+[1.594715] (nav2_rrt_planner) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21\x1b[m\x1b[K,\n'}
+[1.594771] (nav2_rrt_planner) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155\x1b[m\x1b[K,\n'}
+[1.594824] (nav2_rrt_planner) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/nav2_util/node_utils.hpp:20\x1b[m\x1b[K,\n'}
+[1.594878] (nav2_rrt_planner) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/asuka/Move/nav2_rrt_planner/src/RRT_plan.cpp:44\x1b[m\x1b[K:\n'}
+[1.594931] (nav2_rrt_planner) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/map:78:13:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  \xe2\x80\x98\x1b[01m\x1b[Kstd::pmr::map\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.594983] (nav2_rrt_planner) StderrLine: {'line': b'   78 |       using \x1b[01;36m\x1b[Kmap\x1b[m\x1b[K\n'}
+[1.595035] (nav2_rrt_planner) StderrLine: {'line': b'      |             \x1b[01;36m\x1b[K^~~\x1b[m\x1b[K\n'}
+[1.595087] (nav2_rrt_planner) StderrLine: {'line': b'\x1b[01m\x1b[K/home/asuka/Move/nav2_rrt_planner/src/RRT_plan.cpp:185:59:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kbase operand of \xe2\x80\x98\x1b[01m\x1b[K->\x1b[m\x1b[K\xe2\x80\x99 has non-pointer type \xe2\x80\x98\x1b[01m\x1b[Kconst PoseStamped\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kconst geometry_msgs::msg::PoseStamped_<std::allocator<void> >\x1b[m\x1b[K\xe2\x80\x99}\n'}
+[1.595143] (nav2_rrt_planner) StderrLine: {'line': b'  185 |     if (!isValid(start->x, start->y, map) || !isValid(goal\x1b[01;31m\x1b[K->\x1b[m\x1b[Kx, goal->y, map)) {\n'}
+[1.595195] (nav2_rrt_planner) StderrLine: {'line': b'      |                                                           \x1b[01;31m\x1b[K^~\x1b[m\x1b[K\n'}
+[1.595247] (nav2_rrt_planner) StderrLine: {'line': b'\x1b[01m\x1b[K/home/asuka/Move/nav2_rrt_planner/src/RRT_plan.cpp:185:68:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kbase operand of \xe2\x80\x98\x1b[01m\x1b[K->\x1b[m\x1b[K\xe2\x80\x99 has non-pointer type \xe2\x80\x98\x1b[01m\x1b[Kconst PoseStamped\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kconst geometry_msgs::msg::PoseStamped_<std::allocator<void> >\x1b[m\x1b[K\xe2\x80\x99}\n'}
+[1.595306] (nav2_rrt_planner) StderrLine: {'line': b'  185 | (!isValid(start->x, start->y, map) || !isValid(goal->x, goal\x1b[01;31m\x1b[K->\x1b[m\x1b[Ky, map)) {\n'}
+[1.595359] (nav2_rrt_planner) StderrLine: {'line': b'      |                                                             \x1b[01;31m\x1b[K^~\x1b[m\x1b[K\n'}
+[1.595412] (nav2_rrt_planner) StderrLine: {'line': b'\n'}
+[1.595465] (nav2_rrt_planner) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40\x1b[m\x1b[K,\n'}
+[1.595517] (nav2_rrt_planner) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24\x1b[m\x1b[K,\n'}
+[1.595569] (nav2_rrt_planner) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20\x1b[m\x1b[K,\n'}
+[1.595626] (nav2_rrt_planner) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25\x1b[m\x1b[K,\n'}
+[1.595679] (nav2_rrt_planner) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18\x1b[m\x1b[K,\n'}
+[1.595732] (nav2_rrt_planner) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20\x1b[m\x1b[K,\n'}
+[1.595784] (nav2_rrt_planner) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37\x1b[m\x1b[K,\n'}
+[1.595837] (nav2_rrt_planner) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25\x1b[m\x1b[K,\n'}
+[1.595889] (nav2_rrt_planner) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21\x1b[m\x1b[K,\n'}
+[1.595941] (nav2_rrt_planner) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155\x1b[m\x1b[K,\n'}
+[1.595993] (nav2_rrt_planner) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/nav2_util/node_utils.hpp:20\x1b[m\x1b[K,\n'}
+[1.596046] (nav2_rrt_planner) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/asuka/Move/nav2_rrt_planner/src/RRT_plan.cpp:44\x1b[m\x1b[K:\n'}
+[1.596098] (nav2_rrt_planner) StderrLine: {'line': b'\x1b[01m\x1b[K/home/asuka/Move/nav2_rrt_planner/src/RRT_plan.cpp:186:9:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktemplate argument 1 is invalid\n'}
+[1.596150] (nav2_rrt_planner) StderrLine: {'line': b'  186 |         \x1b[01;31m\x1b[KRCLCPP_INFO\x1b[m\x1b[K(\n'}
+[1.596227] (nav2_rrt_planner) StderrLine: {'line': b'      |         \x1b[01;31m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.596301] (nav2_rrt_planner) StderrLine: {'line': b'\x1b[01m\x1b[K/home/asuka/Move/nav2_rrt_planner/src/RRT_plan.cpp:186:9:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktemplate argument 1 is invalid\n'}
+[1.596333] (nav2_rrt_planner) StderrLine: {'line': b'  186 |         \x1b[01;31m\x1b[KRCLCPP_INFO\x1b[m\x1b[K(\n'}
+[1.596362] (nav2_rrt_planner) StderrLine: {'line': b'      |         \x1b[01;31m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.596389] (nav2_rrt_planner) StderrLine: {'line': b'\x1b[01m\x1b[K/home/asuka/Move/nav2_rrt_planner/src/RRT_plan.cpp:186:9:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktemplate argument 1 is invalid\n'}
+[1.596414] (nav2_rrt_planner) StderrLine: {'line': b'  186 |         \x1b[01;31m\x1b[KRCLCPP_INFO\x1b[m\x1b[K(\n'}
+[1.596439] (nav2_rrt_planner) StderrLine: {'line': b'      |         \x1b[01;31m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.596464] (nav2_rrt_planner) StderrLine: {'line': b'\x1b[01m\x1b[K/home/asuka/Move/nav2_rrt_planner/src/RRT_plan.cpp:191:16:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected primary-expression before \xe2\x80\x98\x1b[01m\x1b[K*\x1b[m\x1b[K\xe2\x80\x99 token\n'}
+[1.596490] (nav2_rrt_planner) StderrLine: {'line': b'  191 |     vector<Node\x1b[01;31m\x1b[K*\x1b[m\x1b[K> tree;\n'}
+[1.596560] (nav2_rrt_planner) StderrLine: {'line': b'      |                \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[1.596582] (nav2_rrt_planner) StderrLine: {'line': b'\x1b[01m\x1b[K/home/asuka/Move/nav2_rrt_planner/src/RRT_plan.cpp:191:17:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected primary-expression before \xe2\x80\x98\x1b[01m\x1b[K>\x1b[m\x1b[K\xe2\x80\x99 token\n'}
+[1.596605] (nav2_rrt_planner) StderrLine: {'line': b'  191 |     vector<Node*\x1b[01;31m\x1b[K>\x1b[m\x1b[K tree;\n'}
+[1.596627] (nav2_rrt_planner) StderrLine: {'line': b'      |                 \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[1.596649] (nav2_rrt_planner) StderrLine: {'line': b'\x1b[01m\x1b[K/home/asuka/Move/nav2_rrt_planner/src/RRT_plan.cpp:191:19:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Ktree\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope; did you mean \xe2\x80\x98\x1b[01m\x1b[Kfree\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[1.596673] (nav2_rrt_planner) StderrLine: {'line': b'  191 |     vector<Node*> \x1b[01;31m\x1b[Ktree\x1b[m\x1b[K;\n'}
+[1.596696] (nav2_rrt_planner) StderrLine: {'line': b'      |                   \x1b[01;31m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[1.596718] (nav2_rrt_planner) StderrLine: {'line': b'      |                   \x1b[32m\x1b[Kfree\x1b[m\x1b[K\n'}
+[1.596742] (nav2_rrt_planner) StderrLine: {'line': b'\x1b[01m\x1b[K/home/asuka/Move/nav2_rrt_planner/src/RRT_plan.cpp:200:34:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kmap\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[1.596766] (nav2_rrt_planner) StderrLine: {'line': b'  200 |       if (!isValid(randX, randY, \x1b[01;31m\x1b[Kmap\x1b[m\x1b[K)) continue;//\xe9\x80\x89\xe4\xb8\xad\xe7\x9a\x84\xe8\xaf\xa5\xe9\x9a\x8f\xe6\x9c\xba\xe7\x82\xb9\xe6\x98\xaf\xe8\x87\xaa\xe7\x94\xb1\xe7\xa9\xba\xe9\x97\xb4\n'}
+[1.596790] (nav2_rrt_planner) StderrLine: {'line': b'      |                                  \x1b[01;31m\x1b[K^~~\x1b[m\x1b[K\n'}
+[1.596813] (nav2_rrt_planner) StderrLine: {'line': b'\x1b[01m\x1b[K/home/asuka/Move/nav2_rrt_planner/src/RRT_plan.cpp:200:34:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Ksuggested alternatives:\n'}
+[1.596836] (nav2_rrt_planner) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/11/map:61\x1b[m\x1b[K,\n'}
+[1.596860] (nav2_rrt_planner) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:24\x1b[m\x1b[K,\n'}
+[1.596884] (nav2_rrt_planner) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25\x1b[m\x1b[K,\n'}
+[1.596907] (nav2_rrt_planner) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21\x1b[m\x1b[K,\n'}
+[1.596933] (nav2_rrt_planner) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155\x1b[m\x1b[K,\n'}
+[1.596956] (nav2_rrt_planner) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/nav2_util/node_utils.hpp:20\x1b[m\x1b[K,\n'}
+[1.596978] (nav2_rrt_planner) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/asuka/Move/nav2_rrt_planner/src/RRT_plan.cpp:44\x1b[m\x1b[K:\n'}
+[1.597001] (nav2_rrt_planner) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/stl_map.h:100:11:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  \xe2\x80\x98\x1b[01m\x1b[Kstd::map\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.597023] (nav2_rrt_planner) StderrLine: {'line': b'  100 |     class \x1b[01;36m\x1b[Kmap\x1b[m\x1b[K\n'}
+[1.597046] (nav2_rrt_planner) StderrLine: {'line': b'      |           \x1b[01;36m\x1b[K^~~\x1b[m\x1b[K\n'}
+[1.597067] (nav2_rrt_planner) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:24\x1b[m\x1b[K,\n'}
+[1.597089] (nav2_rrt_planner) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25\x1b[m\x1b[K,\n'}
+[1.597113] (nav2_rrt_planner) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21\x1b[m\x1b[K,\n'}
+[1.597135] (nav2_rrt_planner) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155\x1b[m\x1b[K,\n'}
+[1.597158] (nav2_rrt_planner) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/nav2_util/node_utils.hpp:20\x1b[m\x1b[K,\n'}
+[1.597184] (nav2_rrt_planner) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/asuka/Move/nav2_rrt_planner/src/RRT_plan.cpp:44\x1b[m\x1b[K:\n'}
+[1.597207] (nav2_rrt_planner) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/map:78:13:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  \xe2\x80\x98\x1b[01m\x1b[Kstd::pmr::map\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.597230] (nav2_rrt_planner) StderrLine: {'line': b'   78 |       using \x1b[01;36m\x1b[Kmap\x1b[m\x1b[K\n'}
+[1.597252] (nav2_rrt_planner) StderrLine: {'line': b'      |             \x1b[01;36m\x1b[K^~~\x1b[m\x1b[K\n'}
+[1.597273] (nav2_rrt_planner) StderrLine: {'line': b'\x1b[01m\x1b[K/home/asuka/Move/nav2_rrt_planner/src/RRT_plan.cpp:206:32:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kmap\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[1.597296] (nav2_rrt_planner) StderrLine: {'line': b'  206 |       if (!isValid(newX, newY, \x1b[01;31m\x1b[Kmap\x1b[m\x1b[K)) continue;//\xe4\xb8\x8b\xe4\xb8\x80\xe6\xad\xa5\xe7\x9b\xae\xe6\xa0\x87\xe7\x82\xb9\xe6\x98\xaf\xe8\x87\xaa\xe7\x94\xb1\xe7\xa9\xba\xe9\x97\xb4\n'}
+[1.597318] (nav2_rrt_planner) StderrLine: {'line': b'      |                                \x1b[01;31m\x1b[K^~~\x1b[m\x1b[K\n'}
+[1.597340] (nav2_rrt_planner) StderrLine: {'line': b'\x1b[01m\x1b[K/home/asuka/Move/nav2_rrt_planner/src/RRT_plan.cpp:206:32:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Ksuggested alternatives:\n'}
+[1.597362] (nav2_rrt_planner) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/11/map:61\x1b[m\x1b[K,\n'}
+[1.597383] (nav2_rrt_planner) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:24\x1b[m\x1b[K,\n'}
+[1.597404] (nav2_rrt_planner) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25\x1b[m\x1b[K,\n'}
+[1.597426] (nav2_rrt_planner) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21\x1b[m\x1b[K,\n'}
+[1.597447] (nav2_rrt_planner) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155\x1b[m\x1b[K,\n'}
+[1.597468] (nav2_rrt_planner) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/nav2_util/node_utils.hpp:20\x1b[m\x1b[K,\n'}
+[1.597489] (nav2_rrt_planner) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/asuka/Move/nav2_rrt_planner/src/RRT_plan.cpp:44\x1b[m\x1b[K:\n'}
+[1.597510] (nav2_rrt_planner) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/stl_map.h:100:11:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  \xe2\x80\x98\x1b[01m\x1b[Kstd::map\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.597531] (nav2_rrt_planner) StderrLine: {'line': b'  100 |     class \x1b[01;36m\x1b[Kmap\x1b[m\x1b[K\n'}
+[1.597552] (nav2_rrt_planner) StderrLine: {'line': b'      |           \x1b[01;36m\x1b[K^~~\x1b[m\x1b[K\n'}
+[1.597573] (nav2_rrt_planner) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:24\x1b[m\x1b[K,\n'}
+[1.597593] (nav2_rrt_planner) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25\x1b[m\x1b[K,\n'}
+[1.597614] (nav2_rrt_planner) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21\x1b[m\x1b[K,\n'}
+[1.597636] (nav2_rrt_planner) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155\x1b[m\x1b[K,\n'}
+[1.597658] (nav2_rrt_planner) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/nav2_util/node_utils.hpp:20\x1b[m\x1b[K,\n'}
+[1.597679] (nav2_rrt_planner) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/asuka/Move/nav2_rrt_planner/src/RRT_plan.cpp:44\x1b[m\x1b[K:\n'}
+[1.597700] (nav2_rrt_planner) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/map:78:13:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  \xe2\x80\x98\x1b[01m\x1b[Kstd::pmr::map\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.597721] (nav2_rrt_planner) StderrLine: {'line': b'   78 |       using \x1b[01;36m\x1b[Kmap\x1b[m\x1b[K\n'}
+[1.597742] (nav2_rrt_planner) StderrLine: {'line': b'      |             \x1b[01;36m\x1b[K^~~\x1b[m\x1b[K\n'}
+[1.597763] (nav2_rrt_planner) StderrLine: {'line': b'\x1b[01m\x1b[K/home/asuka/Move/nav2_rrt_planner/src/RRT_plan.cpp:244:63:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kstruct nav2_rrt_planner::Node\x1b[m\x1b[K\xe2\x80\x99 has no member named \xe2\x80\x98\x1b[01m\x1b[Ktheta\x1b[m\x1b[K\xe2\x80\x99; did you mean \xe2\x80\x98\x1b[01m\x1b[Kcostheta\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[1.597789] (nav2_rrt_planner) StderrLine: {'line': b'  244 |         pose.pose.position.x = double(q->x) + i*step * cos(q->\x1b[01;31m\x1b[Ktheta\x1b[m\x1b[K);\n'}
+[1.597810] (nav2_rrt_planner) StderrLine: {'line': b'      |                                                               \x1b[01;31m\x1b[K^~~~~\x1b[m\x1b[K\n'}
+[1.597831] (nav2_rrt_planner) StderrLine: {'line': b'      |                                                               \x1b[32m\x1b[Kcostheta\x1b[m\x1b[K\n'}
+[1.597853] (nav2_rrt_planner) StderrLine: {'line': b'\x1b[01m\x1b[K/home/asuka/Move/nav2_rrt_planner/src/RRT_plan.cpp:245:63:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kstruct nav2_rrt_planner::Node\x1b[m\x1b[K\xe2\x80\x99 has no member named \xe2\x80\x98\x1b[01m\x1b[Ktheta\x1b[m\x1b[K\xe2\x80\x99; did you mean \xe2\x80\x98\x1b[01m\x1b[Kcostheta\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[1.597876] (nav2_rrt_planner) StderrLine: {'line': b'  245 |         pose.pose.position.y = double(q->y) + i*step * cos(q->\x1b[01;31m\x1b[Ktheta\x1b[m\x1b[K);\n'}
+[1.597897] (nav2_rrt_planner) StderrLine: {'line': b'      |                                                               \x1b[01;31m\x1b[K^~~~~\x1b[m\x1b[K\n'}
+[1.597918] (nav2_rrt_planner) StderrLine: {'line': b'      |                                                               \x1b[32m\x1b[Kcostheta\x1b[m\x1b[K\n'}
+[1.597939] (nav2_rrt_planner) StderrLine: {'line': b'\x1b[01m\x1b[K/home/asuka/Move/nav2_rrt_planner/src/RRT_plan.cpp:256:18:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected \xe2\x80\x98\x1b[01m\x1b[K;\x1b[m\x1b[K\xe2\x80\x99 before \xe2\x80\x98\x1b[01m\x1b[K}\x1b[m\x1b[K\xe2\x80\x99 token\n'}
+[1.597962] (nav2_rrt_planner) StderrLine: {'line': b'  256 |       q=q->parent\n'}
+[1.597984] (nav2_rrt_planner) StderrLine: {'line': b'      |                  \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[1.598005] (nav2_rrt_planner) StderrLine: {'line': b'      |                  \x1b[32m\x1b[K;\x1b[m\x1b[K\n'}
+[1.598026] (nav2_rrt_planner) StderrLine: {'line': b'  257 |     \x1b[32m\x1b[K}\x1b[m\x1b[K\n'}
+[1.598047] (nav2_rrt_planner) StderrLine: {'line': b'      |     \x1b[32m\x1b[K~\x1b[m\x1b[K             \n'}
+[1.598068] (nav2_rrt_planner) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/include/class_loader/class_loader/class_loader.hpp:56\x1b[m\x1b[K,\n'}
+[1.598089] (nav2_rrt_planner) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/class_loader/class_loader/multi_library_class_loader.hpp:52\x1b[m\x1b[K,\n'}
+[1.598110] (nav2_rrt_planner) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/pluginlib/pluginlib/class_loader.hpp:38\x1b[m\x1b[K,\n'}
+[1.598132] (nav2_rrt_planner) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/nav2_costmap_2d/nav2_costmap_2d/costmap_2d_ros.hpp:54\x1b[m\x1b[K,\n'}
+[1.598155] (nav2_rrt_planner) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/nav2_core/global_planner.hpp:21\x1b[m\x1b[K,\n'}
+[1.598176] (nav2_rrt_planner) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/asuka/Move/nav2_rrt_planner/include/nav2_rrt_planner/rrt_planner.hpp:51\x1b[m\x1b[K,\n'}
+[1.598198] (nav2_rrt_planner) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/asuka/Move/nav2_rrt_planner/src/RRT_plan.cpp:46\x1b[m\x1b[K:\n'}
+[1.598219] (nav2_rrt_planner) StderrLine: {'line': b'\x1b[01m\x1b[K/home/asuka/Move/nav2_rrt_planner/src/RRT_plan.cpp:\x1b[m\x1b[K At global scope:\n'}
+[1.598240] (nav2_rrt_planner) StderrLine: {'line': b'\x1b[01m\x1b[K/home/asuka/Move/nav2_rrt_planner/src/RRT_plan.cpp:282:24:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Knav2_rrtline_planner\x1b[m\x1b[K\xe2\x80\x99 does not name a type\n'}
+[1.598261] (nav2_rrt_planner) StderrLine: {'line': b'  282 | PLUGINLIB_EXPORT_CLASS(\x1b[01;31m\x1b[Knav2_rrtline_planner\x1b[m\x1b[K::RRTLine, nav2_core::GlobalPlanner)\n'}
+[1.598283] (nav2_rrt_planner) StderrLine: {'line': b'      |                        \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.601226] (nav2_rrt_planner) StderrLine: {'line': b'\x1b[01m\x1b[K/home/asuka/Move/nav2_rrt_planner/src/RRT_plan.cpp:\x1b[m\x1b[K In constructor \xe2\x80\x98\x1b[01m\x1b[K{anonymous}::ProxyExec0::ProxyExec0()\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[1.601256] (nav2_rrt_planner) StderrLine: {'line': b'\x1b[01m\x1b[K/home/asuka/Move/nav2_rrt_planner/src/RRT_plan.cpp:282:1:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[K_derived\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[1.601281] (nav2_rrt_planner) StderrLine: {'line': b'  282 | \x1b[01;31m\x1b[KPLUGINLIB_EXPORT_CLASS\x1b[m\x1b[K(nav2_rrtline_planner::RRTLine, nav2_core::GlobalPlanner)\n'}
+[1.601304] (nav2_rrt_planner) StderrLine: {'line': b'      | \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.601327] (nav2_rrt_planner) StderrLine: {'line': b'\x1b[01m\x1b[K/home/asuka/Move/nav2_rrt_planner/src/RRT_plan.cpp:282:1:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kno matching function for call to \xe2\x80\x98\x1b[01m\x1b[KregisterPlugin<<expression error>, {anonymous}::ProxyExec0::_base>(const char [30], const char [25])\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.601351] (nav2_rrt_planner) StderrLine: {'line': b'  282 | \x1b[01;31m\x1b[KPLUGINLIB_EXPORT_CLASS\x1b[m\x1b[K(nav2_rrtline_planner::RRTLine, nav2_core::GlobalPlanner)\n'}
+[1.601374] (nav2_rrt_planner) StderrLine: {'line': b'      | \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.601396] (nav2_rrt_planner) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/include/class_loader/class_loader/class_loader.hpp:55\x1b[m\x1b[K,\n'}
+[1.601418] (nav2_rrt_planner) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/class_loader/class_loader/multi_library_class_loader.hpp:52\x1b[m\x1b[K,\n'}
+[1.601440] (nav2_rrt_planner) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/pluginlib/pluginlib/class_loader.hpp:38\x1b[m\x1b[K,\n'}
+[1.601462] (nav2_rrt_planner) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/nav2_costmap_2d/nav2_costmap_2d/costmap_2d_ros.hpp:54\x1b[m\x1b[K,\n'}
+[1.601484] (nav2_rrt_planner) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/nav2_core/global_planner.hpp:21\x1b[m\x1b[K,\n'}
+[1.601506] (nav2_rrt_planner) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/asuka/Move/nav2_rrt_planner/include/nav2_rrt_planner/rrt_planner.hpp:51\x1b[m\x1b[K,\n'}
+[1.601527] (nav2_rrt_planner) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/asuka/Move/nav2_rrt_planner/src/RRT_plan.cpp:46\x1b[m\x1b[K:\n'}
+[1.601550] (nav2_rrt_planner) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/class_loader/class_loader/class_loader_core.hpp:210:6:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class Derived, class Base> void class_loader::impl::registerPlugin(const string&, const string&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.601580] (nav2_rrt_planner) StderrLine: {'line': b'  210 | void \x1b[01;36m\x1b[KregisterPlugin\x1b[m\x1b[K(const std::string & class_name, const std::string & base_class_name)\n'}
+[1.601602] (nav2_rrt_planner) StderrLine: {'line': b'      |      \x1b[01;36m\x1b[K^~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.601623] (nav2_rrt_planner) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/class_loader/class_loader/class_loader_core.hpp:210:6:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[1.601648] (nav2_rrt_planner) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/include/class_loader/class_loader/class_loader.hpp:56\x1b[m\x1b[K,\n'}
+[1.601668] (nav2_rrt_planner) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/class_loader/class_loader/multi_library_class_loader.hpp:52\x1b[m\x1b[K,\n'}
+[1.601689] (nav2_rrt_planner) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/pluginlib/pluginlib/class_loader.hpp:38\x1b[m\x1b[K,\n'}
+[1.601711] (nav2_rrt_planner) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/nav2_costmap_2d/nav2_costmap_2d/costmap_2d_ros.hpp:54\x1b[m\x1b[K,\n'}
+[1.601733] (nav2_rrt_planner) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/nav2_core/global_planner.hpp:21\x1b[m\x1b[K,\n'}
+[1.601754] (nav2_rrt_planner) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/asuka/Move/nav2_rrt_planner/include/nav2_rrt_planner/rrt_planner.hpp:51\x1b[m\x1b[K,\n'}
+[1.601776] (nav2_rrt_planner) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/asuka/Move/nav2_rrt_planner/src/RRT_plan.cpp:46\x1b[m\x1b[K:\n'}
+[1.601797] (nav2_rrt_planner) StderrLine: {'line': b'\x1b[01m\x1b[K/home/asuka/Move/nav2_rrt_planner/src/RRT_plan.cpp:282:1:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktemplate argument 1 is invalid\n'}
+[1.601819] (nav2_rrt_planner) StderrLine: {'line': b'  282 | \x1b[01;31m\x1b[KPLUGINLIB_EXPORT_CLASS\x1b[m\x1b[K(nav2_rrtline_planner::RRTLine, nav2_core::GlobalPlanner)\n'}
+[1.601841] (nav2_rrt_planner) StderrLine: {'line': b'      | \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.604843] (-) TimerEvent: {}
+[1.705113] (-) TimerEvent: {}
+[1.805436] (-) TimerEvent: {}
+[1.905757] (-) TimerEvent: {}
+[2.006083] (-) TimerEvent: {}
+[2.106408] (-) TimerEvent: {}
+[2.206729] (-) TimerEvent: {}
+[2.281227] (nav2_rrt_planner) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/nav2_rrt_planner_plugin.dir/build.make:76: CMakeFiles/nav2_rrt_planner_plugin.dir/src/RRT_plan.cpp.o] Error 1\n'}
+[2.281380] (nav2_rrt_planner) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/nav2_rrt_planner_plugin.dir/all] Error 2\n'}
+[2.281527] (nav2_rrt_planner) StderrLine: {'line': b'gmake: *** [Makefile:146: all] Error 2\n'}
+[2.283458] (nav2_rrt_planner) CommandEnded: {'returncode': 2}
+[2.301555] (nav2_rrt_planner) JobEnded: {'identifier': 'nav2_rrt_planner', 'rc': 2}
+[2.306908] (-) TimerEvent: {}
+[2.312104] (-) EventReactorShutdown: {}

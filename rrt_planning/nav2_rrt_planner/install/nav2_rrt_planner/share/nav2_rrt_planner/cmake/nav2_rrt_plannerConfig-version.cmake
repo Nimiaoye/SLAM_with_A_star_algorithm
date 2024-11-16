@@ -1,0 +1,1 @@
+/home/asuka/Move/nav2_rrt_planner/build/nav2_rrt_planner/ament_cmake_core/nav2_rrt_plannerConfig-version.cmake

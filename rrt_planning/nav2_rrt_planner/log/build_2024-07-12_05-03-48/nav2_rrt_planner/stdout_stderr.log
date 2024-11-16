@@ -1,0 +1,10 @@
+[35m[1mConsolidate compiler generated dependencies of target nav2_rrt_planner_plugin[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/nav2_rrt_planner_plugin.dir/src/RRT_plan.cpp.o[0m
+[01m[K/home/asuka/Move/nav2_rrt_planner/src/RRT_plan.cpp:[m[K In member function ‘[01m[Kvirtual void nav2_rrt_planner::RRTLine::configure(const WeakPtr&, std::string, std::shared_ptr<tf2_ros::Buffer>, std::shared_ptr<nav2_costmap_2d::Costmap2DROS>)[m[K’:
+[01m[K/home/asuka/Move/nav2_rrt_planner/src/RRT_plan.cpp:110:14:[m[K [01;31m[Kerror: [m[K‘[01m[Kglobal_path[m[K’ was not declared in this scope; did you mean ‘[01m[Kglobal_frame_[m[K’?
+  110 |       return [01;31m[Kglobal_path[m[K;
+      |              [01;31m[K^~~~~~~~~~~[m[K
+      |              [32m[Kglobal_frame_[m[K
+gmake[2]: *** [CMakeFiles/nav2_rrt_planner_plugin.dir/build.make:76: CMakeFiles/nav2_rrt_planner_plugin.dir/src/RRT_plan.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/nav2_rrt_planner_plugin.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

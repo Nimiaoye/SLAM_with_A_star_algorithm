@@ -1,0 +1,540 @@
+ros2 launch turtlebot4_navigation nav2.launch.py
+[INFO] [launch]: All log files can be found below /home/asuka/.ros/log/2024-07-12-04-51-02-351994-AGM-63576
+[INFO] [launch]: Default logging verbosity is set to INFO
+[INFO] [controller_server-1]: process started with pid [63577]
+[INFO] [smoother_server-2]: process started with pid [63579]
+[INFO] [planner_server-3]: process started with pid [63581]
+[INFO] [behavior_server-4]: process started with pid [63583]
+[INFO] [bt_navigator-5]: process started with pid [63585]
+[INFO] [waypoint_follower-6]: process started with pid [63587]
+[INFO] [velocity_smoother-7]: process started with pid [63589]
+[INFO] [lifecycle_manager-8]: process started with pid [63591]
+[behavior_server-4] [INFO] [1720731062.587397372] [behavior_server]: 
+[behavior_server-4] 	behavior_server lifecycle node launched. 
+[behavior_server-4] 	Waiting on external lifecycle transitions to activate
+[behavior_server-4] 	See https://design.ros2.org/articles/node_lifecycle.html for more information.
+[waypoint_follower-6] [INFO] [1720731062.604664934] [waypoint_follower]: 
+[waypoint_follower-6] 	waypoint_follower lifecycle node launched. 
+[waypoint_follower-6] 	Waiting on external lifecycle transitions to activate
+[waypoint_follower-6] 	See https://design.ros2.org/articles/node_lifecycle.html for more information.
+[controller_server-1] [INFO] [1720731062.618420957] [controller_server]: 
+[controller_server-1] 	controller_server lifecycle node launched. 
+[smoother_server-2] [INFO] [1720731062.620569660] [smoother_server]: 
+[waypoint_follower-6] [INFO] [1720731062.620985272] [waypoint_follower]: Creating
+[controller_server-1] 	Waiting on external lifecycle transitions to activate
+[controller_server-1] 	See https://design.ros2.org/articles/node_lifecycle.html for more information.
+[smoother_server-2] 	smoother_server lifecycle node launched. 
+[smoother_server-2] 	Waiting on external lifecycle transitions to activate
+[smoother_server-2] 	See https://design.ros2.org/articles/node_lifecycle.html for more information.
+[smoother_server-2] [INFO] [1720731062.623592608] [smoother_server]: Creating smoother server
+[controller_server-1] [INFO] [1720731062.623839759] [controller_server]: Creating controller server
+[bt_navigator-5] [INFO] [1720731062.632797356] [bt_navigator]: 
+[bt_navigator-5] 	bt_navigator lifecycle node launched. 
+[bt_navigator-5] 	Waiting on external lifecycle transitions to activate
+[bt_navigator-5] 	See https://design.ros2.org/articles/node_lifecycle.html for more information.
+[bt_navigator-5] [INFO] [1720731062.632963087] [bt_navigator]: Creating
+[controller_server-1] [INFO] [1720731062.668701703] [local_costmap.local_costmap]: 
+[controller_server-1] 	local_costmap lifecycle node launched. 
+[controller_server-1] 	Waiting on external lifecycle transitions to activate
+[controller_server-1] 	See https://design.ros2.org/articles/node_lifecycle.html for more information.
+[controller_server-1] [INFO] [1720731062.686711211] [local_costmap.local_costmap]: Creating Costmap
+[planner_server-3] [INFO] [1720731062.977397537] [planner_server]: 
+[planner_server-3] 	planner_server lifecycle node launched. 
+[planner_server-3] 	Waiting on external lifecycle transitions to activate
+[planner_server-3] 	See https://design.ros2.org/articles/node_lifecycle.html for more information.
+[planner_server-3] [INFO] [1720731062.978542030] [planner_server]: Creating
+[velocity_smoother-7] [INFO] [1720731062.981886248] [velocity_smoother]: 
+[velocity_smoother-7] 	velocity_smoother lifecycle node launched. 
+[velocity_smoother-7] 	Waiting on external lifecycle transitions to activate
+[velocity_smoother-7] 	See https://design.ros2.org/articles/node_lifecycle.html for more information.
+[lifecycle_manager-8] [INFO] [1720731062.985632501] [lifecycle_manager_navigation]: Creating
+[lifecycle_manager-8] [INFO] [1720731062.989541413] [lifecycle_manager_navigation]: Creating and initializing lifecycle service clients
+[planner_server-3] [INFO] [1720731063.104185818] [global_costmap.global_costmap]: 
+[planner_server-3] 	global_costmap lifecycle node launched. 
+[planner_server-3] 	Waiting on external lifecycle transitions to activate
+[planner_server-3] 	See https://design.ros2.org/articles/node_lifecycle.html for more information.
+[planner_server-3] [INFO] [1720731063.104647088] [global_costmap.global_costmap]: Creating Costmap
+[lifecycle_manager-8] [INFO] [1720731063.723452057] [lifecycle_manager_navigation]: Starting managed nodes bringup...
+[lifecycle_manager-8] [INFO] [1720731063.723498769] [lifecycle_manager_navigation]: Configuring controller_server
+[controller_server-1] [INFO] [1720731063.724705981] [controller_server]: Configuring controller interface
+[controller_server-1] [INFO] [1720731063.725036598] [controller_server]: getting goal checker plugins..
+[controller_server-1] [INFO] [1720731063.725172892] [controller_server]: Controller frequency set to 20.0000Hz
+[controller_server-1] [INFO] [1720731063.725209582] [local_costmap.local_costmap]: Configuring
+[controller_server-1] [INFO] [1720731063.737356799] [local_costmap.local_costmap]: Using plugin "static_layer"
+[controller_server-1] [INFO] [1720731063.741338450] [local_costmap.local_costmap]: Subscribing to the map topic (/map) with transient local durability
+[controller_server-1] [INFO] [1720731063.743640868] [local_costmap.local_costmap]: Initialized plugin "static_layer"
+[controller_server-1] [INFO] [1720731063.743686500] [local_costmap.local_costmap]: Using plugin "voxel_layer"
+[controller_server-1] [INFO] [1720731063.744691160] [local_costmap.local_costmap]: Subscribed to Topics: scan
+[controller_server-1] [INFO] [1720731063.758662215] [local_costmap.local_costmap]: Initialized plugin "voxel_layer"
+[controller_server-1] [INFO] [1720731063.758705805] [local_costmap.local_costmap]: Using plugin "inflation_layer"
+[controller_server-1] [INFO] [1720731063.759740337] [local_costmap.local_costmap]: Initialized plugin "inflation_layer"
+[controller_server-1] [INFO] [1720731063.772850484] [controller_server]: Created progress_checker : progress_checker of type nav2_controller::SimpleProgressChecker
+[controller_server-1] [INFO] [1720731063.772862039] [local_costmap.local_costmap]: StaticLayer: Resizing static layer to 602 X 680 at 0.050000 m/pix
+[controller_server-1] [INFO] [1720731063.773980165] [controller_server]: Created goal checker : general_goal_checker of type nav2_controller::SimpleGoalChecker
+[controller_server-1] [INFO] [1720731063.774523759] [controller_server]: Controller Server has general_goal_checker  goal checkers available.
+[controller_server-1] [INFO] [1720731063.781729239] [controller_server]: Created controller : FollowPath of type dwb_core::DWBLocalPlanner
+[controller_server-1] [INFO] [1720731063.783534758] [controller_server]: Setting transform_tolerance to 0.200000
+[controller_server-1] [INFO] [1720731063.795724995] [controller_server]: Using critic "RotateToGoal" (dwb_critics::RotateToGoalCritic)
+[controller_server-1] [INFO] [1720731063.796581484] [controller_server]: Critic plugin initialized
+[controller_server-1] [INFO] [1720731063.796732614] [controller_server]: Using critic "Oscillation" (dwb_critics::OscillationCritic)
+[controller_server-1] [INFO] [1720731063.797082371] [controller_server]: Critic plugin initialized
+[controller_server-1] [INFO] [1720731063.797182101] [controller_server]: Using critic "BaseObstacle" (dwb_critics::BaseObstacleCritic)
+[controller_server-1] [INFO] [1720731063.797781728] [controller_server]: Critic plugin initialized
+[controller_server-1] [INFO] [1720731063.797941865] [controller_server]: Using critic "GoalAlign" (dwb_critics::GoalAlignCritic)
+[controller_server-1] [INFO] [1720731063.798321779] [controller_server]: Critic plugin initialized
+[controller_server-1] [INFO] [1720731063.798451242] [controller_server]: Using critic "PathAlign" (dwb_critics::PathAlignCritic)
+[controller_server-1] [INFO] [1720731063.798914267] [controller_server]: Critic plugin initialized
+[controller_server-1] [INFO] [1720731063.799030707] [controller_server]: Using critic "PathDist" (dwb_critics::PathDistCritic)
+[controller_server-1] [INFO] [1720731063.799225187] [controller_server]: Critic plugin initialized
+[controller_server-1] [INFO] [1720731063.799334649] [controller_server]: Using critic "GoalDist" (dwb_critics::GoalDistCritic)
+[controller_server-1] [INFO] [1720731063.799542390] [controller_server]: Critic plugin initialized
+[controller_server-1] [INFO] [1720731063.799558509] [controller_server]: Controller Server has FollowPath  controllers available.
+[lifecycle_manager-8] [INFO] [1720731063.810461187] [lifecycle_manager_navigation]: Configuring smoother_server
+[smoother_server-2] [INFO] [1720731063.810638886] [smoother_server]: Configuring smoother server
+[smoother_server-2] [INFO] [1720731063.822611977] [smoother_server]: Created smoother : simple_smoother of type nav2_smoother::SimpleSmoother
+[smoother_server-2] [INFO] [1720731063.823513778] [smoother_server]: Smoother Server has simple_smoother  smoothers available.
+[lifecycle_manager-8] [INFO] [1720731063.834039820] [lifecycle_manager_navigation]: Configuring planner_server
+[planner_server-3] [INFO] [1720731063.834216735] [planner_server]: Configuring
+[planner_server-3] [INFO] [1720731063.834240796] [global_costmap.global_costmap]: Configuring
+[planner_server-3] [INFO] [1720731063.842482463] [global_costmap.global_costmap]: Using plugin "static_layer"
+[planner_server-3] [INFO] [1720731063.845692534] [global_costmap.global_costmap]: Subscribing to the map topic (/map) with transient local durability
+[planner_server-3] [INFO] [1720731063.847553473] [global_costmap.global_costmap]: Initialized plugin "static_layer"
+[planner_server-3] [INFO] [1720731063.847582252] [global_costmap.global_costmap]: Using plugin "obstacle_layer"
+[planner_server-3] [INFO] [1720731063.848552551] [global_costmap.global_costmap]: Subscribed to Topics: scan
+[planner_server-3] [INFO] [1720731063.852740960] [global_costmap.global_costmap]: Initialized plugin "obstacle_layer"
+[planner_server-3] [INFO] [1720731063.852778808] [global_costmap.global_costmap]: Using plugin "inflation_layer"
+[planner_server-3] [INFO] [1720731063.853762031] [global_costmap.global_costmap]: Initialized plugin "inflation_layer"
+[planner_server-3] [INFO] [1720731063.866408936] [global_costmap.global_costmap]: StaticLayer: Resizing costmap to 602 X 680 at 0.050000 m/pix
+[planner_server-3] [INFO] [1720731063.867176547] [planner_server]: Created global planner plugin GridBased of type nav2_rrt_planner/RRTLine
+[planner_server-3] [ERROR] [1720731063.933575814] [planner_server]: -----------OKKKKKKK--------
+[planner_server-3] [INFO] [1720731063.934171687] [planner_server]: Planner Server has GridBased  planners available.
+[lifecycle_manager-8] [INFO] [1720731063.957253871] [lifecycle_manager_navigation]: Configuring behavior_server
+[behavior_server-4] [INFO] [1720731063.957613945] [behavior_server]: Configuring
+[behavior_server-4] [INFO] [1720731063.977231008] [behavior_server]: Creating behavior plugin spin of type nav2_behaviors/Spin
+[behavior_server-4] [INFO] [1720731063.977896600] [behavior_server]: Configuring spin
+[behavior_server-4] [INFO] [1720731063.988314854] [behavior_server]: Creating behavior plugin backup of type nav2_behaviors/BackUp
+[behavior_server-4] [INFO] [1720731063.988892822] [behavior_server]: Configuring backup
+[behavior_server-4] [INFO] [1720731063.997563567] [behavior_server]: Creating behavior plugin drive_on_heading of type nav2_behaviors/DriveOnHeading
+[behavior_server-4] [INFO] [1720731063.998124399] [behavior_server]: Configuring drive_on_heading
+[behavior_server-4] [INFO] [1720731064.006861452] [behavior_server]: Creating behavior plugin assisted_teleop of type nav2_behaviors/AssistedTeleop
+[behavior_server-4] [INFO] [1720731064.008160270] [behavior_server]: Configuring assisted_teleop
+[behavior_server-4] [INFO] [1720731064.020140974] [behavior_server]: Creating behavior plugin wait of type nav2_behaviors/Wait
+[behavior_server-4] [INFO] [1720731064.020732524] [behavior_server]: Configuring wait
+[lifecycle_manager-8] [INFO] [1720731064.030472543] [lifecycle_manager_navigation]: Configuring bt_navigator
+[bt_navigator-5] [INFO] [1720731064.030689700] [bt_navigator]: Configuring
+[lifecycle_manager-8] [INFO] [1720731064.118452077] [lifecycle_manager_navigation]: Configuring waypoint_follower
+[waypoint_follower-6] [INFO] [1720731064.118632766] [waypoint_follower]: Configuring
+[waypoint_follower-6] [INFO] [1720731064.135033241] [waypoint_follower]: Created waypoint_task_executor : wait_at_waypoint of type nav2_waypoint_follower::WaitAtWaypoint
+[lifecycle_manager-8] [INFO] [1720731064.136002194] [lifecycle_manager_navigation]: Configuring velocity_smoother
+[velocity_smoother-7] [INFO] [1720731064.136211549] [velocity_smoother]: Configuring velocity smoother
+[lifecycle_manager-8] [INFO] [1720731064.141420136] [lifecycle_manager_navigation]: Activating controller_server
+[controller_server-1] [INFO] [1720731064.141662866] [controller_server]: Activating
+[controller_server-1] [INFO] [1720731064.141691970] [local_costmap.local_costmap]: Activating
+[controller_server-1] [INFO] [1720731064.141699080] [local_costmap.local_costmap]: Checking transform
+[controller_server-1] [INFO] [1720731064.141773833] [local_costmap.local_costmap]: start
+[controller_server-1] [ERROR] [1720731064.644846479] [local_costmap.local_costmap]: StaticLayer: "map" passed to lookupTransform argument target_frame does not exist. 
+[controller_server-1] [INFO] [1720731064.693119089] [controller_server]: Creating bond (controller_server) to lifecycle manager.
+[lifecycle_manager-8] [INFO] [1720731064.799806131] [lifecycle_manager_navigation]: Server controller_server connected with bond.
+[lifecycle_manager-8] [INFO] [1720731064.799843883] [lifecycle_manager_navigation]: Activating smoother_server
+[smoother_server-2] [INFO] [1720731064.800191162] [smoother_server]: Activating
+[smoother_server-2] [INFO] [1720731064.800236520] [smoother_server]: Creating bond (smoother_server) to lifecycle manager.
+[lifecycle_manager-8] [INFO] [1720731064.910756358] [lifecycle_manager_navigation]: Server smoother_server connected with bond.
+[lifecycle_manager-8] [INFO] [1720731064.910822232] [lifecycle_manager_navigation]: Activating planner_server
+[planner_server-3] [INFO] [1720731064.911333783] [planner_server]: Activating
+[planner_server-3] [INFO] [1720731064.911363441] [global_costmap.global_costmap]: Activating
+[planner_server-3] [INFO] [1720731064.911371976] [global_costmap.global_costmap]: Checking transform
+[planner_server-3] [INFO] [1720731064.911388252] [global_costmap.global_costmap]: Timed out waiting for transform from base_link to map to become available, tf error: Invalid frame ID "map" passed to canTransform argument target_frame - frame does not exist
+[controller_server-1] [ERROR] [1720731064.948026957] [local_costmap.local_costmap]: StaticLayer: "map" passed to lookupTransform argument target_frame does not exist. 
+[controller_server-1] [ERROR] [1720731065.251085026] [local_costmap.local_costmap]: StaticLayer: "map" passed to lookupTransform argument target_frame does not exist. 
+[planner_server-3] [INFO] [1720731065.411462838] [global_costmap.global_costmap]: Timed out waiting for transform from base_link to map to become available, tf error: Invalid frame ID "map" passed to canTransform argument target_frame - frame does not exist
+[controller_server-1] [ERROR] [1720731065.651474349] [local_costmap.local_costmap]: StaticLayer: "map" passed to lookupTransform argument target_frame does not exist. 
+[planner_server-3] [INFO] [1720731065.911440864] [global_costmap.global_costmap]: Timed out waiting for transform from base_link to map to become available, tf error: Invalid frame ID "map" passed to canTransform argument target_frame - frame does not exist
+[controller_server-1] [ERROR] [1720731065.954435025] [local_costmap.local_costmap]: StaticLayer: "map" passed to lookupTransform argument target_frame does not exist. 
+[controller_server-1] [ERROR] [1720731066.257621584] [local_costmap.local_costmap]: StaticLayer: "map" passed to lookupTransform argument target_frame does not exist. 
+[planner_server-3] [INFO] [1720731066.411465988] [global_costmap.global_costmap]: Timed out waiting for transform from base_link to map to become available, tf error: Invalid frame ID "map" passed to canTransform argument target_frame - frame does not exist
+[controller_server-1] [ERROR] [1720731066.657523119] [local_costmap.local_costmap]: StaticLayer: "map" passed to lookupTransform argument target_frame does not exist. 
+[planner_server-3] [INFO] [1720731066.911488271] [global_costmap.global_costmap]: Timed out waiting for transform from base_link to map to become available, tf error: Invalid frame ID "map" passed to canTransform argument target_frame - frame does not exist
+[controller_server-1] [ERROR] [1720731066.960571700] [local_costmap.local_costmap]: StaticLayer: "map" passed to lookupTransform argument target_frame does not exist. 
+[controller_server-1] [ERROR] [1720731067.263814396] [local_costmap.local_costmap]: StaticLayer: "map" passed to lookupTransform argument target_frame does not exist. 
+[planner_server-3] [INFO] [1720731067.411460538] [global_costmap.global_costmap]: Timed out waiting for transform from base_link to map to become available, tf error: Invalid frame ID "map" passed to canTransform argument target_frame - frame does not exist
+[controller_server-1] [ERROR] [1720731067.664173702] [local_costmap.local_costmap]: StaticLayer: "map" passed to lookupTransform argument target_frame does not exist. 
+[planner_server-3] [INFO] [1720731067.911484186] [global_costmap.global_costmap]: Timed out waiting for transform from base_link to map to become available, tf error: Invalid frame ID "map" passed to canTransform argument target_frame - frame does not exist
+[controller_server-1] [ERROR] [1720731067.967757054] [local_costmap.local_costmap]: StaticLayer: "map" passed to lookupTransform argument target_frame does not exist. 
+[controller_server-1] [ERROR] [1720731068.271022471] [local_costmap.local_costmap]: StaticLayer: "map" passed to lookupTransform argument target_frame does not exist. 
+[planner_server-3] [INFO] [1720731068.411445831] [global_costmap.global_costmap]: Timed out waiting for transform from base_link to map to become available, tf error: Invalid frame ID "map" passed to canTransform argument target_frame - frame does not exist
+[controller_server-1] [ERROR] [1720731068.671098812] [local_costmap.local_costmap]: StaticLayer: "map" passed to lookupTransform argument target_frame does not exist. 
+[planner_server-3] [INFO] [1720731068.911446994] [global_costmap.global_costmap]: Timed out waiting for transform from base_link to map to become available, tf error: Invalid frame ID "map" passed to canTransform argument target_frame - frame does not exist
+[controller_server-1] [ERROR] [1720731068.973972482] [local_costmap.local_costmap]: StaticLayer: "map" passed to lookupTransform argument target_frame does not exist. 
+[controller_server-1] [ERROR] [1720731069.277340937] [local_costmap.local_costmap]: StaticLayer: "map" passed to lookupTransform argument target_frame does not exist. 
+[planner_server-3] [INFO] [1720731069.411451752] [global_costmap.global_costmap]: Timed out waiting for transform from base_link to map to become available, tf error: Invalid frame ID "map" passed to canTransform argument target_frame - frame does not exist
+[controller_server-1] [ERROR] [1720731069.677522095] [local_costmap.local_costmap]: StaticLayer: "map" passed to lookupTransform argument target_frame does not exist. 
+[planner_server-3] [INFO] [1720731069.911470602] [global_costmap.global_costmap]: Timed out waiting for transform from base_link to map to become available, tf error: Invalid frame ID "map" passed to canTransform argument target_frame - frame does not exist
+[controller_server-1] [ERROR] [1720731069.980882269] [local_costmap.local_costmap]: StaticLayer: "map" passed to lookupTransform argument target_frame does not exist. 
+[controller_server-1] [ERROR] [1720731070.284409402] [local_costmap.local_costmap]: StaticLayer: "map" passed to lookupTransform argument target_frame does not exist. 
+[planner_server-3] [INFO] [1720731070.411495557] [global_costmap.global_costmap]: Timed out waiting for transform from base_link to map to become available, tf error: Invalid frame ID "map" passed to canTransform argument target_frame - frame does not exist
+[controller_server-1] [ERROR] [1720731070.684569459] [local_costmap.local_costmap]: StaticLayer: "map" passed to lookupTransform argument target_frame does not exist. 
+[planner_server-3] [INFO] [1720731070.911444992] [global_costmap.global_costmap]: Timed out waiting for transform from base_link to map to become available, tf error: Invalid frame ID "map" passed to canTransform argument target_frame - frame does not exist
+[controller_server-1] [ERROR] [1720731070.987741026] [local_costmap.local_costmap]: StaticLayer: "map" passed to lookupTransform argument target_frame does not exist. 
+[controller_server-1] [ERROR] [1720731071.290900913] [local_costmap.local_costmap]: StaticLayer: "map" passed to lookupTransform argument target_frame does not exist. 
+[planner_server-3] [INFO] [1720731071.411462095] [global_costmap.global_costmap]: Timed out waiting for transform from base_link to map to become available, tf error: Invalid frame ID "map" passed to canTransform argument target_frame - frame does not exist
+[controller_server-1] [ERROR] [1720731071.691200540] [local_costmap.local_costmap]: StaticLayer: "map" passed to lookupTransform argument target_frame does not exist. 
+[planner_server-3] [INFO] [1720731071.911451147] [global_costmap.global_costmap]: Timed out waiting for transform from base_link to map to become available, tf error: Invalid frame ID "map" passed to canTransform argument target_frame - frame does not exist
+[controller_server-1] [ERROR] [1720731071.994478526] [local_costmap.local_costmap]: StaticLayer: "map" passed to lookupTransform argument target_frame does not exist. 
+[controller_server-1] [ERROR] [1720731072.298263478] [local_costmap.local_costmap]: StaticLayer: "map" passed to lookupTransform argument target_frame does not exist. 
+[planner_server-3] [INFO] [1720731072.411440555] [global_costmap.global_costmap]: Timed out waiting for transform from base_link to map to become available, tf error: Invalid frame ID "map" passed to canTransform argument target_frame - frame does not exist
+[controller_server-1] [ERROR] [1720731072.698239892] [local_costmap.local_costmap]: StaticLayer: "map" passed to lookupTransform argument target_frame does not exist. 
+[planner_server-3] [INFO] [1720731072.911450049] [global_costmap.global_costmap]: Timed out waiting for transform from base_link to map to become available, tf error: Invalid frame ID "map" passed to canTransform argument target_frame - frame does not exist
+[controller_server-1] [ERROR] [1720731073.003156027] [local_costmap.local_costmap]: StaticLayer: "map" passed to lookupTransform argument target_frame does not exist. 
+[controller_server-1] [ERROR] [1720731073.306623860] [local_costmap.local_costmap]: StaticLayer: "map" passed to lookupTransform argument target_frame does not exist. 
+[planner_server-3] [INFO] [1720731073.411464086] [global_costmap.global_costmap]: Timed out waiting for transform from base_link to map to become available, tf error: Invalid frame ID "map" passed to canTransform argument target_frame - frame does not exist
+[controller_server-1] [ERROR] [1720731073.706561339] [local_costmap.local_costmap]: StaticLayer: "map" passed to lookupTransform argument target_frame does not exist. 
+[planner_server-3] [INFO] [1720731073.911447681] [global_costmap.global_costmap]: Timed out waiting for transform from base_link to map to become available, tf error: Invalid frame ID "map" passed to canTransform argument target_frame - frame does not exist
+[controller_server-1] [ERROR] [1720731074.010377617] [local_costmap.local_costmap]: StaticLayer: "map" passed to lookupTransform argument target_frame does not exist. 
+[controller_server-1] [ERROR] [1720731074.314552451] [local_costmap.local_costmap]: StaticLayer: "map" passed to lookupTransform argument target_frame does not exist. 
+[planner_server-3] [INFO] [1720731074.411470497] [global_costmap.global_costmap]: Timed out waiting for transform from base_link to map to become available, tf error: Invalid frame ID "map" passed to canTransform argument target_frame - frame does not exist
+[controller_server-1] [ERROR] [1720731074.714417496] [local_costmap.local_costmap]: StaticLayer: "map" passed to lookupTransform argument target_frame does not exist. 
+[planner_server-3] [INFO] [1720731074.911490123] [global_costmap.global_costmap]: Timed out waiting for transform from base_link to map to become available, tf error: Invalid frame ID "map" passed to canTransform argument target_frame - frame does not exist
+[controller_server-1] [ERROR] [1720731075.017570202] [local_costmap.local_costmap]: StaticLayer: "map" passed to lookupTransform argument target_frame does not exist. 
+[controller_server-1] [ERROR] [1720731075.320857185] [local_costmap.local_costmap]: StaticLayer: "map" passed to lookupTransform argument target_frame does not exist. 
+[planner_server-3] [INFO] [1720731075.411504274] [global_costmap.global_costmap]: Timed out waiting for transform from base_link to map to become available, tf error: Invalid frame ID "map" passed to canTransform argument target_frame - frame does not exist
+[controller_server-1] [ERROR] [1720731075.720656236] [local_costmap.local_costmap]: StaticLayer: "map" passed to lookupTransform argument target_frame does not exist. 
+[planner_server-3] [INFO] [1720731075.911507983] [global_costmap.global_costmap]: Timed out waiting for transform from base_link to map to become available, tf error: Invalid frame ID "map" passed to canTransform argument target_frame - frame does not exist
+[controller_server-1] [ERROR] [1720731076.023713106] [local_costmap.local_costmap]: StaticLayer: "map" passed to lookupTransform argument target_frame does not exist. 
+[controller_server-1] [ERROR] [1720731076.326880906] [local_costmap.local_costmap]: StaticLayer: "map" passed to lookupTransform argument target_frame does not exist. 
+[planner_server-3] [INFO] [1720731076.411442687] [global_costmap.global_costmap]: Timed out waiting for transform from base_link to map to become available, tf error: Invalid frame ID "map" passed to canTransform argument target_frame - frame does not exist
+[controller_server-1] [ERROR] [1720731076.727021012] [local_costmap.local_costmap]: StaticLayer: "map" passed to lookupTransform argument target_frame does not exist. 
+[planner_server-3] [INFO] [1720731076.911466693] [global_costmap.global_costmap]: Timed out waiting for transform from base_link to map to become available, tf error: Invalid frame ID "map" passed to canTransform argument target_frame - frame does not exist
+[controller_server-1] [ERROR] [1720731077.030243056] [local_costmap.local_costmap]: StaticLayer: "map" passed to lookupTransform argument target_frame does not exist. 
+[controller_server-1] [ERROR] [1720731077.333438371] [local_costmap.local_costmap]: StaticLayer: "map" passed to lookupTransform argument target_frame does not exist. 
+[planner_server-3] [INFO] [1720731077.411482092] [global_costmap.global_costmap]: Timed out waiting for transform from base_link to map to become available, tf error: Invalid frame ID "map" passed to canTransform argument target_frame - frame does not exist
+[controller_server-1] [ERROR] [1720731077.733691889] [local_costmap.local_costmap]: StaticLayer: "map" passed to lookupTransform argument target_frame does not exist. 
+[planner_server-3] [INFO] [1720731077.911451044] [global_costmap.global_costmap]: Timed out waiting for transform from base_link to map to become available, tf error: Invalid frame ID "map" passed to canTransform argument target_frame - frame does not exist
+[controller_server-1] [ERROR] [1720731078.036602830] [local_costmap.local_costmap]: StaticLayer: "map" passed to lookupTransform argument target_frame does not exist. 
+[controller_server-1] [ERROR] [1720731078.339904299] [local_costmap.local_costmap]: StaticLayer: "map" passed to lookupTransform argument target_frame does not exist. 
+[planner_server-3] [INFO] [1720731078.411447007] [global_costmap.global_costmap]: Timed out waiting for transform from base_link to map to become available, tf error: Invalid frame ID "map" passed to canTransform argument target_frame - frame does not exist
+[controller_server-1] [ERROR] [1720731078.739666645] [local_costmap.local_costmap]: StaticLayer: "map" passed to lookupTransform argument target_frame does not exist. 
+[planner_server-3] [INFO] [1720731078.911481652] [global_costmap.global_costmap]: Timed out waiting for transform from base_link to map to become available, tf error: Invalid frame ID "map" passed to canTransform argument target_frame - frame does not exist
+[controller_server-1] [ERROR] [1720731079.042897488] [local_costmap.local_costmap]: StaticLayer: "map" passed to lookupTransform argument target_frame does not exist. 
+[controller_server-1] [ERROR] [1720731079.345904630] [local_costmap.local_costmap]: StaticLayer: "map" passed to lookupTransform argument target_frame does not exist. 
+[planner_server-3] [INFO] [1720731079.411477474] [global_costmap.global_costmap]: Timed out waiting for transform from base_link to map to become available, tf error: Invalid frame ID "map" passed to canTransform argument target_frame - frame does not exist
+[controller_server-1] [ERROR] [1720731079.746093636] [local_costmap.local_costmap]: StaticLayer: "map" passed to lookupTransform argument target_frame does not exist. 
+[planner_server-3] [INFO] [1720731079.911452119] [global_costmap.global_costmap]: Timed out waiting for transform from base_link to map to become available, tf error: Invalid frame ID "map" passed to canTransform argument target_frame - frame does not exist
+[controller_server-1] [ERROR] [1720731080.049369183] [local_costmap.local_costmap]: StaticLayer: "map" passed to lookupTransform argument target_frame does not exist. 
+[controller_server-1] [ERROR] [1720731080.352667527] [local_costmap.local_costmap]: StaticLayer: "map" passed to lookupTransform argument target_frame does not exist. 
+[planner_server-3] [INFO] [1720731080.411445479] [global_costmap.global_costmap]: Timed out waiting for transform from base_link to map to become available, tf error: Invalid frame ID "map" passed to canTransform argument target_frame - frame does not exist
+[controller_server-1] [ERROR] [1720731080.752643027] [local_costmap.local_costmap]: StaticLayer: "map" passed to lookupTransform argument target_frame does not exist. 
+[planner_server-3] [INFO] [1720731080.911456007] [global_costmap.global_costmap]: Timed out waiting for transform from base_link to map to become available, tf error: Invalid frame ID "map" passed to canTransform argument target_frame - frame does not exist
+[controller_server-1] [ERROR] [1720731081.055894494] [local_costmap.local_costmap]: StaticLayer: "map" passed to lookupTransform argument target_frame does not exist. 
+[controller_server-1] [ERROR] [1720731081.358962641] [local_costmap.local_costmap]: StaticLayer: "map" passed to lookupTransform argument target_frame does not exist. 
+[planner_server-3] [INFO] [1720731081.411468795] [global_costmap.global_costmap]: Timed out waiting for transform from base_link to map to become available, tf error: Invalid frame ID "map" passed to canTransform argument target_frame - frame does not exist
+[controller_server-1] [ERROR] [1720731081.759143949] [local_costmap.local_costmap]: StaticLayer: "map" passed to lookupTransform argument target_frame does not exist. 
+[planner_server-3] [INFO] [1720731081.911466842] [global_costmap.global_costmap]: Timed out waiting for transform from base_link to map to become available, tf error: Invalid frame ID "map" passed to canTransform argument target_frame - frame does not exist
+[controller_server-1] [ERROR] [1720731082.062316466] [local_costmap.local_costmap]: StaticLayer: "map" passed to lookupTransform argument target_frame does not exist. 
+[controller_server-1] [ERROR] [1720731082.365718799] [local_costmap.local_costmap]: StaticLayer: "map" passed to lookupTransform argument target_frame does not exist. 
+[planner_server-3] [INFO] [1720731082.411464942] [global_costmap.global_costmap]: Timed out waiting for transform from base_link to map to become available, tf error: Invalid frame ID "map" passed to canTransform argument target_frame - frame does not exist
+[controller_server-1] [ERROR] [1720731082.765779894] [local_costmap.local_costmap]: StaticLayer: "map" passed to lookupTransform argument target_frame does not exist. 
+[planner_server-3] [INFO] [1720731082.911440523] [global_costmap.global_costmap]: Timed out waiting for transform from base_link to map to become available, tf error: Invalid frame ID "map" passed to canTransform argument target_frame - frame does not exist
+[controller_server-1] [ERROR] [1720731083.069017561] [local_costmap.local_costmap]: StaticLayer: "map" passed to lookupTransform argument target_frame does not exist. 
+[controller_server-1] [ERROR] [1720731083.372664275] [local_costmap.local_costmap]: StaticLayer: "map" passed to lookupTransform argument target_frame does not exist. 
+[planner_server-3] [INFO] [1720731083.411440227] [global_costmap.global_costmap]: Timed out waiting for transform from base_link to map to become available, tf error: Invalid frame ID "map" passed to canTransform argument target_frame - frame does not exist
+[controller_server-1] [ERROR] [1720731083.772875729] [local_costmap.local_costmap]: StaticLayer: "map" passed to lookupTransform argument target_frame does not exist. 
+[planner_server-3] [INFO] [1720731083.911471127] [global_costmap.global_costmap]: Timed out waiting for transform from base_link to map to become available, tf error: Invalid frame ID "map" passed to canTransform argument target_frame - frame does not exist
+[controller_server-1] [ERROR] [1720731084.076149074] [local_costmap.local_costmap]: StaticLayer: "map" passed to lookupTransform argument target_frame does not exist. 
+[controller_server-1] [ERROR] [1720731084.379761766] [local_costmap.local_costmap]: StaticLayer: "map" passed to lookupTransform argument target_frame does not exist. 
+[planner_server-3] [INFO] [1720731084.411482735] [global_costmap.global_costmap]: Timed out waiting for transform from base_link to map to become available, tf error: Invalid frame ID "map" passed to canTransform argument target_frame - frame does not exist
+[controller_server-1] [ERROR] [1720731084.779710160] [local_costmap.local_costmap]: StaticLayer: "map" passed to lookupTransform argument target_frame does not exist. 
+[planner_server-3] [INFO] [1720731084.911449691] [global_costmap.global_costmap]: Timed out waiting for transform from base_link to map to become available, tf error: Invalid frame ID "map" passed to canTransform argument target_frame - frame does not exist
+[controller_server-1] [ERROR] [1720731085.082838447] [local_costmap.local_costmap]: StaticLayer: "map" passed to lookupTransform argument target_frame does not exist. 
+[controller_server-1] [ERROR] [1720731085.385924367] [local_costmap.local_costmap]: StaticLayer: "map" passed to lookupTransform argument target_frame does not exist. 
+[planner_server-3] [INFO] [1720731085.411441154] [global_costmap.global_costmap]: Timed out waiting for transform from base_link to map to become available, tf error: Invalid frame ID "map" passed to canTransform argument target_frame - frame does not exist
+[controller_server-1] [ERROR] [1720731085.786216430] [local_costmap.local_costmap]: StaticLayer: "map" passed to lookupTransform argument target_frame does not exist. 
+[planner_server-3] [INFO] [1720731085.911445054] [global_costmap.global_costmap]: Timed out waiting for transform from base_link to map to become available, tf error: Invalid frame ID "map" passed to canTransform argument target_frame - frame does not exist
+[controller_server-1] [ERROR] [1720731086.089268884] [local_costmap.local_costmap]: StaticLayer: "map" passed to lookupTransform argument target_frame does not exist. 
+[controller_server-1] [ERROR] [1720731086.392459145] [local_costmap.local_costmap]: StaticLayer: "map" passed to lookupTransform argument target_frame does not exist. 
+[planner_server-3] [INFO] [1720731086.411446162] [global_costmap.global_costmap]: Timed out waiting for transform from base_link to map to become available, tf error: Invalid frame ID "map" passed to canTransform argument target_frame - frame does not exist
+[controller_server-1] [ERROR] [1720731086.792660604] [local_costmap.local_costmap]: StaticLayer: "map" passed to lookupTransform argument target_frame does not exist. 
+[planner_server-3] [INFO] [1720731086.911472656] [global_costmap.global_costmap]: Timed out waiting for transform from base_link to map to become available, tf error: Invalid frame ID "map" passed to canTransform argument target_frame - frame does not exist
+[controller_server-1] [ERROR] [1720731087.096411009] [local_costmap.local_costmap]: StaticLayer: "map" passed to lookupTransform argument target_frame does not exist. 
+[planner_server-3] [INFO] [1720731087.411474952] [global_costmap.global_costmap]: Timed out waiting for transform from base_link to map to become available, tf error: Lookup would require extrapolation into the past.  Requested time 1747.110000 but the earliest data is at time 1747.915000, when looking up transform from frame [base_link] to frame [map]
+[planner_server-3] [INFO] [1720731087.911459688] [global_costmap.global_costmap]: Timed out waiting for transform from base_link to map to become available, tf error: Lookup would require extrapolation into the past.  Requested time 1747.611000 but the earliest data is at time 1747.915000, when looking up transform from frame [base_link] to frame [map]
+[planner_server-3] [INFO] [1720731088.411538609] [global_costmap.global_costmap]: start
+[planner_server-3] [INFO] [1720731089.463051850] [planner_server]: Activating plugin GridBased of type NavfnPlanner
+[planner_server-3] [INFO] [1720731089.466133850] [planner_server]: Creating bond (planner_server) to lifecycle manager.
+[lifecycle_manager-8] [INFO] [1720731089.578580730] [lifecycle_manager_navigation]: Server planner_server connected with bond.
+[lifecycle_manager-8] [INFO] [1720731089.578639536] [lifecycle_manager_navigation]: Activating behavior_server
+[behavior_server-4] [INFO] [1720731089.579310359] [behavior_server]: Activating
+[behavior_server-4] [INFO] [1720731089.579355800] [behavior_server]: Activating spin
+[behavior_server-4] [INFO] [1720731089.579370077] [behavior_server]: Activating backup
+[behavior_server-4] [INFO] [1720731089.579380311] [behavior_server]: Activating drive_on_heading
+[behavior_server-4] [INFO] [1720731089.579389144] [behavior_server]: Activating assisted_teleop
+[behavior_server-4] [INFO] [1720731089.579398168] [behavior_server]: Activating wait
+[behavior_server-4] [INFO] [1720731089.579411469] [behavior_server]: Creating bond (behavior_server) to lifecycle manager.
+[lifecycle_manager-8] [INFO] [1720731089.689141012] [lifecycle_manager_navigation]: Server behavior_server connected with bond.
+[lifecycle_manager-8] [INFO] [1720731089.689173384] [lifecycle_manager_navigation]: Activating bt_navigator
+[bt_navigator-5] [INFO] [1720731089.689606820] [bt_navigator]: Activating
+[bt_navigator-5] [INFO] [1720731089.801090941] [bt_navigator]: Creating bond (bt_navigator) to lifecycle manager.
+[lifecycle_manager-8] [INFO] [1720731089.908482269] [lifecycle_manager_navigation]: Server bt_navigator connected with bond.
+[lifecycle_manager-8] [INFO] [1720731089.908521759] [lifecycle_manager_navigation]: Activating waypoint_follower
+[waypoint_follower-6] [INFO] [1720731089.908932913] [waypoint_follower]: Activating
+[waypoint_follower-6] [INFO] [1720731089.908977687] [waypoint_follower]: Creating bond (waypoint_follower) to lifecycle manager.
+[lifecycle_manager-8] [INFO] [1720731090.019194730] [lifecycle_manager_navigation]: Server waypoint_follower connected with bond.
+[lifecycle_manager-8] [INFO] [1720731090.019239589] [lifecycle_manager_navigation]: Activating velocity_smoother
+[velocity_smoother-7] [INFO] [1720731090.019638695] [velocity_smoother]: Activating
+[velocity_smoother-7] [INFO] [1720731090.019701265] [velocity_smoother]: Creating bond (velocity_smoother) to lifecycle manager.
+[lifecycle_manager-8] [INFO] [1720731090.131394232] [lifecycle_manager_navigation]: Server velocity_smoother connected with bond.
+[lifecycle_manager-8] [INFO] [1720731090.131432443] [lifecycle_manager_navigation]: Managed nodes are active
+[lifecycle_manager-8] [INFO] [1720731090.131445642] [lifecycle_manager_navigation]: Creating bond timer...
+[bt_navigator-5] [INFO] [1720731094.782703915] [bt_navigator]: Begin navigating from current location (-0.01, -0.09) to (-5.01, 4.97)
+[planner_server-3] [ERROR] [1720731094.783123582] [planner_server]: --------------Phase1----------
+[planner_server-3] [ERROR] [1720731094.783177598] [planner_server]: --------------Phase2----------
+[planner_server-3] [ERROR] [1720731094.783188001] [planner_server]: ----0.006276 -0.087989 -5.009235 4.968729-
+[planner_server-3] [ERROR] [1720731094.783199559] [planner_server]: ---(302 197) (201 319)-
+[planner_server-3] [INFO] [1720731094.783215309] [planner_server]: Planner will only except goal position from map frame
+[planner_server-3] [WARN] [1720731094.783224216] [planner_server]: Planning algorithm GridBased failed to generate a valid path to (-5.01, 4.97)
+[planner_server-3] [WARN] [1720731094.783234491] [planner_server]: [compute_path_to_pose] [ActionServer] Aborting handle.
+[planner_server-3] [INFO] [1720731094.802979206] [global_costmap.global_costmap]: Received request to clear entirely the global_costmap
+[planner_server-3] [ERROR] [1720731095.423801795] [planner_server]: --------------Phase1----------
+[planner_server-3] [ERROR] [1720731095.423866443] [planner_server]: --------------Phase2----------
+[planner_server-3] [ERROR] [1720731095.423882551] [planner_server]: ----0.006276 -0.087989 -5.009235 4.968729-
+[planner_server-3] [ERROR] [1720731095.423896674] [planner_server]: ---(302 197) (201 319)-
+[planner_server-3] [INFO] [1720731095.423907223] [planner_server]: Planner will only except goal position from map frame
+[planner_server-3] [WARN] [1720731095.423916924] [planner_server]: Planning algorithm GridBased failed to generate a valid path to (-5.01, 4.97)
+[planner_server-3] [WARN] [1720731095.423936609] [planner_server]: [compute_path_to_pose] [ActionServer] Aborting handle.
+[controller_server-1] [INFO] [1720731095.443007141] [local_costmap.local_costmap]: Received request to clear entirely the local_costmap
+[planner_server-3] [INFO] [1720731095.443461081] [global_costmap.global_costmap]: Received request to clear entirely the global_costmap
+[planner_server-3] [ERROR] [1720731096.424325709] [planner_server]: --------------Phase1----------
+[planner_server-3] [ERROR] [1720731096.424377406] [planner_server]: --------------Phase2----------
+[planner_server-3] [ERROR] [1720731096.424389567] [planner_server]: ----0.006276 -0.087989 -5.009235 4.968729-
+[planner_server-3] [ERROR] [1720731096.424401958] [planner_server]: ---(302 197) (201 319)-
+[planner_server-3] [INFO] [1720731096.424411647] [planner_server]: Planner will only except goal position from map frame
+[planner_server-3] [WARN] [1720731096.424421627] [planner_server]: Planning algorithm GridBased failed to generate a valid path to (-5.01, 4.97)
+[planner_server-3] [WARN] [1720731096.424434125] [planner_server]: [compute_path_to_pose] [ActionServer] Aborting handle.
+[planner_server-3] [INFO] [1720731096.442979961] [global_costmap.global_costmap]: Received request to clear entirely the global_costmap
+[planner_server-3] [ERROR] [1720731097.423580212] [planner_server]: --------------Phase1----------
+[planner_server-3] [ERROR] [1720731097.423620763] [planner_server]: --------------Phase2----------
+[planner_server-3] [ERROR] [1720731097.423624652] [planner_server]: ----0.006276 -0.087989 -5.009235 4.968729-
+[planner_server-3] [ERROR] [1720731097.423653259] [planner_server]: ---(302 197) (201 319)-
+[planner_server-3] [INFO] [1720731097.423657679] [planner_server]: Planner will only except goal position from map frame
+[planner_server-3] [WARN] [1720731097.423661507] [planner_server]: Planning algorithm GridBased failed to generate a valid path to (-5.01, 4.97)
+[planner_server-3] [WARN] [1720731097.423667723] [planner_server]: [compute_path_to_pose] [ActionServer] Aborting handle.
+[behavior_server-4] [INFO] [1720731097.443619655] [behavior_server]: Running spin
+[behavior_server-4] [INFO] [1720731097.443880856] [behavior_server]: Turning 1.57 for spin behavior.
+[behavior_server-4] [INFO] [1720731099.244143312] [behavior_server]: spin completed successfully
+[planner_server-3] [ERROR] [1720731099.273127281] [planner_server]: --------------Phase1----------
+[planner_server-3] [ERROR] [1720731099.273175623] [planner_server]: --------------Phase2----------
+[planner_server-3] [ERROR] [1720731099.273181805] [planner_server]: ---0.036452 -0.049326 -5.009235 4.968729-
+[planner_server-3] [ERROR] [1720731099.273188519] [planner_server]: ---(303 198) (201 319)-
+[planner_server-3] [INFO] [1720731099.273195267] [planner_server]: Planner will only except goal position from map frame
+[planner_server-3] [WARN] [1720731099.273200408] [planner_server]: Planning algorithm GridBased failed to generate a valid path to (-5.01, 4.97)
+[planner_server-3] [WARN] [1720731099.273207966] [planner_server]: [compute_path_to_pose] [ActionServer] Aborting handle.
+[planner_server-3] [INFO] [1720731099.292921387] [global_costmap.global_costmap]: Received request to clear entirely the global_costmap
+[planner_server-3] [ERROR] [1720731099.423703373] [planner_server]: --------------Phase1----------
+[planner_server-3] [ERROR] [1720731099.423763202] [planner_server]: --------------Phase2----------
+[planner_server-3] [ERROR] [1720731099.423769646] [planner_server]: ---0.059760 -0.020595 -5.009235 4.968729-
+[planner_server-3] [ERROR] [1720731099.423780442] [planner_server]: ---(303 199) (201 319)-
+[planner_server-3] [INFO] [1720731099.423788396] [planner_server]: Planner will only except goal position from map frame
+[planner_server-3] [WARN] [1720731099.423796056] [planner_server]: Planning algorithm GridBased failed to generate a valid path to (-5.01, 4.97)
+[planner_server-3] [WARN] [1720731099.423807699] [planner_server]: [compute_path_to_pose] [ActionServer] Aborting handle.
+[behavior_server-4] [INFO] [1720731099.443290291] [behavior_server]: Running wait
+[behavior_server-4] [INFO] [1720731104.443480456] [behavior_server]: wait completed successfully
+[planner_server-3] [ERROR] [1720731104.473095679] [planner_server]: --------------Phase1----------
+[planner_server-3] [ERROR] [1720731104.473130428] [planner_server]: --------------Phase2----------
+[planner_server-3] [ERROR] [1720731104.473134506] [planner_server]: ---0.081104 0.003568 -5.009235 4.968729-
+[planner_server-3] [ERROR] [1720731104.473140346] [planner_server]: ---(304 200) (201 319)-
+[planner_server-3] [INFO] [1720731104.473144737] [planner_server]: Planner will only except goal position from map frame
+[planner_server-3] [WARN] [1720731104.473148656] [planner_server]: Planning algorithm GridBased failed to generate a valid path to (-5.01, 4.97)
+[planner_server-3] [WARN] [1720731104.473153861] [planner_server]: [compute_path_to_pose] [ActionServer] Aborting handle.
+[planner_server-3] [INFO] [1720731104.492927233] [global_costmap.global_costmap]: Received request to clear entirely the global_costmap
+[planner_server-3] [ERROR] [1720731105.424003898] [planner_server]: --------------Phase1----------
+[planner_server-3] [ERROR] [1720731105.424041335] [planner_server]: --------------Phase2----------
+[planner_server-3] [ERROR] [1720731105.424045273] [planner_server]: ---0.081104 0.003568 -5.009235 4.968729-
+[planner_server-3] [ERROR] [1720731105.424050900] [planner_server]: ---(304 200) (201 319)-
+[planner_server-3] [INFO] [1720731105.424055246] [planner_server]: Planner will only except goal position from map frame
+[planner_server-3] [WARN] [1720731105.424059046] [planner_server]: Planning algorithm GridBased failed to generate a valid path to (-5.01, 4.97)
+[planner_server-3] [WARN] [1720731105.424066139] [planner_server]: [compute_path_to_pose] [ActionServer] Aborting handle.
+[behavior_server-4] [INFO] [1720731105.443260697] [behavior_server]: Running backup
+[behavior_server-4] [WARN] [1720731115.443450761] [behavior_server]: Exceeded time allowance before reaching the DriveOnHeading goal - Exiting DriveOnHeading
+[behavior_server-4] [WARN] [1720731115.443510118] [behavior_server]: backup failed
+[behavior_server-4] [WARN] [1720731115.443522961] [behavior_server]: [backup] [ActionServer] Aborting handle.
+[controller_server-1] [INFO] [1720731115.462979668] [local_costmap.local_costmap]: Received request to clear entirely the local_costmap
+[planner_server-3] [INFO] [1720731115.463260010] [global_costmap.global_costmap]: Received request to clear entirely the global_costmap
+[planner_server-3] [ERROR] [1720731116.423981821] [planner_server]: --------------Phase1----------
+[planner_server-3] [ERROR] [1720731116.424024623] [planner_server]: --------------Phase2----------
+[planner_server-3] [ERROR] [1720731116.424028873] [planner_server]: ---0.081104 0.003568 -5.009235 4.968729-
+[planner_server-3] [ERROR] [1720731116.424036212] [planner_server]: ---(304 200) (201 319)-
+[planner_server-3] [INFO] [1720731116.424040890] [planner_server]: Planner will only except goal position from map frame
+[planner_server-3] [WARN] [1720731116.424046630] [planner_server]: Planning algorithm GridBased failed to generate a valid path to (-5.01, 4.97)
+[planner_server-3] [WARN] [1720731116.424053584] [planner_server]: [compute_path_to_pose] [ActionServer] Aborting handle.
+[planner_server-3] [INFO] [1720731116.442973167] [global_costmap.global_costmap]: Received request to clear entirely the global_costmap
+[planner_server-3] [ERROR] [1720731117.424159391] [planner_server]: --------------Phase1----------
+[planner_server-3] [ERROR] [1720731117.424200493] [planner_server]: --------------Phase2----------
+[planner_server-3] [ERROR] [1720731117.424204412] [planner_server]: ---0.081104 0.003568 -5.009235 4.968729-
+[planner_server-3] [ERROR] [1720731117.424209915] [planner_server]: ---(304 200) (201 319)-
+[planner_server-3] [INFO] [1720731117.424214630] [planner_server]: Planner will only except goal position from map frame
+[planner_server-3] [WARN] [1720731117.424220338] [planner_server]: Planning algorithm GridBased failed to generate a valid path to (-5.01, 4.97)
+[planner_server-3] [WARN] [1720731117.424228005] [planner_server]: [compute_path_to_pose] [ActionServer] Aborting handle.
+[behavior_server-4] [INFO] [1720731117.443151648] [behavior_server]: Running spin
+[behavior_server-4] [INFO] [1720731117.443233560] [behavior_server]: Turning 1.57 for spin behavior.
+[behavior_server-4] [INFO] [1720731119.243458606] [behavior_server]: spin completed successfully
+[planner_server-3] [ERROR] [1720731119.273125607] [planner_server]: --------------Phase1----------
+[planner_server-3] [ERROR] [1720731119.273171688] [planner_server]: --------------Phase2----------
+[planner_server-3] [ERROR] [1720731119.273177316] [planner_server]: ---0.047354 0.079102 -5.009235 4.968729-
+[planner_server-3] [ERROR] [1720731119.273185324] [planner_server]: ---(303 201) (201 319)-
+[planner_server-3] [INFO] [1720731119.273191707] [planner_server]: Planner will only except goal position from map frame
+[planner_server-3] [WARN] [1720731119.273198115] [planner_server]: Planning algorithm GridBased failed to generate a valid path to (-5.01, 4.97)
+[planner_server-3] [WARN] [1720731119.273205850] [planner_server]: [compute_path_to_pose] [ActionServer] Aborting handle.
+[planner_server-3] [INFO] [1720731119.292930597] [global_costmap.global_costmap]: Received request to clear entirely the global_costmap
+[planner_server-3] [ERROR] [1720731119.423703259] [planner_server]: --------------Phase1----------
+[planner_server-3] [ERROR] [1720731119.423744923] [planner_server]: --------------Phase2----------
+[planner_server-3] [ERROR] [1720731119.423750139] [planner_server]: ---0.057654 0.079548 -5.009235 4.968729-
+[planner_server-3] [ERROR] [1720731119.423758793] [planner_server]: ---(303 201) (201 319)-
+[planner_server-3] [INFO] [1720731119.423765287] [planner_server]: Planner will only except goal position from map frame
+[planner_server-3] [WARN] [1720731119.423771414] [planner_server]: Planning algorithm GridBased failed to generate a valid path to (-5.01, 4.97)
+[planner_server-3] [WARN] [1720731119.423784410] [planner_server]: [compute_path_to_pose] [ActionServer] Aborting handle.
+[behavior_server-4] [INFO] [1720731119.443120116] [behavior_server]: Running wait
+[behavior_server-4] [INFO] [1720731124.443319031] [behavior_server]: wait completed successfully
+[planner_server-3] [ERROR] [1720731124.473297486] [planner_server]: --------------Phase1----------
+[planner_server-3] [ERROR] [1720731124.473379470] [planner_server]: --------------Phase2----------
+[planner_server-3] [ERROR] [1720731124.473393319] [planner_server]: ---0.043753 0.059198 -5.009235 4.968729-
+[planner_server-3] [ERROR] [1720731124.473412285] [planner_server]: ---(303 201) (201 319)-
+[planner_server-3] [INFO] [1720731124.473425478] [planner_server]: Planner will only except goal position from map frame
+[planner_server-3] [WARN] [1720731124.473438138] [planner_server]: Planning algorithm GridBased failed to generate a valid path to (-5.01, 4.97)
+[planner_server-3] [WARN] [1720731124.473454284] [planner_server]: [compute_path_to_pose] [ActionServer] Aborting handle.
+[planner_server-3] [INFO] [1720731124.492919002] [global_costmap.global_costmap]: Received request to clear entirely the global_costmap
+[planner_server-3] [ERROR] [1720731125.423838577] [planner_server]: --------------Phase1----------
+[planner_server-3] [ERROR] [1720731125.423884553] [planner_server]: --------------Phase2----------
+[planner_server-3] [ERROR] [1720731125.423889318] [planner_server]: ---0.043753 0.059198 -5.009235 4.968729-
+[planner_server-3] [ERROR] [1720731125.423895606] [planner_server]: ---(303 201) (201 319)-
+[planner_server-3] [INFO] [1720731125.423899988] [planner_server]: Planner will only except goal position from map frame
+[planner_server-3] [WARN] [1720731125.423904312] [planner_server]: Planning algorithm GridBased failed to generate a valid path to (-5.01, 4.97)
+[planner_server-3] [WARN] [1720731125.423912090] [planner_server]: [compute_path_to_pose] [ActionServer] Aborting handle.
+[bt_navigator-5] [ERROR] [1720731125.452866125] [bt_navigator]: Goal failed
+[bt_navigator-5] [WARN] [1720731125.452905419] [bt_navigator]: [navigate_to_pose] [ActionServer] Aborting handle.
+[bt_navigator-5] [INFO] [1720731136.230691911] [bt_navigator]: Begin navigating from current location (-0.27, -0.01) to (-4.87, 5.09)
+[planner_server-3] [ERROR] [1720731136.231247496] [planner_server]: --------------Phase1----------
+[planner_server-3] [ERROR] [1720731136.231344932] [planner_server]: --------------Phase2----------
+[planner_server-3] [ERROR] [1720731136.231374884] [planner_server]: ----0.266319 -0.010018 -4.873139 5.093295-
+[planner_server-3] [ERROR] [1720731136.231405228] [planner_server]: ---(297 199) (204 322)-
+[planner_server-3] [INFO] [1720731136.231428900] [planner_server]: Planner will only except goal position from map frame
+[planner_server-3] [WARN] [1720731136.231450981] [planner_server]: Planning algorithm GridBased failed to generate a valid path to (-4.87, 5.09)
+[planner_server-3] [WARN] [1720731136.231527750] [planner_server]: [compute_path_to_pose] [ActionServer] Aborting handle.
+[planner_server-3] [INFO] [1720731136.251092824] [global_costmap.global_costmap]: Received request to clear entirely the global_costmap
+[planner_server-3] [ERROR] [1720731136.421760735] [planner_server]: --------------Phase1----------
+[planner_server-3] [ERROR] [1720731136.421803289] [planner_server]: --------------Phase2----------
+[planner_server-3] [ERROR] [1720731136.421812856] [planner_server]: ----0.266319 -0.010018 -4.873139 5.093295-
+[planner_server-3] [ERROR] [1720731136.421824162] [planner_server]: ---(297 199) (204 322)-
+[planner_server-3] [INFO] [1720731136.421833269] [planner_server]: Planner will only except goal position from map frame
+[planner_server-3] [WARN] [1720731136.421841805] [planner_server]: Planning algorithm GridBased failed to generate a valid path to (-4.87, 5.09)
+[planner_server-3] [WARN] [1720731136.421853689] [planner_server]: [compute_path_to_pose] [ActionServer] Aborting handle.
+[behavior_server-4] [INFO] [1720731136.441222889] [behavior_server]: Running backup
+^C[WARNING] [launch]: user interrupted with ctrl-c (SIGINT)
+[bt_navigator-5] [INFO] [1720731144.766653238] [rclcpp]: signal_handler(signum=2)
+[bt_navigator-5] [INFO] [1720731144.766743579] [bt_navigator]: Running Nav2 LifecycleNode rcl preshutdown (bt_navigator)
+[velocity_smoother-7] [INFO] [1720731144.766653411] [rclcpp]: signal_handler(signum=2)
+[velocity_smoother-7] [INFO] [1720731144.766766007] [velocity_smoother]: Running Nav2 LifecycleNode rcl preshutdown (velocity_smoother)
+[behavior_server-4] [INFO] [1720731144.766655427] [rclcpp]: signal_handler(signum=2)
+[behavior_server-4] [INFO] [1720731144.766737815] [behavior_server]: Running Nav2 LifecycleNode rcl preshutdown (behavior_server)
+[behavior_server-4] [INFO] [1720731144.766777614] [behavior_server]: Deactivating
+[behavior_server-4] [WARN] [1720731144.766794969] [behavior_server]: [backup] [ActionServer] Requested to deactivate server but goal is still executing. Should check if action server is running before deactivating.
+[lifecycle_manager-8] [INFO] [1720731144.766653355] [rclcpp]: signal_handler(signum=2)
+[lifecycle_manager-8] [INFO] [1720731144.766741052] [lifecycle_manager_navigation]: Running Nav2 LifecycleManager rcl preshutdown (lifecycle_manager_navigation)
+[lifecycle_manager-8] [INFO] [1720731144.766772704] [lifecycle_manager_navigation]: Terminating bond timer...
+[planner_server-3] [INFO] [1720731144.766656484] [rclcpp]: signal_handler(signum=2)
+[planner_server-3] [INFO] [1720731144.766716668] [global_costmap.global_costmap]: Running Nav2 LifecycleNode rcl preshutdown (global_costmap)
+[planner_server-3] [INFO] [1720731144.766776217] [global_costmap.global_costmap]: Deactivating
+[controller_server-1] [INFO] [1720731144.766661528] [rclcpp]: signal_handler(signum=2)
+[controller_server-1] [INFO] [1720731144.766739900] [local_costmap.local_costmap]: Running Nav2 LifecycleNode rcl preshutdown (local_costmap)
+[controller_server-1] [INFO] [1720731144.766787896] [local_costmap.local_costmap]: Deactivating
+[waypoint_follower-6] [INFO] [1720731144.766653331] [rclcpp]: signal_handler(signum=2)
+[waypoint_follower-6] [INFO] [1720731144.766737318] [waypoint_follower]: Running Nav2 LifecycleNode rcl preshutdown (waypoint_follower)
+[waypoint_follower-6] [INFO] [1720731144.766781816] [waypoint_follower]: Deactivating
+[waypoint_follower-6] [INFO] [1720731144.766793235] [waypoint_follower]: Destroying bond (waypoint_follower) to lifecycle manager.
+[smoother_server-2] [INFO] [1720731144.766671360] [rclcpp]: signal_handler(signum=2)
+[smoother_server-2] [INFO] [1720731144.766747548] [smoother_server]: Running Nav2 LifecycleNode rcl preshutdown (smoother_server)
+[smoother_server-2] [INFO] [1720731144.766809988] [smoother_server]: Deactivating
+[smoother_server-2] [INFO] [1720731144.766824427] [smoother_server]: Destroying bond (smoother_server) to lifecycle manager.
+[bt_navigator-5] [INFO] [1720731144.766788254] [bt_navigator]: Deactivating
+[bt_navigator-5] [WARN] [1720731144.766800811] [bt_navigator]: [navigate_to_pose] [ActionServer] Requested to deactivate server but goal is still executing. Should check if action server is running before deactivating.
+[velocity_smoother-7] [INFO] [1720731144.766827152] [velocity_smoother]: Deactivating
+[velocity_smoother-7] [INFO] [1720731144.766864979] [velocity_smoother]: Destroying bond (velocity_smoother) to lifecycle manager.
+[smoother_server-2] [INFO] [1720731144.777016586] [smoother_server]: Cleaning up
+[waypoint_follower-6] [INFO] [1720731144.777038911] [waypoint_follower]: Cleaning up
+[velocity_smoother-7] [INFO] [1720731144.777076692] [velocity_smoother]: Cleaning up
+[velocity_smoother-7] [INFO] [1720731144.777120851] [velocity_smoother]: Destroying bond (velocity_smoother) to lifecycle manager.
+[velocity_smoother-7] [INFO] [1720731144.787887996] [velocity_smoother]: Destroying
+[velocity_smoother-7] [ERROR] [1720731144.787951286] [velocity_smoother]: Unable to start transition 5 from current state shuttingdown: Could not publish transition: publisher's context is invalid, at ./src/rcl/publisher.c:389, at ./src/rcl_lifecycle.c:368
+[velocity_smoother-7] [WARN] [1720731144.787960086] [rclcpp_lifecycle]: Shutdown error in destruction of LifecycleNode: final state(shuttingdown)
+[bt_navigator-5] [ERROR] [1720731144.793292153] [bt_navigator_navigate_to_pose_rclcpp_node]: Failed to get result for backup in node halt!
+[bt_navigator-5] [INFO] [1720731144.795329094] [bt_navigator]: Goal canceled
+[bt_navigator-5] [WARN] [1720731144.795362359] [bt_navigator]: [navigate_to_pose] [ActionServer] Aborting handle.
+[waypoint_follower-6] [INFO] [1720731144.795551989] [waypoint_follower]: Destroying bond (waypoint_follower) to lifecycle manager.
+[bt_navigator-5] [WARN] [1720731144.796252563] [bt_navigator]: [navigate_to_pose] [ActionServer] Stopping the thread per request.
+[bt_navigator-5] [INFO] [1720731144.797227872] [bt_navigator]: Destroying bond (bt_navigator) to lifecycle manager.
+[smoother_server-2] [INFO] [1720731144.802912842] [smoother_server]: Destroying bond (smoother_server) to lifecycle manager.
+[waypoint_follower-6] [INFO] [1720731144.804818237] [waypoint_follower]: Destroying
+[waypoint_follower-6] [ERROR] [1720731144.804868972] [waypoint_follower]: Unable to start transition 5 from current state shuttingdown: Could not publish transition: publisher's context is invalid, at ./src/rcl/publisher.c:389, at ./src/rcl_lifecycle.c:368
+[waypoint_follower-6] [WARN] [1720731144.804877807] [rclcpp_lifecycle]: Shutdown error in destruction of LifecycleNode: final state(shuttingdown)
+[bt_navigator-5] [INFO] [1720731144.807497332] [bt_navigator]: Cleaning up
+[smoother_server-2] [INFO] [1720731144.811474643] [smoother_server]: Destroying
+[smoother_server-2] [ERROR] [1720731144.811530917] [smoother_server]: Unable to start transition 5 from current state shuttingdown: Could not publish transition: publisher's context is invalid, at ./src/rcl/publisher.c:389, at ./src/rcl_lifecycle.c:368
+[smoother_server-2] [WARN] [1720731144.811539695] [rclcpp_lifecycle]: Shutdown error in destruction of LifecycleNode: final state(shuttingdown)
+[behavior_server-4] [INFO] [1720731144.841378977] [behavior_server]: Canceling backup
+[behavior_server-4] [WARN] [1720731144.841441993] [LifecyclePublisher]: Trying to publish message on the topic '/cmd_vel', but the publisher is not activated
+[behavior_server-4] [WARN] [1720731144.841457366] [behavior_server]: [backup] [ActionServer] Client requested to cancel the goal. Cancelling.
+[behavior_server-4] [WARN] [1720731144.841558543] [behavior_server]: [backup] [ActionServer] Stopping the thread per request.
+[behavior_server-4] [INFO] [1720731144.841848431] [behavior_server]: Destroying bond (behavior_server) to lifecycle manager.
+[behavior_server-4] [INFO] [1720731144.841928471] [behavior_server]: Cleaning up
+[lifecycle_manager-8] [INFO] [1720731144.844270166] [lifecycle_manager_navigation]: Destroying lifecycle_manager_navigation
+[behavior_server-4] [INFO] [1720731144.849822932] [behavior_server]: Destroying bond (behavior_server) to lifecycle manager.
+[controller_server-1] [INFO] [1720731144.897054488] [local_costmap.local_costmap]: Cleaning up
+[controller_server-1] [INFO] [1720731144.905464788] [local_costmap.local_costmap]: Destroying bond (local_costmap) to lifecycle manager.
+[controller_server-1] [INFO] [1720731144.905509569] [controller_server]: Running Nav2 LifecycleNode rcl preshutdown (controller_server)
+[controller_server-1] [INFO] [1720731144.905537930] [controller_server]: Deactivating
+[controller_server-1] [INFO] [1720731144.905570226] [controller_server]: Destroying bond (controller_server) to lifecycle manager.
+[controller_server-1] [INFO] [1720731144.905615281] [controller_server]: Cleaning up
+[behavior_server-4] [INFO] [1720731144.910996963] [behavior_server]: Destroying
+[behavior_server-4] [ERROR] [1720731144.911046166] [behavior_server]: Unable to start transition 5 from current state shuttingdown: Could not publish transition: publisher's context is invalid, at ./src/rcl/publisher.c:389, at ./src/rcl_lifecycle.c:368
+[behavior_server-4] [WARN] [1720731144.911054525] [rclcpp_lifecycle]: Shutdown error in destruction of LifecycleNode: final state(shuttingdown)
+^C[WARNING] [launch]: user interrupted with ctrl-c (SIGINT) again, ignoring...
+[bt_navigator-5] [INFO] [1720731144.934919517] [rclcpp]: signal_handler(signum=2)
+[planner_server-3] [INFO] [1720731144.935044921] [rclcpp]: signal_handler(signum=2)
+[controller_server-1] [INFO] [1720731144.935668382] [rclcpp]: signal_handler(signum=2)
+[ERROR] [velocity_smoother-7]: process has died [pid 63589, exit code -2, cmd '/opt/ros/humble/lib/nav2_velocity_smoother/velocity_smoother --ros-args --log-level info --ros-args -r __node:=velocity_smoother -r __ns:=/ --params-file /tmp/launch_params_acj9xm5e -r /global_costmap/scan:=/scan -r /local_costmap/scan:=/scan -r /tf:=tf -r /tf_static:=tf_static -r cmd_vel:=cmd_vel_nav -r cmd_vel_smoothed:=cmd_vel'].
+[ERROR] [lifecycle_manager-8]: process has died [pid 63591, exit code -2, cmd '/opt/ros/humble/lib/nav2_lifecycle_manager/lifecycle_manager --ros-args --log-level info --ros-args -r __node:=lifecycle_manager_navigation -r __ns:=/ --params-file /tmp/launch_params_77szfikr --params-file /tmp/launch_params_9ee678kx --params-file /tmp/launch_params_lewrhv1e -r /global_costmap/scan:=/scan -r /local_costmap/scan:=/scan'].
+[ERROR] [waypoint_follower-6]: process has died [pid 63587, exit code -2, cmd '/opt/ros/humble/lib/nav2_waypoint_follower/waypoint_follower --ros-args --log-level info --ros-args -r __node:=waypoint_follower -r __ns:=/ --params-file /tmp/launch_params_acj9xm5e -r /global_costmap/scan:=/scan -r /local_costmap/scan:=/scan -r /tf:=tf -r /tf_static:=tf_static'].
+[ERROR] [smoother_server-2]: process has died [pid 63579, exit code -2, cmd '/opt/ros/humble/lib/nav2_smoother/smoother_server --ros-args --log-level info --ros-args -r __node:=smoother_server -r __ns:=/ --params-file /tmp/launch_params_acj9xm5e -r /global_costmap/scan:=/scan -r /local_costmap/scan:=/scan -r /tf:=tf -r /tf_static:=tf_static'].
+[ERROR] [behavior_server-4]: process has died [pid 63583, exit code -2, cmd '/opt/ros/humble/lib/nav2_behaviors/behavior_server --ros-args --log-level info --ros-args -r __node:=behavior_server -r __ns:=/ --params-file /tmp/launch_params_acj9xm5e -r /global_costmap/scan:=/scan -r /local_costmap/scan:=/scan -r /tf:=tf -r /tf_static:=tf_static'].
+[controller_server-1] [INFO] [1720731144.947217827] [controller_server]: Destroying bond (controller_server) to lifecycle manager.
+[controller_server-1] [INFO] [1720731144.952322018] [local_costmap.local_costmap]: Destroying
+[controller_server-1] [ERROR] [1720731144.952364873] [local_costmap.local_costmap]: Unable to start transition 5 from current state shuttingdown: Could not publish transition: publisher's context is invalid, at ./src/rcl/publisher.c:389, at ./src/rcl_lifecycle.c:368
+[controller_server-1] [WARN] [1720731144.952372663] [rclcpp_lifecycle]: Shutdown error in destruction of LifecycleNode: final state(shuttingdown)
+[controller_server-1] [INFO] [1720731144.975153588] [controller_server]: Destroying
+[controller_server-1] [ERROR] [1720731144.975181827] [controller_server]: Unable to start transition 5 from current state shuttingdown: Could not publish transition: publisher's context is invalid, at ./src/rcl/publisher.c:389, at ./src/rcl_lifecycle.c:368
+[controller_server-1] [WARN] [1720731144.975189772] [rclcpp_lifecycle]: Shutdown error in destruction of LifecycleNode: final state(shuttingdown)
+[bt_navigator-5] [INFO] [1720731145.001228097] [bt_navigator]: Completed Cleaning up
+[bt_navigator-5] [INFO] [1720731145.001273125] [bt_navigator]: Destroying bond (bt_navigator) to lifecycle manager.
+[bt_navigator-5] [INFO] [1720731145.012407617] [bt_navigator]: Destroying
+[bt_navigator-5] [ERROR] [1720731145.012458182] [bt_navigator]: Unable to start transition 5 from current state shuttingdown: Could not publish transition: publisher's context is invalid, at ./src/rcl/publisher.c:389, at ./src/rcl_lifecycle.c:368
+[bt_navigator-5] [WARN] [1720731145.012470634] [rclcpp_lifecycle]: Shutdown error in destruction of LifecycleNode: final state(shuttingdown)
+^C[WARNING] [launch]: user interrupted with ctrl-c (SIGINT) again, ignoring...
+[planner_server-3] [INFO] [1720731145.078699679] [rclcpp]: signal_handler(signum=2)
+[ERROR] [controller_server-1]: process has died [pid 63577, exit code -2, cmd '/opt/ros/humble/lib/nav2_controller/controller_server --ros-args --log-level info --ros-args -r __ns:=/ --params-file /tmp/launch_params_acj9xm5e -r /global_costmap/scan:=/scan -r /local_costmap/scan:=/scan -r /tf:=tf -r /tf_static:=tf_static -r cmd_vel:=cmd_vel_nav'].
+[ERROR] [bt_navigator-5]: process has died [pid 63585, exit code -2, cmd '/opt/ros/humble/lib/nav2_bt_navigator/bt_navigator --ros-args --log-level info --ros-args -r __node:=bt_navigator -r __ns:=/ --params-file /tmp/launch_params_acj9xm5e -r /global_costmap/scan:=/scan -r /local_costmap/scan:=/scan -r /tf:=tf -r /tf_static:=tf_static'].
+[planner_server-3] [INFO] [1720731145.411709385] [global_costmap.global_costmap]: Cleaning up
+[planner_server-3] [INFO] [1720731145.421599725] [global_costmap.global_costmap]: Destroying bond (global_costmap) to lifecycle manager.
+[planner_server-3] [INFO] [1720731145.421666171] [planner_server]: Running Nav2 LifecycleNode rcl preshutdown (planner_server)
+[planner_server-3] [INFO] [1720731145.421714201] [planner_server]: Deactivating
+[planner_server-3] [INFO] [1720731145.421759399] [planner_server]: Deactivating plugin GridBased of type NavfnPlanner
+[planner_server-3] [INFO] [1720731145.421785468] [planner_server]: Destroying bond (planner_server) to lifecycle manager.
+[planner_server-3] [INFO] [1720731145.421890806] [planner_server]: Cleaning up
+[planner_server-3] [INFO] [1720731145.446078599] [planner_server]: CleaningUp plugin GridBased of type NavfnPlanner
+[planner_server-3] [INFO] [1720731145.460830453] [planner_server]: Destroying bond (planner_server) to lifecycle manager.
+^C[WARNING] [launch]: user interrupted with ctrl-c (SIGINT) again, ignoring...
+[planner_server-3] [INFO] [1720731145.462680691] [rclcpp]: signal_handler(signum=2)
+[planner_server-3] [INFO] [1720731145.467483199] [global_costmap.global_costmap]: Destroying
+[planner_server-3] [ERROR] [1720731145.467517086] [global_costmap.global_costmap]: Unable to start transition 5 from current state shuttingdown: Could not publish transition: publisher's context is invalid, at ./src/rcl/publisher.c:389, at ./src/rcl_lifecycle.c:368
+[planner_server-3] [WARN] [1720731145.467522796] [rclcpp_lifecycle]: Shutdown error in destruction of LifecycleNode: final state(shuttingdown)
+[planner_server-3] [INFO] [1720731145.485508952] [planner_server]: Destroying
+[planner_server-3] [ERROR] [1720731145.485529919] [planner_server]: Unable to start transition 5 from current state shuttingdown: Could not publish transition: publisher's context is invalid, at ./src/rcl/publisher.c:389, at ./src/rcl_lifecycle.c:368
+[planner_server-3] [WARN] [1720731145.485534408] [rclcpp_lifecycle]: Shutdown error in destruction of LifecycleNode: final state(shuttingdown)
+[INFO] [planner_server-3]: process has finished cleanly [pid 63581]

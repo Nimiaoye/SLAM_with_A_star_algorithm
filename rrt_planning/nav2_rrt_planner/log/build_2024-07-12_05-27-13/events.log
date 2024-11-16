@@ -1,0 +1,69 @@
+[0.000000] (-) TimerEvent: {}
+[0.000527] (nav2_rrt_planner) JobQueued: {'identifier': 'nav2_rrt_planner', 'dependencies': OrderedDict()}
+[0.000706] (nav2_rrt_planner) JobStarted: {'identifier': 'nav2_rrt_planner'}
+[0.006567] (nav2_rrt_planner) JobProgress: {'identifier': 'nav2_rrt_planner', 'progress': 'cmake'}
+[0.007639] (nav2_rrt_planner) JobProgress: {'identifier': 'nav2_rrt_planner', 'progress': 'build'}
+[0.007684] (nav2_rrt_planner) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/asuka/Move/nav2_rrt_planner/build/nav2_rrt_planner', '--', '-j20', '-l20'], 'cwd': '/home/asuka/Move/nav2_rrt_planner/build/nav2_rrt_planner', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('HTTPS_PROXY', 'http://127.0.0.1:7890/'), ('no_proxy', 'localhost,127.0.0.1,192.168.0.0/16,10.0.0.0/8,172.16.0.0/12,::1'), ('USER', 'asuka'), ('LC_TIME', 'zh_CN.UTF-8'), ('all_proxy', 'socks://127.0.0.1:7890/'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/asuka'), ('DESKTOP_SESSION', 'ubuntu'), ('NO_PROXY', 'localhost,127.0.0.1,192.168.0.0/16,10.0.0.0/8,172.16.0.0/12,::1'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'zh_CN.UTF-8'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('SYSTEMD_EXEC_PID', '2304'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=91e321981792648231de407166904ace'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('https_proxy', 'http://127.0.0.1:7890/'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'fcitx'), ('LOGNAME', 'asuka'), ('ALL_PROXY', 'socks://127.0.0.1:7890/'), ('http_proxy', 'http://127.0.0.1:7890/'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('PKG_CONFIG_PATH', '/usr/local/lib/pkgconfig::/usr/local/lib/pkgconfig'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'asuka'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/AGM:@/tmp/.ICE-unix/2304,unix/AGM:/tmp/.ICE-unix/2304'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'zh_CN.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/3e140014_07eb_458e_85fe_dda763526009'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'zh_CN.UTF-8'), ('XMODIFIERS', '@im=fcitx'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.172'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'zh_CN.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'zh_CN.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'zh_CN.UTF-8'), ('QT_IM_MODULE', 'fcitx'), ('PWD', '/home/asuka/Move/nav2_rrt_planner/build/nav2_rrt_planner'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('CLUTTER_IM_MODULE', 'fcitx'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=91e321981792648231de407166904ace'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('HTTP_PROXY', 'http://127.0.0.1:7890/'), ('LC_NUMERIC', 'zh_CN.UTF-8'), ('LC_PAPER', 'zh_CN.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.037254] (nav2_rrt_planner) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target nav2_rrt_planner_plugin\x1b[0m\n'}
+[0.054181] (nav2_rrt_planner) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/nav2_rrt_planner_plugin.dir/src/RRT_plan.cpp.o\x1b[0m\n'}
+[0.099779] (-) TimerEvent: {}
+[0.200034] (-) TimerEvent: {}
+[0.300338] (-) TimerEvent: {}
+[0.400605] (-) TimerEvent: {}
+[0.500903] (-) TimerEvent: {}
+[0.601204] (-) TimerEvent: {}
+[0.701581] (-) TimerEvent: {}
+[0.801882] (-) TimerEvent: {}
+[0.902290] (-) TimerEvent: {}
+[1.002511] (-) TimerEvent: {}
+[1.102754] (-) TimerEvent: {}
+[1.203006] (-) TimerEvent: {}
+[1.303262] (-) TimerEvent: {}
+[1.403486] (-) TimerEvent: {}
+[1.503791] (-) TimerEvent: {}
+[1.604035] (-) TimerEvent: {}
+[1.704282] (-) TimerEvent: {}
+[1.804598] (-) TimerEvent: {}
+[1.904829] (-) TimerEvent: {}
+[2.005096] (-) TimerEvent: {}
+[2.105481] (-) TimerEvent: {}
+[2.205810] (-) TimerEvent: {}
+[2.276675] (nav2_rrt_planner) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24\x1b[m\x1b[K,\n'}
+[2.276812] (nav2_rrt_planner) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40\x1b[m\x1b[K,\n'}
+[2.276849] (nav2_rrt_planner) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24\x1b[m\x1b[K,\n'}
+[2.276880] (nav2_rrt_planner) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20\x1b[m\x1b[K,\n'}
+[2.276908] (nav2_rrt_planner) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25\x1b[m\x1b[K,\n'}
+[2.276935] (nav2_rrt_planner) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18\x1b[m\x1b[K,\n'}
+[2.276961] (nav2_rrt_planner) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20\x1b[m\x1b[K,\n'}
+[2.276986] (nav2_rrt_planner) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37\x1b[m\x1b[K,\n'}
+[2.277011] (nav2_rrt_planner) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25\x1b[m\x1b[K,\n'}
+[2.277045] (nav2_rrt_planner) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21\x1b[m\x1b[K,\n'}
+[2.277086] (nav2_rrt_planner) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155\x1b[m\x1b[K,\n'}
+[2.277128] (nav2_rrt_planner) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/nav2_util/node_utils.hpp:20\x1b[m\x1b[K,\n'}
+[2.277161] (nav2_rrt_planner) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/asuka/Move/nav2_rrt_planner/src/RRT_plan.cpp:48\x1b[m\x1b[K:\n'}
+[2.277195] (nav2_rrt_planner) StderrLine: {'line': b'\x1b[01m\x1b[K/home/asuka/Move/nav2_rrt_planner/src/RRT_plan.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvirtual nav_msgs::msg::Path nav2_rrt_planner::RRTLine::createPlan(const PoseStamped&, const PoseStamped&)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[2.277223] (nav2_rrt_planner) StderrLine: {'line': b'\x1b[01m\x1b[K/home/asuka/Move/nav2_rrt_planner/src/RRT_plan.cpp:267:65:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KnewX\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[2.277250] (nav2_rrt_planner) StderrLine: {'line': b'  267 |   RCLCPP_ERROR(node_->get_logger(),"---(%d %d) ------",int((\x1b[01;31m\x1b[KnewX\x1b[m\x1b[K+15)/30*605),int((newY+8.33)/28.33*680));\n'}
+[2.277276] (nav2_rrt_planner) StderrLine: {'line': b'      |                                                             \x1b[01;31m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[2.277301] (nav2_rrt_planner) StderrLine: {'line': b'\n'}
+[2.280602] (nav2_rrt_planner) StderrLine: {'line': b'\x1b[01m\x1b[K/home/asuka/Move/nav2_rrt_planner/src/RRT_plan.cpp:267:87:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KnewY\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[2.280706] (nav2_rrt_planner) StderrLine: {'line': b'  267 | get_logger(),"---(%d %d) ------",int((newX+15)/30*605),int((\x1b[01;31m\x1b[KnewY\x1b[m\x1b[K+8.33)/28.33*680));\n'}
+[2.280741] (nav2_rrt_planner) StderrLine: {'line': b'      |                                                             \x1b[01;31m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[2.280770] (nav2_rrt_planner) StderrLine: {'line': b'\n'}
+[2.305967] (-) TimerEvent: {}
+[2.406337] (-) TimerEvent: {}
+[2.506576] (-) TimerEvent: {}
+[2.606790] (-) TimerEvent: {}
+[2.707017] (-) TimerEvent: {}
+[2.807242] (-) TimerEvent: {}
+[2.907464] (-) TimerEvent: {}
+[3.007724] (-) TimerEvent: {}
+[3.108030] (-) TimerEvent: {}
+[3.208381] (-) TimerEvent: {}
+[3.308650] (-) TimerEvent: {}
+[3.310658] (nav2_rrt_planner) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/nav2_rrt_planner_plugin.dir/build.make:76: CMakeFiles/nav2_rrt_planner_plugin.dir/src/RRT_plan.cpp.o] Error 1\n'}
+[3.310931] (nav2_rrt_planner) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/nav2_rrt_planner_plugin.dir/all] Error 2\n'}
+[3.311135] (nav2_rrt_planner) StderrLine: {'line': b'gmake: *** [Makefile:146: all] Error 2\n'}
+[3.312462] (nav2_rrt_planner) CommandEnded: {'returncode': 2}
+[3.340127] (nav2_rrt_planner) JobEnded: {'identifier': 'nav2_rrt_planner', 'rc': 2}
+[3.350495] (-) EventReactorShutdown: {}

@@ -1,0 +1,122 @@
+[35m[1mConsolidate compiler generated dependencies of target nav2_straightline_planner_plugin[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/nav2_straightline_planner_plugin.dir/src/straight_line_planner.cpp.o[0m
+[01m[K/home/pan/experiment_2/nav2_astar_planner/src/straight_line_planner.cpp:[m[K In member function ‘[01m[Kvirtual nav_msgs::msg::Path nav2_straightline_planner::StraightLine::createPlan(const PoseStamped&, const PoseStamped&)[m[K’:
+[01m[K/home/pan/experiment_2/nav2_astar_planner/src/straight_line_planner.cpp:295:21:[m[K [01;31m[Kerror: [m[K‘[01m[KNode[m[K’ was not declared in this scope; did you mean ‘[01m[Krclcpp::Node[m[K’?
+  295 | std::priority_queue<[01;31m[KNode[m[K, std::vector<Node>, std::greater<Node>> open_list;
+      |                     [01;31m[K^~~~[m[K
+      |                     [32m[Krclcpp::Node[m[K
+In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/single_threaded_executor.hpp:28[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:22[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/opt/ros/humble/include/nav2_util/node_utils.hpp:20[m[K,
+                 from [01m[K/home/pan/experiment_2/nav2_astar_planner/src/straight_line_planner.cpp:221[m[K:
+[01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:77:7:[m[K [01;36m[Knote: [m[K‘[01m[Krclcpp::Node[m[K’ declared here
+   77 | class [01;36m[KNode[m[K : public std::enable_shared_from_this<Node>
+      |       [01;36m[K^~~~[m[K
+[01m[K/home/pan/experiment_2/nav2_astar_planner/src/straight_line_planner.cpp:295:43:[m[K [01;31m[Kerror: [m[Ktemplate argument 2 is invalid
+  295 | std::priority_queue<Node, std::vector<Node[01;31m[K>[m[K, std::greater<Node>> open_list;
+      |                                           [01;31m[K^[m[K
+[01m[K/home/pan/experiment_2/nav2_astar_planner/src/straight_line_planner.cpp:295:63:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+  295 | std::priority_queue<Node, std::vector<Node>, std::greater<Node[01;31m[K>>[m[K open_list;
+      |                                                               [01;31m[K^~[m[K
+[01m[K/home/pan/experiment_2/nav2_astar_planner/src/straight_line_planner.cpp:295:63:[m[K [01;31m[Kerror: [m[Ktemplate argument 2 is invalid
+[01m[K/home/pan/experiment_2/nav2_astar_planner/src/straight_line_planner.cpp:295:63:[m[K [01;31m[Kerror: [m[Ktemplate argument 3 is invalid
+[01m[K/home/pan/experiment_2/nav2_astar_planner/src/straight_line_planner.cpp:296:29:[m[K [01;31m[Kerror: [m[Ktemplate argument 5 is invalid
+  296 | std::unordered_map<int, Node[01;31m[K>[m[K all_nodes;
+      |                             [01;31m[K^[m[K
+[01m[K/home/pan/experiment_2/nav2_astar_planner/src/straight_line_planner.cpp:298:36:[m[K [01;31m[Kerror: [m[K‘[01m[Kstart_x[m[K’ was not declared in this scope; did you mean ‘[01m[Kstart_idx[m[K’?
+  298 | int start_idx = costmap_->getIndex([01;31m[Kstart_x[m[K, start_y);
+      |                                    [01;31m[K^~~~~~~[m[K
+      |                                    [32m[Kstart_idx[m[K
+[01m[K/home/pan/experiment_2/nav2_astar_planner/src/straight_line_planner.cpp:298:45:[m[K [01;31m[Kerror: [m[K‘[01m[Kstart_y[m[K’ was not declared in this scope; did you mean ‘[01m[Kstart[m[K’?
+  298 | int start_idx = costmap_->getIndex(start_x, [01;31m[Kstart_y[m[K);
+      |                                             [01;31m[K^~~~~~~[m[K
+      |                                             [32m[Kstart[m[K
+[01m[K/home/pan/experiment_2/nav2_astar_planner/src/straight_line_planner.cpp:299:35:[m[K [01;31m[Kerror: [m[K‘[01m[Kgoal_x[m[K’ was not declared in this scope; did you mean ‘[01m[Kgoal_idx[m[K’?
+  299 | int goal_idx = costmap_->getIndex([01;31m[Kgoal_x[m[K, goal_y);
+      |                                   [01;31m[K^~~~~~[m[K
+      |                                   [32m[Kgoal_idx[m[K
+[01m[K/home/pan/experiment_2/nav2_astar_planner/src/straight_line_planner.cpp:299:43:[m[K [01;31m[Kerror: [m[K‘[01m[Kgoal_y[m[K’ was not declared in this scope; did you mean ‘[01m[Kgoal[m[K’?
+  299 | int goal_idx = costmap_->getIndex(goal_x, [01;31m[Kgoal_y[m[K);
+      |                                           [01;31m[K^~~~~~[m[K
+      |                                           [32m[Kgoal[m[K
+[01m[K/home/pan/experiment_2/nav2_astar_planner/src/straight_line_planner.cpp:301:5:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ before ‘[01m[Kstart_node[m[K’
+  301 | Node[01;31m[K [m[K[32m[Kstart_node[m[K(start_x, start_y, 0.0, heuristic(start_x, start_y, goal_x, goal_y));
+      |     [01;31m[K^[m[K[32m[K~~~~~~~~~~[m[K
+      |     [32m[K;[m[K
+[01m[K/home/pan/experiment_2/nav2_astar_planner/src/straight_line_planner.cpp:302:11:[m[K [01;31m[Kerror: [m[Krequest for member ‘[01m[Kpush[m[K’ in ‘[01m[Kopen_list[m[K’, which is of non-class type ‘[01m[Kint[m[K’
+  302 | open_list.[01;31m[Kpush[m[K(start_node);
+      |           [01;31m[K^~~~[m[K
+[01m[K/home/pan/experiment_2/nav2_astar_planner/src/straight_line_planner.cpp:302:16:[m[K [01;31m[Kerror: [m[K‘[01m[Kstart_node[m[K’ was not declared in this scope; did you mean ‘[01m[Kstart_idx[m[K’?
+  302 | open_list.push([01;31m[Kstart_node[m[K);
+      |                [01;31m[K^~~~~~~~~~[m[K
+      |                [32m[Kstart_idx[m[K
+[01m[K/home/pan/experiment_2/nav2_astar_planner/src/straight_line_planner.cpp:303:10:[m[K [01;31m[Kerror: [m[Kinvalid types ‘[01m[Kint[int][m[K’ for array subscript
+  303 | all_nodes[01;31m[K[[m[Kstart_idx] = start_node;
+      |          [01;31m[K^[m[K
+[01m[K/home/pan/experiment_2/nav2_astar_planner/src/straight_line_planner.cpp:305:19:[m[K [01;31m[Kerror: [m[Krequest for member ‘[01m[Kempty[m[K’ in ‘[01m[Kopen_list[m[K’, which is of non-class type ‘[01m[Kint[m[K’
+  305 | while (!open_list.[01;31m[Kempty[m[K()) {
+      |                   [01;31m[K^~~~~[m[K
+[01m[K/home/pan/experiment_2/nav2_astar_planner/src/straight_line_planner.cpp:306:7:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ before ‘[01m[Kcurrent[m[K’
+  306 |   Node[01;31m[K [m[K[32m[Kcurrent[m[K = open_list.top();
+      |       [01;31m[K^[m[K[32m[K~~~~~~~[m[K
+      |       [32m[K;[m[K
+[01m[K/home/pan/experiment_2/nav2_astar_planner/src/straight_line_planner.cpp:307:13:[m[K [01;31m[Kerror: [m[Krequest for member ‘[01m[Kpop[m[K’ in ‘[01m[Kopen_list[m[K’, which is of non-class type ‘[01m[Kint[m[K’
+  307 |   open_list.[01;31m[Kpop[m[K();
+      |             [01;31m[K^~~[m[K
+[01m[K/home/pan/experiment_2/nav2_astar_planner/src/straight_line_planner.cpp:309:7:[m[K [01;31m[Kerror: [m[K‘[01m[Kcurrent[m[K’ was not declared in this scope
+  309 |   if ([01;31m[Kcurrent[m[K.x == goal_x && current.y == goal_y) {
+      |       [01;31m[K^~~~~~~[m[K
+[01m[K/home/pan/experiment_2/nav2_astar_planner/src/straight_line_planner.cpp:311:11:[m[K [01;31m[Kerror: [m[K‘[01m[Knode[m[K’ was not declared in this scope; did you mean ‘[01m[Knode_[m[K’?
+  311 |     Node *[01;31m[Knode[m[K = &all_nodes[goal_idx];
+      |           [01;31m[K^~~~[m[K
+      |           [32m[Knode_[m[K
+[01m[K/home/pan/experiment_2/nav2_astar_planner/src/straight_line_planner.cpp:311:28:[m[K [01;31m[Kerror: [m[Kinvalid types ‘[01m[Kint[int][m[K’ for array subscript
+  311 |     Node *node = &all_nodes[01;31m[K[[m[Kgoal_idx];
+      |                            [01;31m[K^[m[K
+[01m[K/home/pan/experiment_2/nav2_astar_planner/src/straight_line_planner.cpp:334:52:[m[K [01;31m[Kerror: [m[K‘[01m[Kcurrent[m[K’ was not declared in this scope
+  334 |   for (const auto &neighbor_coords : get_neighbors([01;31m[Kcurrent[m[K.x, current.y)) {
+      |                                                    [01;31m[K^~~~~~~[m[K
+[01m[K/home/pan/experiment_2/nav2_astar_planner/src/straight_line_planner.cpp:334:38:[m[K [01;31m[Kerror: [m[K‘[01m[Kget_neighbors[m[K’ was not declared in this scope
+  334 |   for (const auto &neighbor_coords : [01;31m[Kget_neighbors[m[K(current.x, current.y)) {
+      |                                      [01;31m[K^~~~~~~~~~~~~[m[K
+[01m[K/home/pan/experiment_2/nav2_astar_planner/src/straight_line_planner.cpp:339:39:[m[K [01;31m[Kerror: [m[Kcannot bind non-const lvalue reference of type ‘[01m[Kunsigned int&[m[K’ to a value of type ‘[01m[Kint[m[K’
+  339 |     if (!costmap_->worldToMap(mx, my, [01;31m[Knx[m[K, ny) || costmap_->getCost(mx, my) >= nav2_costmap_2d::INSCRIBED_INFLATED_OBSTACLE) {
+      |                                       [01;31m[K^~[m[K
+In file included from [01m[K/opt/ros/humble/include/nav2_costmap_2d/nav2_costmap_2d/costmap_2d_publisher.hpp:47[m[K,
+                 from [01m[K/opt/ros/humble/include/nav2_costmap_2d/nav2_costmap_2d/costmap_2d_ros.hpp:48[m[K,
+                 from [01m[K/opt/ros/humble/include/nav2_core/global_planner.hpp:21[m[K,
+                 from [01m[K/home/pan/experiment_2/nav2_astar_planner/include/nav2_straightline_planner/straight_line_planner.hpp:51[m[K,
+                 from [01m[K/home/pan/experiment_2/nav2_astar_planner/src/straight_line_planner.cpp:223[m[K:
+[01m[K/opt/ros/humble/include/nav2_costmap_2d/nav2_costmap_2d/costmap_2d.hpp:184:56:[m[K [01;36m[Knote: [m[K  initializing argument 3 of ‘[01m[Kbool nav2_costmap_2d::Costmap2D::worldToMap(double, double, unsigned int&, unsigned int&) const[m[K’
+  184 |   bool worldToMap(double wx, double wy, [01;36m[Kunsigned int & mx[m[K, unsigned int & my) const;
+      |                                         [01;36m[K~~~~~~~~~~~~~~~^~[m[K
+[01m[K/home/pan/experiment_2/nav2_astar_planner/src/straight_line_planner.cpp:343:30:[m[K [01;31m[Kerror: [m[K‘[01m[Kheuristic[m[K’ was not declared in this scope
+  343 |     double f_cost = g_cost + [01;31m[Kheuristic[m[K(nx, ny, goal_x, goal_y);
+      |                              [01;31m[K^~~~~~~~~[m[K
+[01m[K/home/pan/experiment_2/nav2_astar_planner/src/straight_line_planner.cpp:346:19:[m[K [01;31m[Kerror: [m[Krequest for member ‘[01m[Kfind[m[K’ in ‘[01m[Kall_nodes[m[K’, which is of non-class type ‘[01m[Kint[m[K’
+  346 |     if (all_nodes.[01;31m[Kfind[m[K(neighbor_idx) == all_nodes.end() || g_cost < all_nodes[neighbor_idx].g_cost) {
+      |                   [01;31m[K^~~~[m[K
+[01m[K/home/pan/experiment_2/nav2_astar_planner/src/straight_line_planner.cpp:346:51:[m[K [01;31m[Kerror: [m[Krequest for member ‘[01m[Kend[m[K’ in ‘[01m[Kall_nodes[m[K’, which is of non-class type ‘[01m[Kint[m[K’
+  346 |     if (all_nodes.find(neighbor_idx) == all_nodes.[01;31m[Kend[m[K() || g_cost < all_nodes[neighbor_idx].g_cost) {
+      |                                                   [01;31m[K^~~[m[K
+[01m[K/home/pan/experiment_2/nav2_astar_planner/src/straight_line_planner.cpp:346:78:[m[K [01;31m[Kerror: [m[Kinvalid types ‘[01m[Kint[int][m[K’ for array subscript
+  346 |     if (all_nodes.find(neighbor_idx) == all_nodes.end() || g_cost < all_nodes[01;31m[K[[m[Kneighbor_idx].g_cost) {
+      |                                                                              [01;31m[K^[m[K
+[01m[K/home/pan/experiment_2/nav2_astar_planner/src/straight_line_planner.cpp:347:11:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ before ‘[01m[Kneighbor[m[K’
+  347 |       Node[01;31m[K [m[K[32m[Kneighbor[m[K(nx, ny, g_cost, f_cost, &all_nodes[current.x + current.y * costmap_->getSizeInCellsX()]);
+      |           [01;31m[K^[m[K[32m[K~~~~~~~~[m[K
+      |           [32m[K;[m[K
+[01m[K/home/pan/experiment_2/nav2_astar_planner/src/straight_line_planner.cpp:348:17:[m[K [01;31m[Kerror: [m[Krequest for member ‘[01m[Kpush[m[K’ in ‘[01m[Kopen_list[m[K’, which is of non-class type ‘[01m[Kint[m[K’
+  348 |       open_list.[01;31m[Kpush[m[K(neighbor);
+      |                 [01;31m[K^~~~[m[K
+[01m[K/home/pan/experiment_2/nav2_astar_planner/src/straight_line_planner.cpp:348:22:[m[K [01;31m[Kerror: [m[K‘[01m[Kneighbor[m[K’ was not declared in this scope; did you mean ‘[01m[Kneighbor_idx[m[K’?
+  348 |       open_list.push([01;31m[Kneighbor[m[K);
+      |                      [01;31m[K^~~~~~~~[m[K
+      |                      [32m[Kneighbor_idx[m[K
+[01m[K/home/pan/experiment_2/nav2_astar_planner/src/straight_line_planner.cpp:349:16:[m[K [01;31m[Kerror: [m[Kinvalid types ‘[01m[Kint[int][m[K’ for array subscript
+  349 |       all_nodes[01;31m[K[[m[Kneighbor_idx] = neighbor;
+      |                [01;31m[K^[m[K
+gmake[2]: *** [CMakeFiles/nav2_straightline_planner_plugin.dir/build.make:76：CMakeFiles/nav2_straightline_planner_plugin.dir/src/straight_line_planner.cpp.o] 错误 1
+gmake[1]: *** [CMakeFiles/Makefile2:137：CMakeFiles/nav2_straightline_planner_plugin.dir/all] 错误 2
+gmake: *** [Makefile:146：all] 错误 2

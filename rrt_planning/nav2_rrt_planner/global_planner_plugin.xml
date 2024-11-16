@@ -1,0 +1,5 @@
+<library path="nav2_rrt_planner_plugin">
+	<class name="nav2_rrt_planner/RRTLine" type="nav2_rrt_planner::RRTLine" base_class_type="nav2_core::GlobalPlanner">
+	  <description>A RRT Path Planner for mission2 in this course, may only works in this mission</description>
+	</class>
+</library>

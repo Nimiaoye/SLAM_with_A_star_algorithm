@@ -1,0 +1,161 @@
+[01m[K/home/asuka/Move/nav2_rrt_planner/src/RRT_plan.cpp:[m[K In function ‘[01m[Kbool nav2_rrt_planner::isValid(int, int, const std::vector<std::vector<int> >&)[m[K’:
+[01m[K/home/asuka/Move/nav2_rrt_planner/src/RRT_plan.cpp:99:25:[m[K [01;31m[Kerror: [m[K‘[01m[KmapWidth[m[K’ was not declared in this scope
+   99 |       if (x < 0 || x >= [01;31m[KmapWidth[m[K || y < 0 || y >= mapHeight) return false;
+      |                         [01;31m[K^~~~~~~~[m[K
+[01m[K/home/asuka/Move/nav2_rrt_planner/src/RRT_plan.cpp:99:51:[m[K [01;31m[Kerror: [m[K‘[01m[KmapHeight[m[K’ was not declared in this scope
+   99 |       if (x < 0 || x >= mapWidth || y < 0 || y >= [01;31m[KmapHeight[m[K) return false;
+      |                                                   [01;31m[K^~~~~~~~~[m[K
+[01m[K/home/asuka/Move/nav2_rrt_planner/src/RRT_plan.cpp:100:22:[m[K [01;31m[Kerror: [m[K‘[01m[KcarRadius[m[K’ was not declared in this scope
+  100 |       for (int dx = -[01;31m[KcarRadius[m[K; dx <= carRadius; ++dx) {
+      |                      [01;31m[K^~~~~~~~~[m[K
+[01m[K/home/asuka/Move/nav2_rrt_planner/src/RRT_plan.cpp:105:39:[m[K [01;31m[Kerror: [m[K‘[01m[KmapWidth[m[K’ was not declared in this scope
+  105 |                   if (nx < 0 || nx >= [01;31m[KmapWidth[m[K || ny < 0 || ny >= mapHeight || mapA[nx][ny] == 0) {
+      |                                       [01;31m[K^~~~~~~~[m[K
+[01m[K/home/asuka/Move/nav2_rrt_planner/src/RRT_plan.cpp:105:67:[m[K [01;31m[Kerror: [m[K‘[01m[KmapHeight[m[K’ was not declared in this scope
+  105 |             if (nx < 0 || nx >= mapWidth || ny < 0 || ny >= [01;31m[KmapHeight[m[K || mapA[nx][ny] == 0) {
+      |                                                             [01;31m[K^~~~~~~~~[m[K
+
+[01m[K/home/asuka/Move/nav2_rrt_planner/src/RRT_plan.cpp:[m[K At global scope:
+[01m[K/home/asuka/Move/nav2_rrt_planner/src/RRT_plan.cpp:125:23:[m[K [01;31m[Kerror: [m[K‘[01m[KStraightLine[m[K’ has not been declared
+  125 |   nav_msgs::msg::Path [01;31m[KStraightLine[m[K::createPlan(
+      |                       [01;31m[K^~~~~~~~~~~~[m[K
+[01m[K/home/asuka/Move/nav2_rrt_planner/src/RRT_plan.cpp:[m[K In function ‘[01m[Knav_msgs::msg::Path nav2_rrt_planner::createPlan(const PoseStamped&, const PoseStamped&)[m[K’:
+[01m[K/home/asuka/Move/nav2_rrt_planner/src/RRT_plan.cpp:131:30:[m[K [01;31m[Kerror: [m[K‘[01m[KmapWidth[m[K’ was not declared in this scope
+  131 |     vector<vector<int>> mapA([01;31m[KmapWidth[m[K, vector<int>(mapHeight));//地图对象
+      |                              [01;31m[K^~~~~~~~[m[K
+[01m[K/home/asuka/Move/nav2_rrt_planner/src/RRT_plan.cpp:131:52:[m[K [01;31m[Kerror: [m[K‘[01m[KmapHeight[m[K’ was not declared in this scope
+  131 |     vector<vector<int>> mapA(mapWidth, vector<int>([01;31m[KmapHeight[m[K));//地图对象
+      |                                                    [01;31m[K^~~~~~~~~[m[K
+[01m[K/home/asuka/Move/nav2_rrt_planner/src/RRT_plan.cpp:132:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kcostmap_[m[K’ was not declared in this scope
+  132 |     [01;31m[Kcostmap_[m[K=costmap_ros->getCostmap();//获取代价地图
+      |     [01;31m[K^~~~~~~~[m[K
+[01m[K/home/asuka/Move/nav2_rrt_planner/src/RRT_plan.cpp:132:14:[m[K [01;31m[Kerror: [m[K‘[01m[Kcostmap_ros[m[K’ was not declared in this scope
+  132 |     costmap_=[01;31m[Kcostmap_ros[m[K->getCostmap();//获取代价地图
+      |              [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/asuka/Move/nav2_rrt_planner/src/RRT_plan.cpp:133:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kwidth[m[K’ was not declared in this scope; did you mean ‘[01m[Kwcwidth[m[K’?
+  133 |     [01;31m[Kwidth[m[K = costmap_->getSizeInCellsX();//获取地图大小
+      |     [01;31m[K^~~~~[m[K
+      |     [32m[Kwcwidth[m[K
+[01m[K/home/asuka/Move/nav2_rrt_planner/src/RRT_plan.cpp:134:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kheight[m[K’ was not declared in this scope
+  134 |     [01;31m[Kheight[m[K = costmap_->getSizeInCellsY();
+      |     [01;31m[K^~~~~~[m[K
+[01m[K/home/asuka/Move/nav2_rrt_planner/src/RRT_plan.cpp:135:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kmap_size[m[K’ was not declared in this scope
+  135 |     [01;31m[Kmap_size[m[K = width * height;
+      |     [01;31m[K^~~~~~~~[m[K
+In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/opt/ros/humble/include/nav2_util/node_utils.hpp:20[m[K,
+                 from [01m[K/home/asuka/Move/nav2_rrt_planner/src/RRT_plan.cpp:48[m[K:
+[01m[K/home/asuka/Move/nav2_rrt_planner/src/RRT_plan.cpp:150:11:[m[K [01;31m[Kerror: [m[K‘[01m[Knode_[m[K’ was not declared in this scope
+  150 |           [01;31m[Knode_[m[K->get_logger(), "NoMapFound");
+      |           [01;31m[K^~~~~[m[K
+[01m[K/home/asuka/Move/nav2_rrt_planner/src/RRT_plan.cpp:149:9:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+  149 |         [01;31m[KRCLCPP_INFO[m[K(
+      |         [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/asuka/Move/nav2_rrt_planner/src/RRT_plan.cpp:149:9:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+  149 |         [01;31m[KRCLCPP_INFO[m[K(
+      |         [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/asuka/Move/nav2_rrt_planner/src/RRT_plan.cpp:149:9:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+  149 |         [01;31m[KRCLCPP_INFO[m[K(
+      |         [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/asuka/Move/nav2_rrt_planner/src/RRT_plan.cpp:165:34:[m[K [01;31m[Kerror: [m[K‘[01m[Kglobal_frame_[m[K’ was not declared in this scope; did you mean ‘[01m[Kglobal_path[m[K’?
+  165 |     if (start.header.frame_id != [01;31m[Kglobal_frame_[m[K)
+      |                                  [01;31m[K^~~~~~~~~~~~~[m[K
+      |                                  [32m[Kglobal_path[m[K
+In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/opt/ros/humble/include/nav2_util/node_utils.hpp:20[m[K,
+                 from [01m[K/home/asuka/Move/nav2_rrt_planner/src/RRT_plan.cpp:48[m[K:
+[01m[K/home/asuka/Move/nav2_rrt_planner/src/RRT_plan.cpp:168:11:[m[K [01;31m[Kerror: [m[K‘[01m[Knode_[m[K’ was not declared in this scope
+  168 |           [01;31m[Knode_[m[K->get_logger(), "Planner will only except start position from %s frame",
+      |           [01;31m[K^~~~~[m[K
+[01m[K/home/asuka/Move/nav2_rrt_planner/src/RRT_plan.cpp:167:7:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+  167 |       [01;31m[KRCLCPP_ERROR[m[K(
+      |       [01;31m[K^~~~~~~~~~~~[m[K
+[01m[K/home/asuka/Move/nav2_rrt_planner/src/RRT_plan.cpp:167:7:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+  167 |       [01;31m[KRCLCPP_ERROR[m[K(
+      |       [01;31m[K^~~~~~~~~~~~[m[K
+[01m[K/home/asuka/Move/nav2_rrt_planner/src/RRT_plan.cpp:167:7:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+  167 |       [01;31m[KRCLCPP_ERROR[m[K(
+      |       [01;31m[K^~~~~~~~~~~~[m[K
+[01m[K/home/asuka/Move/nav2_rrt_planner/src/RRT_plan.cpp:173:33:[m[K [01;31m[Kerror: [m[K‘[01m[Kglobal_frame_[m[K’ was not declared in this scope; did you mean ‘[01m[Kglobal_path[m[K’?
+  173 |     if (goal.header.frame_id != [01;31m[Kglobal_frame_[m[K)
+      |                                 [01;31m[K^~~~~~~~~~~~~[m[K
+      |                                 [32m[Kglobal_path[m[K
+In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/opt/ros/humble/include/nav2_util/node_utils.hpp:20[m[K,
+                 from [01m[K/home/asuka/Move/nav2_rrt_planner/src/RRT_plan.cpp:48[m[K:
+[01m[K/home/asuka/Move/nav2_rrt_planner/src/RRT_plan.cpp:176:11:[m[K [01;31m[Kerror: [m[K‘[01m[Knode_[m[K’ was not declared in this scope
+  176 |           [01;31m[Knode_[m[K->get_logger(), "Planner will only except goal position from %s frame",
+      |           [01;31m[K^~~~~[m[K
+[01m[K/home/asuka/Move/nav2_rrt_planner/src/RRT_plan.cpp:175:7:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+  175 |       [01;31m[KRCLCPP_INFO[m[K(
+      |       [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/asuka/Move/nav2_rrt_planner/src/RRT_plan.cpp:175:7:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+  175 |       [01;31m[KRCLCPP_INFO[m[K(
+      |       [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/asuka/Move/nav2_rrt_planner/src/RRT_plan.cpp:175:7:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+  175 |       [01;31m[KRCLCPP_INFO[m[K(
+      |       [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/asuka/Move/nav2_rrt_planner/src/RRT_plan.cpp:182:32:[m[K [01;31m[Kerror: [m[K‘[01m[Knode_[m[K’ was not declared in this scope
+  182 |     global_path.header.stamp = [01;31m[Knode_[m[K->now();
+      |                                [01;31m[K^~~~~[m[K
+[01m[K/home/asuka/Move/nav2_rrt_planner/src/RRT_plan.cpp:183:35:[m[K [01;31m[Kerror: [m[K‘[01m[Kglobal_frame_[m[K’ was not declared in this scope; did you mean ‘[01m[Kglobal_path[m[K’?
+  183 |     global_path.header.frame_id = [01;31m[Kglobal_frame_[m[K;
+      |                                   [01;31m[K^~~~~~~~~~~~~[m[K
+      |                                   [32m[Kglobal_path[m[K
+In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/opt/ros/humble/include/nav2_util/node_utils.hpp:20[m[K,
+                 from [01m[K/home/asuka/Move/nav2_rrt_planner/src/RRT_plan.cpp:48[m[K:
+[01m[K/home/asuka/Move/nav2_rrt_planner/src/RRT_plan.cpp:191:9:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+  191 |         [01;31m[KRCLCPP_INFO[m[K(
+      |         [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/asuka/Move/nav2_rrt_planner/src/RRT_plan.cpp:191:9:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+  191 |         [01;31m[KRCLCPP_INFO[m[K(
+      |         [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/asuka/Move/nav2_rrt_planner/src/RRT_plan.cpp:191:9:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+  191 |         [01;31m[KRCLCPP_INFO[m[K(
+      |         [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/asuka/Move/nav2_rrt_planner/src/RRT_plan.cpp:214:32:[m[K [01;35m[Kwarning: [m[Knarrowing conversion of ‘[01m[KnewX[m[K’ from ‘[01m[Kint[m[K’ to ‘[01m[Kdouble[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wnarrowing-Wnarrowing]8;;[m[K]
+  214 |       Node* newNode = new Node{[01;35m[KnewX[m[K, newY, cos(theta),sin(theta),nearest};
+      |                                [01;35m[K^~~~[m[K
+[01m[K/home/asuka/Move/nav2_rrt_planner/src/RRT_plan.cpp:214:38:[m[K [01;35m[Kwarning: [m[Knarrowing conversion of ‘[01m[KnewY[m[K’ from ‘[01m[Kint[m[K’ to ‘[01m[Kdouble[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wnarrowing-Wnarrowing]8;;[m[K]
+  214 |       Node* newNode = new Node{newX, [01;35m[KnewY[m[K, cos(theta),sin(theta),nearest};
+      |                                      [01;35m[K^~~~[m[K
+gmake[2]: *** [CMakeFiles/nav2_rrt_planner_plugin.dir/build.make:76: CMakeFiles/nav2_rrt_planner_plugin.dir/src/RRT_plan.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/nav2_rrt_planner_plugin.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

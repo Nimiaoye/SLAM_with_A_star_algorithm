@@ -1,0 +1,1 @@
+/home/pan/experiment_2/nav2_astar_planner/build/nav2_straightline_planner/ament_cmake_environment_hooks/local_setup.zsh

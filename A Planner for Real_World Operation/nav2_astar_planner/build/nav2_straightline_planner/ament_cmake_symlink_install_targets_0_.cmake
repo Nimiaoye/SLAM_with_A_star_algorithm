@@ -1,0 +1,1 @@
+ament_cmake_symlink_install_targets("TARGET_FILES" "/home/pan/experiment_2/nav2_astar_planner/build/nav2_straightline_planner/libnav2_straightline_planner_plugin.so" "TARGETS" "nav2_straightline_planner_plugin" "ARCHIVE_DESTINATION" "lib" "LIBRARY_DESTINATION" "lib" "RUNTIME_DESTINATION" "lib/nav2_straightline_planner")

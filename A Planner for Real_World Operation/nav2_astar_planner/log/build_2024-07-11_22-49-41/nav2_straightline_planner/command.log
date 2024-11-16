@@ -1,0 +1,2 @@
+Invoking command in '/home/pan/experiment_2/nav2_astar_planner/build/nav2_straightline_planner': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/pan/experiment_2/nav2_astar_planner/build/nav2_straightline_planner -- -j20 -l20
+Invoked command in '/home/pan/experiment_2/nav2_astar_planner/build/nav2_straightline_planner' returned '2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/pan/experiment_2/nav2_astar_planner/build/nav2_straightline_planner -- -j20 -l20

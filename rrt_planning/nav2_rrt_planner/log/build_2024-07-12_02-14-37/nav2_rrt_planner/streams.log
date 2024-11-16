@@ -1,0 +1,40 @@
+[0.011s] Invoking command in '/home/asuka/Move/nav2_rrt_planner/build/nav2_rrt_planner': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/asuka/Move/nav2_rrt_planner/build/nav2_rrt_planner -- -j20 -l20
+[0.066s] [ 50%] [32mBuilding CXX object CMakeFiles/nav2_rrt_planner_plugin.dir/src/RRT_plan.cpp.o[0m
+[2.399s] In file included from [01m[K/home/asuka/Move/nav2_rrt_planner/src/RRT_plan.cpp:50[m[K:
+[2.399s] [01m[K/home/asuka/Move/nav2_rrt_planner/include/nav2_rrt_planner/rrt_planner.hpp:69:1:[m[K [01;31m[Kerror: [m[K‘[01m[Kvector[m[K’ does not name a type
+[2.399s]    69 | [01;31m[Kvector[m[K<vector<int>> mapA(mapWidth, vector<int>(mapHeight));//地图对象
+[2.399s]       | [01;31m[K^~~~~~[m[K
+[2.407s] [01m[K/home/asuka/Move/nav2_rrt_planner/src/RRT_plan.cpp:[m[K In member function ‘[01m[Kvirtual void nav2_rrt_planner::RRTLine::configure(const WeakPtr&, std::string, std::shared_ptr<tf2_ros::Buffer>, std::shared_ptr<nav2_costmap_2d::Costmap2DROS>)[m[K’:
+[2.407s] [01m[K/home/asuka/Move/nav2_rrt_planner/src/RRT_plan.cpp:75:25:[m[K [01;31m[Kerror: [m[K‘[01m[Kwidth[m[K’ was not declared in this scope; did you mean ‘[01m[Kwcwidth[m[K’?
+[2.407s]    75 |     for (int i = 0; i < [01;31m[Kwidth[m[K; i++)
+[2.407s]       |                         [01;31m[K^~~~~[m[K
+[2.407s]       |                         [32m[Kwcwidth[m[K
+[2.411s] [01m[K/home/asuka/Move/nav2_rrt_planner/src/RRT_plan.cpp:77:27:[m[K [01;31m[Kerror: [m[K‘[01m[Kheight[m[K’ was not declared in this scope
+[2.411s]    77 |       for (int j = 0; j < [01;31m[Kheight[m[K; j++)
+[2.411s]       |                           [01;31m[K^~~~~~[m[K
+[2.415s] [01m[K/home/asuka/Move/nav2_rrt_planner/src/RRT_plan.cpp:81:11:[m[K [01;31m[Kerror: [m[K‘[01m[KmapA[m[K’ was not declared in this scope
+[2.415s]    81 |           [01;31m[KmapA[m[K[i][j] = 0;
+[2.415s]       |           [01;31m[K^~~~[m[K
+[2.419s] [01m[K/home/asuka/Move/nav2_rrt_planner/src/RRT_plan.cpp:83:11:[m[K [01;31m[Kerror: [m[K‘[01m[KmapA[m[K’ was not declared in this scope
+[2.420s]    83 |           [01;31m[KmapA[m[K[i][j] = 1;
+[2.420s]       |           [01;31m[K^~~~[m[K
+[2.430s] [01m[K/home/asuka/Move/nav2_rrt_planner/src/RRT_plan.cpp:[m[K In member function ‘[01m[Kvirtual nav_msgs::msg::Path nav2_rrt_planner::RRTLine::createPlan(const PoseStamped&, const PoseStamped&)[m[K’:
+[2.430s] [01m[K/home/asuka/Move/nav2_rrt_planner/src/RRT_plan.cpp:200:40:[m[K [01;31m[Kerror: [m[K‘[01m[KmapA[m[K’ was not declared in this scope
+[2.430s]   200 |     if (!isValid(startl->x, startl->y, [01;31m[KmapA[m[K) || !isValid(goall->x, goall->y, mapA)) {
+[2.430s]       |                                        [01;31m[K^~~~[m[K
+[2.435s] [01m[K/home/asuka/Move/nav2_rrt_planner/src/RRT_plan.cpp:215:34:[m[K [01;31m[Kerror: [m[K‘[01m[KmapA[m[K’ was not declared in this scope
+[2.435s]   215 |       if (!isValid(randX, randY, [01;31m[KmapA[m[K)) continue;//选中的该随机点是自由空间
+[2.435s]       |                                  [01;31m[K^~~~[m[K
+[2.439s] [01m[K/home/asuka/Move/nav2_rrt_planner/src/RRT_plan.cpp:221:32:[m[K [01;31m[Kerror: [m[K‘[01m[KmapA[m[K’ was not declared in this scope
+[2.439s]   221 |       if (!isValid(newX, newY, [01;31m[KmapA[m[K)) continue;//下一步目标点是自由空间
+[2.439s]       |                                [01;31m[K^~~~[m[K
+[2.439s] [01m[K/home/asuka/Move/nav2_rrt_planner/src/RRT_plan.cpp:224:32:[m[K [01;35m[Kwarning: [m[Knarrowing conversion of ‘[01m[KnewX[m[K’ from ‘[01m[Kint[m[K’ to ‘[01m[Kdouble[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wnarrowing-Wnarrowing]8;;[m[K]
+[2.439s]   224 |       Node* newNode = new Node{[01;35m[KnewX[m[K, newY, cos(theta),sin(theta),nearest};
+[2.439s]       |                                [01;35m[K^~~~[m[K
+[2.439s] [01m[K/home/asuka/Move/nav2_rrt_planner/src/RRT_plan.cpp:224:38:[m[K [01;35m[Kwarning: [m[Knarrowing conversion of ‘[01m[KnewY[m[K’ from ‘[01m[Kint[m[K’ to ‘[01m[Kdouble[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wnarrowing-Wnarrowing]8;;[m[K]
+[2.439s]   224 |       Node* newNode = new Node{newX, [01;35m[KnewY[m[K, cos(theta),sin(theta),nearest};
+[2.439s]       |                                      [01;35m[K^~~~[m[K
+[3.451s] gmake[2]: *** [CMakeFiles/nav2_rrt_planner_plugin.dir/build.make:76: CMakeFiles/nav2_rrt_planner_plugin.dir/src/RRT_plan.cpp.o] Error 1
+[3.451s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/nav2_rrt_planner_plugin.dir/all] Error 2
+[3.451s] gmake: *** [Makefile:146: all] Error 2
+[3.453s] Invoked command in '/home/asuka/Move/nav2_rrt_planner/build/nav2_rrt_planner' returned '2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/asuka/Move/nav2_rrt_planner/build/nav2_rrt_planner -- -j20 -l20

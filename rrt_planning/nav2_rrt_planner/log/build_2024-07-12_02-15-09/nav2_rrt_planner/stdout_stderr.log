@@ -1,0 +1,39 @@
+[35m[1mConsolidate compiler generated dependencies of target nav2_rrt_planner_plugin[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/nav2_rrt_planner_plugin.dir/src/RRT_plan.cpp.o[0m
+In file included from [01m[K/home/asuka/Move/nav2_rrt_planner/src/RRT_plan.cpp:50[m[K:
+[01m[K/home/asuka/Move/nav2_rrt_planner/include/nav2_rrt_planner/rrt_planner.hpp:73:1:[m[K [01;31m[Kerror: [m[K‘[01m[Kvector[m[K’ does not name a type
+   73 | [01;31m[Kvector[m[K<vector<int>> mapA(mapWidth, vector<int>(mapHeight));//地图对象
+      | [01;31m[K^~~~~~[m[K
+[01m[K/home/asuka/Move/nav2_rrt_planner/src/RRT_plan.cpp:[m[K In member function ‘[01m[Kvirtual void nav2_rrt_planner::RRTLine::configure(const WeakPtr&, std::string, std::shared_ptr<tf2_ros::Buffer>, std::shared_ptr<nav2_costmap_2d::Costmap2DROS>)[m[K’:
+[01m[K/home/asuka/Move/nav2_rrt_planner/src/RRT_plan.cpp:75:25:[m[K [01;31m[Kerror: [m[K‘[01m[Kwidth[m[K’ was not declared in this scope; did you mean ‘[01m[Kwcwidth[m[K’?
+   75 |     for (int i = 0; i < [01;31m[Kwidth[m[K; i++)
+      |                         [01;31m[K^~~~~[m[K
+      |                         [32m[Kwcwidth[m[K
+[01m[K/home/asuka/Move/nav2_rrt_planner/src/RRT_plan.cpp:77:27:[m[K [01;31m[Kerror: [m[K‘[01m[Kheight[m[K’ was not declared in this scope
+   77 |       for (int j = 0; j < [01;31m[Kheight[m[K; j++)
+      |                           [01;31m[K^~~~~~[m[K
+[01m[K/home/asuka/Move/nav2_rrt_planner/src/RRT_plan.cpp:81:11:[m[K [01;31m[Kerror: [m[K‘[01m[KmapA[m[K’ was not declared in this scope
+   81 |           [01;31m[KmapA[m[K[i][j] = 0;
+      |           [01;31m[K^~~~[m[K
+[01m[K/home/asuka/Move/nav2_rrt_planner/src/RRT_plan.cpp:83:11:[m[K [01;31m[Kerror: [m[K‘[01m[KmapA[m[K’ was not declared in this scope
+   83 |           [01;31m[KmapA[m[K[i][j] = 1;
+      |           [01;31m[K^~~~[m[K
+[01m[K/home/asuka/Move/nav2_rrt_planner/src/RRT_plan.cpp:[m[K In member function ‘[01m[Kvirtual nav_msgs::msg::Path nav2_rrt_planner::RRTLine::createPlan(const PoseStamped&, const PoseStamped&)[m[K’:
+[01m[K/home/asuka/Move/nav2_rrt_planner/src/RRT_plan.cpp:200:40:[m[K [01;31m[Kerror: [m[K‘[01m[KmapA[m[K’ was not declared in this scope
+  200 |     if (!isValid(startl->x, startl->y, [01;31m[KmapA[m[K) || !isValid(goall->x, goall->y, mapA)) {
+      |                                        [01;31m[K^~~~[m[K
+[01m[K/home/asuka/Move/nav2_rrt_planner/src/RRT_plan.cpp:215:34:[m[K [01;31m[Kerror: [m[K‘[01m[KmapA[m[K’ was not declared in this scope
+  215 |       if (!isValid(randX, randY, [01;31m[KmapA[m[K)) continue;//选中的该随机点是自由空间
+      |                                  [01;31m[K^~~~[m[K
+[01m[K/home/asuka/Move/nav2_rrt_planner/src/RRT_plan.cpp:221:32:[m[K [01;31m[Kerror: [m[K‘[01m[KmapA[m[K’ was not declared in this scope
+  221 |       if (!isValid(newX, newY, [01;31m[KmapA[m[K)) continue;//下一步目标点是自由空间
+      |                                [01;31m[K^~~~[m[K
+[01m[K/home/asuka/Move/nav2_rrt_planner/src/RRT_plan.cpp:224:32:[m[K [01;35m[Kwarning: [m[Knarrowing conversion of ‘[01m[KnewX[m[K’ from ‘[01m[Kint[m[K’ to ‘[01m[Kdouble[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wnarrowing-Wnarrowing]8;;[m[K]
+  224 |       Node* newNode = new Node{[01;35m[KnewX[m[K, newY, cos(theta),sin(theta),nearest};
+      |                                [01;35m[K^~~~[m[K
+[01m[K/home/asuka/Move/nav2_rrt_planner/src/RRT_plan.cpp:224:38:[m[K [01;35m[Kwarning: [m[Knarrowing conversion of ‘[01m[KnewY[m[K’ from ‘[01m[Kint[m[K’ to ‘[01m[Kdouble[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wnarrowing-Wnarrowing]8;;[m[K]
+  224 |       Node* newNode = new Node{newX, [01;35m[KnewY[m[K, cos(theta),sin(theta),nearest};
+      |                                      [01;35m[K^~~~[m[K
+gmake[2]: *** [CMakeFiles/nav2_rrt_planner_plugin.dir/build.make:76: CMakeFiles/nav2_rrt_planner_plugin.dir/src/RRT_plan.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/nav2_rrt_planner_plugin.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

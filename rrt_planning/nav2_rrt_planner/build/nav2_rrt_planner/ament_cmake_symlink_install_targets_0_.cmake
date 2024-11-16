@@ -1,0 +1,1 @@
+ament_cmake_symlink_install_targets("TARGET_FILES" "/home/asuka/Move/nav2_rrt_planner/build/nav2_rrt_planner/libnav2_rrt_planner_plugin.so" "TARGETS" "nav2_rrt_planner_plugin" "ARCHIVE_DESTINATION" "lib" "LIBRARY_DESTINATION" "lib" "RUNTIME_DESTINATION" "lib/nav2_rrt_planner")

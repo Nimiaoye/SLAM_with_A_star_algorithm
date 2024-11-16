@@ -1,0 +1,11 @@
+[01m[K/home/pan/experiment_2/nav2_astar_planner/src/straight_line_planner.cpp:[m[K In member function ‘[01m[Kvirtual nav_msgs::msg::Path nav2_straightline_planner::StraightLine::createPlan(const PoseStamped&, const PoseStamped&)[m[K’:
+[01m[K/home/pan/experiment_2/nav2_astar_planner/src/straight_line_planner.cpp:315:55:[m[K [01;31m[Kerror: [m[Ka function-definition is not allowed here before ‘[01m[K{[m[K’ token
+  315 | int calculate_value(unsigned int wx, unsigned int wy) [01;31m[K{[m[K
+      |                                                       [01;31m[K^[m[K
+[01m[K/home/pan/experiment_2/nav2_astar_planner/src/straight_line_planner.cpp:320:113:[m[K [01;31m[Kerror: [m[Ka function-definition is not allowed here before ‘[01m[K{[m[K’ token
+  320 | rt_x, unsigned int start_y, unsigned int goal_x, unsigned int goal_y) [01;31m[K{[m[K
+      |                                                                       [01;31m[K^[m[K
+
+gmake[2]: *** [CMakeFiles/nav2_straightline_planner_plugin.dir/build.make:76：CMakeFiles/nav2_straightline_planner_plugin.dir/src/straight_line_planner.cpp.o] 错误 1
+gmake[1]: *** [CMakeFiles/Makefile2:137：CMakeFiles/nav2_straightline_planner_plugin.dir/all] 错误 2
+gmake: *** [Makefile:146：all] 错误 2
